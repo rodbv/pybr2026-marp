@@ -390,10 +390,10 @@ _tu@ejemplo.com_
 
 ![Código QR para 2026.pythonbrasil.org.br](img/qr.png)
 
-Cambia por el código QR de tus diapositivas
+Cambia por tu código QR: contacto, diapositivas o web
 
 <!--
-- El código QR lleva al público a tus diapositivas desde el celular. Con una sola página, puedes cambiar los enlaces después sin cambiar el código QR.
+- El código QR puede llevar a tu contacto, a tus diapositivas o a una página con todo. Con una sola página, puedes cambiar los enlaces después sin cambiar el código QR.
 - Para generar tu código QR: uv run scripts/qr.py https://tu-direccion. El script reemplaza el archivo img/qr.png. Después, cambia la leyenda por el enlace.
 - Ya tienes lo necesario. Las siguientes diapositivas repiten los diseños en la versión clara, con consejos opcionales.
 -->
@@ -641,7 +641,7 @@ _tu@ejemplo.com_
 
 ![Código QR para 2026.pythonbrasil.org.br](img/qr.png)
 
-Cambia por el código QR de tus diapositivas
+Cambia por tu código QR: contacto, diapositivas o web
 
 <!--
 - En las preguntas, repite cada pregunta por el micrófono, para la sala y la grabación.

@@ -390,10 +390,10 @@ _voce@exemplo.com.br_
 
 ![QR code para 2026.pythonbrasil.org.br](img/qr.png)
 
-Troque pelo QR code do link dos seus slides
+Troque pelo seu QR code: contato, slides ou site
 
 <!--
-- O QR code leva o público aos seus slides pelo celular. Com uma página só, você troca os links depois sem mudar o QR code.
+- O QR code pode levar ao seu contato, aos seus slides ou a uma página com tudo isso. Com uma página só, você troca os links depois sem mudar o QR code.
 - Para gerar o seu QR code: uv run scripts/qr.py https://seu-endereco. O script troca o arquivo img/qr.png. Depois, troque a legenda pelo link.
 - Você já tem o necessário. Os próximos slides repetem os layouts na versão clara, com dicas opcionais.
 -->
@@ -641,7 +641,7 @@ _voce@exemplo.com.br_
 
 ![QR code para 2026.pythonbrasil.org.br](img/qr.png)
 
-Troque pelo QR code do link dos seus slides
+Troque pelo seu QR code: contato, slides ou site
 
 <!--
 - Nas perguntas, repita cada pergunta no microfone, para a sala e a gravação.

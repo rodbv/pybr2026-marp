@@ -390,10 +390,10 @@ _you@example.com_
 
 ![QR code for 2026.pythonbrasil.org.br](img/qr.png)
 
-Replace with the QR code for your slides
+Replace with your QR code: contact, slides or site
 
 <!--
-- The QR code takes the audience to your slides on their phones. With a single page of links, you can update the links later and keep the same QR code.
+- The QR code can lead to your contact, your slides or a page with all of them. With a single page of links, you can update the links later and keep the same QR code.
 - To generate your QR code: uv run scripts/qr.py https://your-url. The script replaces img/qr.png. Then replace the caption with the link.
 - You already have what you need. The next slides repeat the layouts in the light version, with optional tips.
 -->
@@ -641,7 +641,7 @@ _you@example.com_
 
 ![QR code for 2026.pythonbrasil.org.br](img/qr.png)
 
-Replace with the QR code for your slides
+Replace with your QR code: contact, slides or site
 
 <!--
 - During questions, repeat each question into the microphone, for the room and the recording.
