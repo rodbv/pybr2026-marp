@@ -30,6 +30,10 @@ The example slides come in three languages, with the same tips:
 
 Use that address for the QR code on the closing slide, so the audience can open your slides on their phones.
 
+The gray boxes on the example slides mark where images go and show the size that fills the space. Replace the image path in the Markdown with yours.
+
+The template is a starting point: change anything you like. To keep the look of the event, use the brand colors and fonts listed in [`AGENTS.md`](AGENTS.md#regras-da-marca).
+
 ## With an AI agent
 
 The content is yours: write the outline of your talk in a file, as bullets, a rough draft or full text. Then open the repository in your editor with your agent and ask for the form. For example:
@@ -97,7 +101,7 @@ uv run scripts/qr.py https://your-username.github.io/your-talk/en.html
 uv run scripts/grafico.py
 ```
 
-`qr.py` replaces `img/qr.png`. `grafico.py` shows how to make a bar chart with matplotlib in the theme's style; copy it and change the data.
+`qr.py` replaces `img/qr.png`. `grafico.py` makes the example chart with matplotlib, in the theme's style: change the labels and values in the script and run it again.
 
 ## Accessibility
 
@@ -105,6 +109,10 @@ uv run scripts/grafico.py
 - Every color combination in the theme meets WCAG 2.1 level AA. The colors and the contrast of each one are in the [`.pptx` template README](https://github.com/rodbv/pybr2026-slides#cores-e-contraste).
 - Each slides file declares its language for screen readers in the `lang:` field at the top. `slides.en.md` uses `en`.
 - Write alt text between the brackets of every image: `![Bar chart: ...](img/grafico.png)`.
+
+## Found a problem?
+
+Open an [issue on GitHub](https://github.com/rodbv/pybr2026-marp/issues) that says what happened and, if you can, includes a screenshot.
 
 ## Licenses
 

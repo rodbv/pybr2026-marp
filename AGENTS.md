@@ -6,8 +6,8 @@ Este repositório é um modelo de slides da Python Brasil 2026 em Markdown, com 
 
 - `slides.md`: a apresentação em português. `slides.en.md` e `slides.es.md` são a mesma apresentação em inglês e em espanhol. A pessoa usa o arquivo do idioma da palestra e pode apagar os outros. Os slides de exemplo mostram todos os layouts, cada um com dicas nas anotações.
 - `pybr2026.css`: o tema. Não mude o tema para resolver um slide: use as classes abaixo. Mude o tema só quando a pessoa pedir.
-- `img/`: logos, figurinhas, imagens de exemplo, o gráfico e o QR code. As imagens dos slides ficam aqui.
-- `scripts/grafico.py` e `scripts/qr.py`: geram o gráfico e o QR code nas cores da marca (`uv run scripts/qr.py https://endereco`).
+- `img/`: logos, figurinhas, imagens de exemplo, o gráfico e o QR code. As imagens dos slides ficam aqui. As imagens `*-exemplo*.png` são caixas cinza que marcam o lugar de uma imagem: troque pela imagem da pessoa, nunca use uma delas na palestra.
+- `scripts/grafico.py` e `scripts/qr.py`: geram o gráfico e o QR code nas cores da marca (`uv run scripts/qr.py https://endereco`). Para um gráfico com os dados da pessoa, troque `ROTULOS` e `VALORES` no script, ou copie o script para um gráfico novo.
 
 ## Como um slide é escrito
 
@@ -49,7 +49,7 @@ Texto ao lado de uma imagem usa a sintaxe do Marp: `![bg right:42%](img/x.png)` 
 
 ## Regras da marca
 
-- Cores: preto `#0F0F0F`, off white `#E8F4BA`, verde cítrico `#B7FF06`, violeta `#BF2EB2`. O tema já aplica as cores; não escreva cores no Markdown.
+- Cores: preto `#0F0F0F` (RGB 15, 15, 15), off white `#E8F4BA` (232, 244, 186), verde cítrico `#B7FF06` (183, 255, 6), violeta `#BF2EB2` (191, 46, 178). O tema já aplica as cores; não escreva cores no Markdown. Use estas cores em imagens, gráficos e diagramas que você criar.
 - Fontes: Cascadia Mono nos títulos e no código, Roboto no texto. O tema já carrega as duas.
 - Verde limão como cor de texto, só no fundo escuro. No fundo claro, destaque com o marca-texto: `<mark>palavra</mark>`.
 - Use as figurinhas de `img/` como estão: sem distorcer e sem recolorir. Uma figurinha por slide costuma bastar.
@@ -64,7 +64,7 @@ Texto ao lado de uma imagem usa a sintaxe do Marp: `![bg right:42%](img/x.png)` 
 - O Marp lê algumas palavras soltas do texto alternativo como filtros de imagem: `blur`, `brightness`, `contrast`, `drop-shadow`, `grayscale`, `hue-rotate`, `invert`, `opacity`, `saturate` e `sepia`. Em inglês, troque essas palavras por outras no texto alternativo: "contrast" muda as cores do gráfico.
 - O que não cabe no slide vai para as anotações.
 - Escreva no idioma do arquivo, indicado em `lang:` no topo: `pt-BR`, `en` ou `es`. Use linguagem neutra de gênero quando possível ("pessoa palestrante", "o público", "quem assiste"; "the speaker", "people"; "la persona que presenta", "el público").
-- Nas versões em inglês e em espanhol, as imagens com texto têm o sufixo do idioma, como `img/imagem-exemplo-en.png`. O lema `pessoas > tecnologia` e a saudação "Dazumbanho!" ficam em português nos três idiomas.
+- Nas versões em inglês e em espanhol, as imagens com texto têm o sufixo do idioma, como `img/imagem-exemplo-en.png`. O gráfico de exemplo é o mesmo nos três idiomas. O lema `pessoas > tecnologia` e a saudação "Dazumbanho!" ficam em português nos três idiomas.
 - O tom é de dica, não de regra: apoio, sem cobrança. Evite "é só", "é fácil" e "todo mundo sabe".
 - Para uma palestra de 25 minutos, de 15 a 25 slides costumam bastar, mais a capa e o encerramento.
 

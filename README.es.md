@@ -30,6 +30,10 @@ Las diapositivas de ejemplo existen en tres idiomas, con los mismos consejos:
 
 Esa dirección sirve para el código QR del cierre: el público abre tus diapositivas en el celular.
 
+Las cajas grises de las diapositivas de ejemplo marcan el lugar de las imágenes y muestran el tamaño que llena el espacio. Cambia la ruta de la imagen en el Markdown por la tuya.
+
+La plantilla es un punto de partida: cambia lo que quieras. Para mantener el estilo del evento, usa los colores y las fuentes de la marca, que están en [`AGENTS.md`](AGENTS.md#regras-da-marca).
+
 ## Con un agente de IA
 
 El contenido es tuyo: escribe el guion de tu charla en un archivo, en viñetas, como borrador o en texto corrido. Después, abre el repositorio en tu editor con el agente y pide la forma. Por ejemplo:
@@ -97,7 +101,7 @@ uv run scripts/qr.py https://seu-usuario.github.io/sua-palestra/
 uv run scripts/grafico.py
 ```
 
-`qr.py` reemplaza `img/qr.png`. `grafico.py` muestra cómo hacer un gráfico de barras con matplotlib al estilo del tema; cópialo y cambia los datos.
+`qr.py` reemplaza `img/qr.png`. `grafico.py` genera el gráfico de ejemplo con matplotlib, al estilo del tema: cambia las etiquetas y los valores en el script y ejecútalo de nuevo.
 
 ## Accesibilidad
 
@@ -105,6 +109,10 @@ uv run scripts/grafico.py
 - Todas las combinaciones de colores del tema cumplen el nivel AA de WCAG 2.1. Los colores y el contraste de cada uno están en el [README de la plantilla `.pptx`](https://github.com/rodbv/pybr2026-slides#cores-e-contraste), en portugués.
 - El idioma de cada documento está declarado en `lang:` (`es` en `slides.es.md`), para los lectores de pantalla.
 - Escribe el texto alternativo entre los corchetes de cada imagen: `![Gráfico de barras: ...](img/grafico.png)`.
+
+## ¿Encontraste un problema?
+
+Abre un [issue en GitHub](https://github.com/rodbv/pybr2026-marp/issues) que cuente qué pasó y, si puedes, con una captura de pantalla.
 
 ## Licencias
 
