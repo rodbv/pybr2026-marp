@@ -13,16 +13,16 @@ title: Python Brasil 2026
 
 <div class="selo">14 a 19<br>de outubro<br>de 2026<br>{Floripa/SC}</div>
 
-# Que bom que você vai palestrar!
+# Título da sua palestra
 
-Aperte P para ver as dicas
+Modelo de slides da Python Brasil 2026
 
 **Seu nome aqui** · @seu_usuario
 
 <!--
+- Que bom que você vai palestrar! Este arquivo é um modelo: os slides de exemplo mostram cada layout, com dicas nas anotações.
 - Para começar: copie os slides que quiser usar e apague os exemplos. O comentário _class no topo de cada slide escolhe o layout.
 - Cada slide traz uma dica; use as que servirem para você. A versão clara dos layouts vem depois do encerramento escuro.
-- A Python Brasil existe porque pessoas como você sobem ao palco e compartilham o que sabem.
 -->
 
 ---
@@ -30,6 +30,8 @@ Aperte P para ver as dicas
 <!-- _class: frase -->
 
 # A sala está torcendo por você.
+
+Cada slide deste modelo traz dicas nas anotações: aperte P para ver.
 
 <!--
 - Uma ideia por slide, em até duas linhas. Que frase o público deve levar da sala?
@@ -175,9 +177,9 @@ Dicas, <mark>não regras</mark>: use as que servirem para você.
 
 ## Capturas de tela legíveis
 
-- ![Captura de tela de exemplo](img/imagem-exemplo.png) Só a parte que importa
-- ![Captura de tela de exemplo](img/imagem-exemplo.png) Fonte grande antes de capturar
-- ![Captura de tela de exemplo](img/imagem-exemplo.png) Sem senhas, tokens nem e-mails
+- ![Captura de tela de exemplo](img/captura-exemplo.png) Só a parte que importa
+- ![Captura de tela de exemplo](img/captura-exemplo.png) Fonte grande antes de capturar
+- ![Captura de tela de exemplo](img/captura-exemplo.png) Sem senhas, tokens nem e-mails
 
 <!--
 - Antes de capturar a tela, aumente o zoom do navegador ou a fonte do terminal.
@@ -303,16 +305,16 @@ def cabe(palestra, slot):
 
 ---
 
-## Contraste das cores deste modelo
+## Versão do Python que você usa
 
-![Gráfico de barras do contraste com o fundo preto: texto 16,5, limão 15,8, cinza 8,3 e o mínimo 4,5](img/grafico-contraste.png)
+![Gráfico de barras com dados de exemplo: Python 3.10 8%, 3.11 15%, 3.12 29%, 3.13 33% e 3.14 15%](img/grafico-exemplo.png)
 
-Outras cores? Confira o contraste em [webaim.org/resources/contrastchecker](https://webaim.org/resources/contrastchecker/)
+Dados de exemplo. Troque os números em `scripts/grafico.py` e rode `uv run scripts/grafico.py`.
 
 <!--
-- O Marp não tem gráfico nativo: gere a imagem com matplotlib, como em scripts/grafico.py (uv run scripts/grafico.py).
+- O Marp não tem gráfico nativo: o gráfico é uma imagem gerada com matplotlib. Troque os rótulos e os valores em scripts/grafico.py e rode uv run scripts/grafico.py.
 - Escreva os números do gráfico no texto alternativo, para leitores de tela.
-- Se usar outras cores, confira o contraste em webaim.org/resources/contrastchecker.
+- Um gráfico, uma mensagem: diga em voz alta o que o público deve ver nas barras.
 -->
 
 ---
@@ -391,11 +393,11 @@ _voce@exemplo.com.br_
 
 ![QR code para 2026.pythonbrasil.org.br](img/qr.png)
 
-2026.pythonbrasil.org.br
+Troque pelo QR code do link dos seus slides
 
 <!--
 - O QR code leva o público aos seus slides pelo celular. Com uma página só, você troca os links depois sem mudar o QR code.
-- Para gerar o seu QR code: uv run scripts/qr.py https://seu-endereco. O script troca o arquivo img/qr.png.
+- Para gerar o seu QR code: uv run scripts/qr.py https://seu-endereco. O script troca o arquivo img/qr.png. Depois, troque a legenda pelo link.
 - Este não é o último slide: a versão clara dos layouts vem a seguir, com mais dicas.
 -->
 
@@ -476,7 +478,7 @@ Para salas claras ou projetores fracos
 
 ## Imagens acessíveis
 
-![bg right:42%](img/imagem-exemplo-claro.png)
+![bg right:42%](img/imagem-exemplo.png)
 
 - Texto alternativo em toda imagem
 - Legenda curta se a imagem não for óbvia
@@ -493,7 +495,7 @@ Para salas claras ou projetores fracos
 
 ## Olho no olho
 
-![bg left:42%](img/imagem-exemplo-claro.png)
+![bg left:42%](img/imagem-exemplo.png)
 
 - Olhar para uma pessoa amiga, não só para a tela
 - As anotações do slide como apoio
@@ -600,7 +602,7 @@ Comunidade Python Brasil, 2016
 
 <!-- _class: palestrante light -->
 
-![Foto de exemplo](img/foto-exemplo-claro.png)
+![Foto de exemplo](img/foto-exemplo.png)
 
 # Seu nome aqui
 
@@ -635,11 +637,11 @@ Comunidade Python Brasil, 2016
 
 <!-- _class: light -->
 
-## Contraste das cores deste modelo
+## Versão do Python que você usa
 
-![Gráfico de barras do contraste com o fundo branco: texto 19,2, cinza 8,9 e o mínimo 4,5](img/grafico-contraste-claro.png)
+![Gráfico de barras com dados de exemplo: Python 3.10 8%, 3.11 15%, 3.12 29%, 3.13 33% e 3.14 15%](img/grafico-exemplo-claro.png)
 
-Outras cores? Confira o contraste em [webaim.org/resources/contrastchecker](https://webaim.org/resources/contrastchecker/)
+Dados de exemplo. Troque os números em `scripts/grafico.py` e rode `uv run scripts/grafico.py`.
 
 <!--
 - Para gerar o gráfico, veja as anotações do slide 17.
@@ -661,7 +663,7 @@ _Organização da Python Brasil 2026_
 
 ![QR code para 2026.pythonbrasil.org.br](img/qr.png)
 
-2026.pythonbrasil.org.br
+Troque pelo QR code do link dos seus slides
 
 <!--
 - Na sua palestra, troque o texto pelos seus contatos e o QR code pelo link dos seus slides.

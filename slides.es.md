@@ -13,16 +13,16 @@ title: Python Brasil 2026
 
 <div class="selo">14 al 19<br>de octubre<br>de 2026<br>{Floripa/SC}</div>
 
-# ¡Qué bueno que vas a dar una charla!
+# Título de tu charla
 
-Presiona P para ver los consejos
+Plantilla de diapositivas de la Python Brasil 2026
 
 **Tu nombre aquí** · @tu_usuario
 
 <!--
+- ¡Qué bueno que vas a dar una charla! Este archivo es una plantilla: las diapositivas de ejemplo muestran cada diseño, con consejos en las notas.
 - Para empezar: copia las diapositivas que quieras usar y borra los ejemplos. El comentario _class al inicio de cada diapositiva elige el diseño.
 - Cada diapositiva trae un consejo; usa los que te sirvan. La versión clara de los diseños viene después del cierre oscuro.
-- Python Brasil existe porque personas como tú suben al escenario y comparten lo que saben.
 -->
 
 ---
@@ -30,6 +30,8 @@ Presiona P para ver los consejos
 <!-- _class: frase -->
 
 # La sala quiere que te vaya bien.
+
+Cada diapositiva de esta plantilla trae consejos en las notas: presiona P para verlos.
 
 <!--
 - Una idea por diapositiva, en hasta dos líneas. ¿Qué frase quieres que se lleve el público?
@@ -175,9 +177,9 @@ Consejos, <mark>no reglas</mark>: usa los que te sirvan.
 
 ## Capturas de pantalla legibles
 
-- ![Captura de pantalla de ejemplo](img/imagem-exemplo-es.png) Solo la parte que importa
-- ![Captura de pantalla de ejemplo](img/imagem-exemplo-es.png) Letra grande antes de capturar
-- ![Captura de pantalla de ejemplo](img/imagem-exemplo-es.png) Sin contraseñas, tokens ni correos
+- ![Captura de pantalla de ejemplo](img/captura-exemplo-es.png) Solo la parte que importa
+- ![Captura de pantalla de ejemplo](img/captura-exemplo-es.png) Letra grande antes de capturar
+- ![Captura de pantalla de ejemplo](img/captura-exemplo-es.png) Sin contraseñas, tokens ni correos
 
 <!--
 - Antes de capturar la pantalla, aumenta el zoom del navegador o el tamaño de letra de la terminal.
@@ -303,16 +305,16 @@ def cabe(charla, bloque):
 
 ---
 
-## Contraste de los colores de esta plantilla
+## La versión de Python que usas
 
-![Gráfico de barras del contraste con el fondo negro: texto 16,5, lima 15,8, gris 8,3 y mínimo 4,5](img/grafico-contraste-es.png)
+![Gráfico de barras con datos de ejemplo: Python 3.10 8%, 3.11 15%, 3.12 29%, 3.13 33% y 3.14 15%](img/grafico-exemplo.png)
 
-¿Otros colores? Revisa el contraste en [webaim.org/resources/contrastchecker](https://webaim.org/resources/contrastchecker/)
+Datos de ejemplo. Cambia los números en `scripts/grafico.py` y ejecuta `uv run scripts/grafico.py`.
 
 <!--
-- Marp no tiene gráficos nativos: genera la imagen con matplotlib, como en scripts/grafico.py (uv run scripts/grafico.py).
+- Marp no tiene gráficos nativos: el gráfico es una imagen hecha con matplotlib. Cambia las etiquetas y los valores en scripts/grafico.py y ejecuta uv run scripts/grafico.py.
 - Escribe los números del gráfico en el texto alternativo, para los lectores de pantalla.
-- Si usas otros colores, revisa el contraste en webaim.org/resources/contrastchecker.
+- Un gráfico, un mensaje: di en voz alta lo que el público debe ver en las barras.
 -->
 
 ---
@@ -337,7 +339,7 @@ def cabe(charla, bloque):
 <!-- _paginate: false -->
 <!-- _footer: "" -->
 
-![bg](img/fundo-exemplo.png)
+![bg](img/fundo-exemplo-es.png)
 
 Imagen a pantalla completa con leyenda. Foto: Nombre de la Persona · CC BY 4.0
 
@@ -391,11 +393,11 @@ _tu@ejemplo.com_
 
 ![Código QR para 2026.pythonbrasil.org.br](img/qr.png)
 
-2026.pythonbrasil.org.br
+Cambia por el código QR de tus diapositivas
 
 <!--
 - El código QR lleva al público a tus diapositivas desde el celular. Con una sola página, puedes cambiar los enlaces después sin cambiar el código QR.
-- Para generar tu código QR: uv run scripts/qr.py https://tu-direccion. El script reemplaza el archivo img/qr.png.
+- Para generar tu código QR: uv run scripts/qr.py https://tu-direccion. El script reemplaza el archivo img/qr.png. Después, cambia la leyenda por el enlace.
 - Esta no es la última diapositiva: la versión clara de los diseños viene a continuación, con más consejos.
 -->
 
@@ -476,7 +478,7 @@ Para salas iluminadas o proyectores débiles
 
 ## Imágenes accesibles
 
-![bg right:42%](img/imagem-exemplo-claro-es.png)
+![bg right:42%](img/imagem-exemplo-es.png)
 
 - Texto alternativo en cada imagen
 - Leyenda corta si la imagen no es obvia
@@ -493,7 +495,7 @@ Para salas iluminadas o proyectores débiles
 
 ## Mirar a los ojos
 
-![bg left:42%](img/imagem-exemplo-claro-es.png)
+![bg left:42%](img/imagem-exemplo-es.png)
 
 - Mirar a una persona amiga, no solo a la pantalla
 - Las notas de la diapositiva como apoyo
@@ -600,7 +602,7 @@ Comunidad Python Brasil, 2016
 
 <!-- _class: palestrante light -->
 
-![Foto de ejemplo](img/foto-exemplo-claro-es.png)
+![Foto de ejemplo](img/foto-exemplo-es.png)
 
 # Tu nombre aquí
 
@@ -635,11 +637,11 @@ Comunidad Python Brasil, 2016
 
 <!-- _class: light -->
 
-## Contraste de los colores de esta plantilla
+## La versión de Python que usas
 
-![Gráfico de barras del contraste con el fondo blanco: texto 19,2, gris 8,9 y mínimo 4,5](img/grafico-contraste-claro-es.png)
+![Gráfico de barras con datos de ejemplo: Python 3.10 8%, 3.11 15%, 3.12 29%, 3.13 33% y 3.14 15%](img/grafico-exemplo-claro.png)
 
-¿Otros colores? Revisa el contraste en [webaim.org/resources/contrastchecker](https://webaim.org/resources/contrastchecker/)
+Datos de ejemplo. Cambia los números en `scripts/grafico.py` y ejecuta `uv run scripts/grafico.py`.
 
 <!--
 - Para generar el gráfico, mira las notas de la diapositiva 17.
@@ -661,7 +663,7 @@ _Organización de Python Brasil 2026_
 
 ![Código QR para 2026.pythonbrasil.org.br](img/qr.png)
 
-2026.pythonbrasil.org.br
+Cambia por el código QR de tus diapositivas
 
 <!--
 - En tu charla, cambia el texto por tus contactos y el código QR por el enlace de tus diapositivas.

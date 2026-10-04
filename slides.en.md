@@ -13,16 +13,16 @@ title: Python Brasil 2026
 
 <div class="selo">October<br>14 to 19<br>2026<br>{Floripa/SC}</div>
 
-# We're glad you're speaking!
+# Your talk title
 
-Press P to see the tips
+Python Brasil 2026 slide template
 
 **Your name here** · @your_username
 
 <!--
+- We're glad you're speaking! This file is a template: the example slides show each layout, with tips in the speaker notes.
 - To get started: copy the slides you want to use and delete the examples. The _class comment at the top of each slide sets the layout.
 - Each slide has a tip; use the ones that work for you. The light versions of the layouts come after the dark closing slide.
-- Python Brasil exists because people like you go on stage and share what they know.
 -->
 
 ---
@@ -30,6 +30,8 @@ Press P to see the tips
 <!-- _class: frase -->
 
 # The room is cheering for you.
+
+Every slide in this template has tips in the speaker notes: press P to see them.
 
 <!--
 - One idea per slide, in up to two lines. What sentence should the audience take home?
@@ -175,9 +177,9 @@ Tips, <mark>not rules</mark>: use the ones that work for you.
 
 ## Readable screenshots
 
-- ![Example screenshot](img/imagem-exemplo-en.png) Only the part that matters
-- ![Example screenshot](img/imagem-exemplo-en.png) Increase the font size first
-- ![Example screenshot](img/imagem-exemplo-en.png) No passwords, tokens or emails
+- ![Example screenshot](img/captura-exemplo-en.png) Only the part that matters
+- ![Example screenshot](img/captura-exemplo-en.png) Increase the font size first
+- ![Example screenshot](img/captura-exemplo-en.png) No passwords, tokens or emails
 
 <!--
 - Before you take the screenshot, zoom in the browser or increase the terminal font size.
@@ -303,16 +305,16 @@ def fits(talk, slot):
 
 ---
 
-## Color contrast in this template
+## Which Python version do you use
 
-![Bar chart of each color's WCAG ratio against the black background: Text 16.5, Lime 15.8, Gray 8.3 and the Minimum 4.5](img/grafico-contraste-en.png)
+![Bar chart with sample data: Python 3.10 8%, 3.11 15%, 3.12 29%, 3.13 33% and 3.14 15%](img/grafico-exemplo.png)
 
-Other colors? Check the contrast at [webaim.org/resources/contrastchecker](https://webaim.org/resources/contrastchecker/)
+Sample data. Change the numbers in `scripts/grafico.py` and run `uv run scripts/grafico.py`.
 
 <!--
-- Marp has no built-in charts: generate the image with matplotlib, as scripts/grafico.py does (uv run scripts/grafico.py).
+- Marp has no built-in charts: the chart is an image made with matplotlib. Change the labels and values in scripts/grafico.py and run uv run scripts/grafico.py.
 - Write the chart numbers in the alt text, for screen readers.
-- If you use other colors, check the contrast at webaim.org/resources/contrastchecker.
+- One chart, one message: say out loud what the audience should see in the bars.
 -->
 
 ---
@@ -337,7 +339,7 @@ Other colors? Check the contrast at [webaim.org/resources/contrastchecker](https
 <!-- _paginate: false -->
 <!-- _footer: "" -->
 
-![bg](img/fundo-exemplo.png)
+![bg](img/fundo-exemplo-en.png)
 
 Full-screen image with a caption. Photo: Person's Name · CC BY 4.0
 
@@ -391,11 +393,11 @@ _you@example.com_
 
 ![QR code for 2026.pythonbrasil.org.br](img/qr.png)
 
-2026.pythonbrasil.org.br
+Replace with the QR code for your slides
 
 <!--
 - The QR code takes the audience to your slides on their phones. With a single page of links, you can update the links later and keep the same QR code.
-- To generate your QR code: uv run scripts/qr.py https://your-url. The script replaces img/qr.png.
+- To generate your QR code: uv run scripts/qr.py https://your-url. The script replaces img/qr.png. Then replace the caption with the link.
 - This is not the last slide: the light version of the layouts comes next, with more tips.
 -->
 
@@ -476,7 +478,7 @@ For bright rooms or dim projectors
 
 ## Accessible images
 
-![bg right:42%](img/imagem-exemplo-claro-en.png)
+![bg right:42%](img/imagem-exemplo-en.png)
 
 - Alt text on every image
 - A short caption if the image is not obvious
@@ -493,7 +495,7 @@ For bright rooms or dim projectors
 
 ## Eye contact
 
-![bg left:42%](img/imagem-exemplo-claro-en.png)
+![bg left:42%](img/imagem-exemplo-en.png)
 
 - Look at a friendly face, not only at the screen
 - Speaker notes for support
@@ -600,7 +602,7 @@ Python Brasil community, 2016
 
 <!-- _class: palestrante light -->
 
-![Example photo](img/foto-exemplo-claro-en.png)
+![Example photo](img/foto-exemplo-en.png)
 
 # Your name here
 
@@ -635,11 +637,11 @@ Python Brasil community, 2016
 
 <!-- _class: light -->
 
-## Color contrast in this template
+## Which Python version do you use
 
-![Bar chart of each color's WCAG ratio against the white background: Text 19.2, Gray 8.9 and the Minimum 4.5](img/grafico-contraste-claro-en.png)
+![Bar chart with sample data: Python 3.10 8%, 3.11 15%, 3.12 29%, 3.13 33% and 3.14 15%](img/grafico-exemplo-claro.png)
 
-Other colors? Check the contrast at [webaim.org/resources/contrastchecker](https://webaim.org/resources/contrastchecker/)
+Sample data. Change the numbers in `scripts/grafico.py` and run `uv run scripts/grafico.py`.
 
 <!--
 - To generate the chart, see the notes on slide 17.
@@ -661,7 +663,7 @@ _The Python Brasil 2026 organizing team_
 
 ![QR code for 2026.pythonbrasil.org.br](img/qr.png)
 
-2026.pythonbrasil.org.br
+Replace with the QR code for your slides
 
 <!--
 - In your talk, replace this text with your contact details and the QR code with one for your slides.
