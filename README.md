@@ -1,6 +1,6 @@
 # Slides da Python Brasil 2026 em Markdown
 
-Monte a sua palestra para a [Python Brasil 2026](https://2026.pythonbrasil.org.br/) conversando com um agente de IA, em Markdown puro. O Claude Code, o Cursor, o Copilot e o Codex leem o [`AGENTS.md`](AGENTS.md) deste repositório e escrevem os slides com os layouts e as regras da marca. Cada push publica a apresentação no GitHub Pages, com um PDF junto.
+Monte a sua palestra para a [Python Brasil 2026](https://2026.pythonbrasil.org.br/) conversando com um agente de IA, em Markdown puro. Deixe o seu agente favorito ler o [`AGENTS.md`](AGENTS.md) e escrever os slides com os layouts e as regras da marca. Cada push publica a apresentação no GitHub Pages, com um PDF junto.
 
 Os blocos de código saem coloridos sozinhos. Escreva ` ```python ` e o código, e o tema aplica as cores do Monokai num cartão escuro, com a fonte Cascadia Mono, nos slides escuros e nos claros. Não precisa copiar o código de outro site nem colar imagem.
 
