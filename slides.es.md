@@ -250,7 +250,7 @@ def cabe(charla, bloque):
 <!--
 - Antes y después de una refactorización, o dos formas de resolver el mismo problema.
 - Cada columna acepta hasta 30 columnas. La de la izquierda, con la clase miuda, muestra cómo se ve la letra diminuta proyectada.
-- El emoji también es un recurso: una cara triste o feliz muestra al instante qué lado es el ejemplo a evitar.
+- El emoji también es un recurso: una cara triste o feliz muestra al instante qué lado es el ejemplo a evitar. El título dice lo mismo con palabras, para quien no ve el emoji.
 -->
 
 ---
@@ -477,10 +477,10 @@ Versión clara, para salas iluminadas
 
 - Texto alternativo en cada imagen
 - Leyenda corta si la imagen no es obvia
-- Información que no dependa solo del color
+- El color y el emoji ayudan, pero no solos
 
 <!--
-- Parte del público tiene daltonismo o baja visión.
+- Los colores y los emojis comunican bien, pero no pueden ser la única diferencia: parte del público tiene daltonismo, baja visión o usa lector de pantalla.
 - Acompaña el color con una etiqueta o un ícono: en lugar de un punto verde y uno rojo, escribe también “pasó” y “falló”.
 - Todo el texto de la plantilla tiene un contraste de 4,5:1 o más con el fondo. Si usas otros colores, revísalos en webaim.org/resources/contrastchecker.
 -->

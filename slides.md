@@ -250,7 +250,7 @@ def cabe(palestra, slot):
 <!--
 - Antes e depois de uma refatoração, ou duas formas de resolver o mesmo problema.
 - Cada coluna aceita até 30 colunas. A da esquerda, com a classe miuda, mostra como fica a letra miúda no telão.
-- Emoji também é recurso: um rosto triste ou feliz diz na hora qual lado é o exemplo a evitar.
+- Emoji também é recurso: um rosto triste ou feliz diz na hora qual lado é o exemplo a evitar. O título diz o mesmo em palavras, para quem não vê o emoji.
 -->
 
 ---
@@ -477,10 +477,10 @@ Versão clara, para salas iluminadas
 
 - Texto alternativo em toda imagem
 - Legenda curta se a imagem não for óbvia
-- Informação que não dependa só da cor
+- Cor e emoji ajudam, mas não sozinhos
 
 <!--
-- Parte do público tem daltonismo ou baixa visão.
+- Cores e emojis comunicam bem, mas não podem ser a única diferença: parte do público tem daltonismo, baixa visão ou usa leitor de tela.
 - Junte a cor a um rótulo ou ícone: em vez de uma bolinha verde e uma vermelha, escreva também “passou” e “falhou”.
 - Todo texto do modelo tem contraste de 4,5:1 ou mais com o fundo. Ao usar outras cores, confira em webaim.org/resources/contrastchecker.
 -->

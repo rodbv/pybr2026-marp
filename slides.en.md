@@ -250,7 +250,7 @@ def fits(talk, slot):
 <!--
 - Before and after a refactoring, or two ways to solve the same problem.
 - Each column fits up to 30 columns. The left column, with the miuda class, shows how tiny text looks on the big screen.
-- Emoji are a tool too: a sad or a happy face shows at once which side is the example to avoid.
+- Emoji are a tool too: a sad or a happy face shows at once which side is the example to avoid. The heading says the same in words, for people who cannot see the emoji.
 -->
 
 ---
@@ -477,10 +477,10 @@ Light version, for bright rooms
 
 - Alt text on every image
 - A short caption if the image is not obvious
-- Information that does not rely on color alone
+- Color and emoji help, but not on their own
 
 <!--
-- Some people in the audience are color blind or have low vision.
+- Colors and emoji communicate well, but they cannot be the only difference: some people in the audience are color blind, have low vision or use a screen reader.
 - Pair color with a label or an icon: instead of a green dot and a red dot, also write “passed” and “failed”.
 - All text in the template has a contrast ratio of 4.5:1 or more against the background. If you use other colors, check them at webaim.org/resources/contrastchecker.
 -->
