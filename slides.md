@@ -13,9 +13,9 @@ title: Python Brasil 2026
 
 <div class="selo">14 a 19<br>de outubro<br>de 2026<br>{Floripa/SC}</div>
 
-# Que bom que você vai palestrar na Python Brasil 2026
+# Que bom que você vai palestrar!
 
-Aperte P para ver as dicas de cada slide
+Aperte P para ver as dicas
 
 **Seu nome aqui** · @seu_usuario
 

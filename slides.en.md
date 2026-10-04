@@ -13,9 +13,9 @@ title: Python Brasil 2026
 
 <div class="selo">October<br>14 to 19<br>2026<br>{Floripa/SC}</div>
 
-# We're glad you're speaking at Python Brasil 2026
+# We're glad you're speaking!
 
-Press P to see the tips for each slide
+Press P to see the tips
 
 **Your name here** · @your_username
 

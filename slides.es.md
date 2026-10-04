@@ -13,9 +13,9 @@ title: Python Brasil 2026
 
 <div class="selo">14 al 19<br>de octubre<br>de 2026<br>{Floripa/SC}</div>
 
-# Qué bueno que vas a dar una charla en Python Brasil 2026
+# ¡Qué bueno que vas a dar una charla!
 
-Presiona P para ver los consejos de cada diapositiva
+Presiona P para ver los consejos
 
 **Tu nombre aquí** · @tu_usuario
 
