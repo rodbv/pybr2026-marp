@@ -54,9 +54,9 @@ Cada slide deste modelo traz dicas nas anotações: aperte P para ver.
 - Uma autodescrição ajuda quem não vê
 
 <!--
-- Troque a caixa cinza pela sua foto: no Markdown, troque img/foto-exemplo.png pelo caminho da sua foto.
+- Para usar a sua foto, troque img/foto-exemplo.png pelo caminho dela.
 - Quem abre a sessão costuma apresentar você; com o tempo curto, este slide pode sair.
-- Uma autodescrição ajuda quem não vê, por exemplo: “Sou a Maria, tenho 1,60 m, cabelo preto solto, óculos verdes e uma camiseta da PyLadies.”
+- Uma autodescrição ajuda quem não vê, por exemplo: “Sou a Maria, tenho 1,60 m e cabelo preto solto, uso óculos verdes e estou com uma camiseta da PyLadies.”
 -->
 
 ---
@@ -130,7 +130,7 @@ Dicas, <mark>não regras</mark>: use as que servirem para você.
 - Uma ideia por slide
 - Falar o que o slide não diz
 - Dividir em dois slides
-- A “colinha” nas anotações
+- A “colinha” nas anotações do slide
 
 <!--
 - Cada coluna tem o seu título: antes e depois, problema e solução.
@@ -162,7 +162,7 @@ Dicas, <mark>não regras</mark>: use as que servirem para você.
 - Fotos suas ou de licença livre
 - A licença permite este uso?
 - Crédito da autoria no slide
-- Pelo menos 1000 px de altura
+- Pelo menos 1080 px de altura
 
 <!--
 - Uma foto na vertical preenche este espaço; uma foto na horizontal aparece recortada nas laterais. Troque left por right para a imagem ir à direita.
@@ -180,7 +180,7 @@ Dicas, <mark>não regras</mark>: use as que servirem para você.
 - ![Captura de tela de exemplo](img/captura-exemplo.png) Sem senhas, tokens nem e-mails
 
 <!--
-- Troque cada caixa cinza pela sua captura de tela: troque img/captura-exemplo.png pelo caminho da captura e descreva a captura entre os colchetes.
+- Para cada captura, troque img/captura-exemplo.png pelo caminho do arquivo e descreva a imagem entre os colchetes.
 - Antes de capturar a tela, aumente o zoom do navegador ou a fonte do terminal.
 - Confira se a captura mostra senhas, tokens, e-mails, abas ou notificações.
 -->
@@ -251,7 +251,7 @@ def cabe(palestra, slot):
 
 <!--
 - Antes e depois de uma refatoração, ou duas formas de resolver o mesmo problema.
-- Cada coluna aceita até 30 colunas. A da esquerda, com a classe miuda, mostra como fica a letra miúda no telão.
+- Cada bloco de código aceita até 30 colunas. Com a classe miuda no slide, o código da esquerda fica pequeno de propósito, para mostrar como a letra miúda aparece no telão.
 - Emoji também é recurso: um rosto triste ou feliz diz na hora qual lado é o exemplo a evitar. O título diz o mesmo em palavras, para quem não vê o emoji.
 -->
 
@@ -261,7 +261,7 @@ def cabe(palestra, slot):
 
 ## Três números que ajudam
 
-- **18** pontos de letra: legível do fundo da sala
+- **18** pontos de letra: dá para ler do fundo da sala
 - **1** ensaio em voz alta mostra o tempo real
 - **5** minutos para perguntas no fim
 
@@ -300,13 +300,13 @@ def cabe(palestra, slot):
 
 <!--
 - Tabelas em Markdown já saem com o cabeçalho limão.
-- Testar em casa o adaptador de vídeo e o espelhamento de tela deixa o dia mais tranquilo.
+- Testar em casa o adaptador de vídeo e o espelhamento de tela costuma deixar o dia mais tranquilo.
 - Cada sala tem alguém do voluntariado. Projetor, microfone, coragem: o que faltar, a gente ajuda.
 -->
 
 ---
 
-## Versão do Python que você usa
+## Versão do Python que você usa (%)
 
 ![Gráfico de barras com dados de exemplo: Python 3.10 8%, 3.11 15%, 3.12 29%, 3.13 33% e 3.14 15%](img/grafico-exemplo.png)
 
@@ -342,7 +342,7 @@ Dados de exemplo. Para trocar os dados, veja as anotações deste slide.
 
 ![bg](img/fundo-exemplo.png)
 
-Legenda da foto. Foto: Nome da Pessoa · CC BY 4.0
+Legenda da foto. Foto: Nome da pessoa · CC BY 4.0
 
 <!--
 - Troque o arquivo em ![bg](...). A legenda é o último parágrafo do slide.
@@ -356,7 +356,7 @@ Legenda da foto. Foto: Nome da Pessoa · CC BY 4.0
 ## Sua palestra é para todo mundo
 
 - O público inclui crianças: conteúdo para todas as idades
-- Humor sem alvo e exemplos sem estereótipos
+- Humor que não ridiculariza ninguém, exemplos sem estereótipos
 - Na dúvida sobre algum conteúdo, a organização ajuda
 
 <!--
@@ -369,7 +369,7 @@ Legenda da foto. Foto: Nome da Pessoa · CC BY 4.0
 ## Referências
 
 - Código de conduta da Python Brasil [python.org.br/cdc](https://python.org.br/cdc)
-- Tema Marp para slides [marp.app](https://marp.app)
+- Marp, slides em Markdown [marp.app](https://marp.app)
 - Fontes Roboto e Cascadia Mono [fonts.google.com](https://fonts.google.com)
 - Verificador de contraste [webaim.org/resources/contrastchecker](https://webaim.org/resources/contrastchecker/)
 
@@ -397,7 +397,7 @@ Troque pelo seu QR code: contato, slides ou site
 <!--
 - O QR code pode levar ao seu contato, aos seus slides ou a uma página com tudo isso. Com uma página só, você troca os links depois sem mudar o QR code.
 - Para gerar o seu QR code: uv run scripts/qr.py https://seu-endereco. O script troca o arquivo img/qr.png. Depois, troque a legenda pelo link.
-- Você já tem o necessário. Os próximos slides repetem os layouts na versão clara, com dicas opcionais.
+- Os próximos slides repetem os layouts na versão clara, com mais dicas.
 -->
 
 ---
@@ -410,12 +410,12 @@ Troque pelo seu QR code: contato, slides ou site
 
 # Título da sua palestra
 
-Versão clara, para projetor
+Versão clara, para projetor, TV ou monitor
 
 **Seu nome aqui** · @seu_usuario
 
 <!--
-- Telão de LED grande: use a versão escura, que não ofusca o público. Telão menor ou projetor: use a versão clara. O código fica em fundo claro nas duas.
+- Tela de LED do tamanho de uma parede: use a versão escura, que não ofusca o público. Projetor, TV ou monitor: use a versão clara. O código fica em fundo claro nas duas.
 -->
 
 ---
@@ -466,7 +466,7 @@ Versão clara, para projetor
 - Slides que você pula ao ensaiar
 
 <!--
-- Ensaiar em voz alta mostra o tempo real e deixa a fala mais solta.
+- Ensaiar em voz alta mostra o tempo real e costuma deixar a fala mais solta.
 -->
 
 ---
@@ -500,8 +500,8 @@ Versão clara, para projetor
 - Apontar com palavras, não com o mouse
 
 <!--
-- As anotações aparecem só para você na visão do apresentador. Olhar as anotações no palco é normal.
-- No HTML exportado, aperte P: a visão do apresentador mostra as anotações, o próximo slide e o cronômetro.
+- As anotações aparecem só para você na visão de apresentação. Olhar as anotações no palco é normal.
+- No HTML exportado, aperte P: a visão de apresentação mostra as anotações, o próximo slide e o cronômetro.
 -->
 
 ---
@@ -524,7 +524,7 @@ class Palestra:
 **Prefere fundo escuro para o código?** Use o tema Monokai e deixe a fonte bem grande.
 
 <!--
-- Para gerar o código colorido, veja as anotações do slide Código com cores, na parte escura.
+- Para código em fundo escuro, veja as anotações do slide “Código com cores”, na parte escura.
 -->
 
 ---
@@ -547,7 +547,7 @@ Comunidade Python Brasil, 2016
 # Menos texto, letra maior.
 
 <!--
-- Com menos texto no slide, a letra fica maior e a atenção do público fica em você.
+- Com menos texto no slide, cabe uma letra maior, e o público tende a olhar mais para você.
 -->
 
 ---
@@ -619,14 +619,15 @@ Comunidade Python Brasil, 2016
 
 <!-- _class: light -->
 
-## Versão do Python que você usa
+## Versão do Python que você usa (%)
 
 ![Gráfico de barras com dados de exemplo: Python 3.10 8%, 3.11 15%, 3.12 29%, 3.13 33% e 3.14 15%](img/grafico-exemplo-claro.png)
 
 Dados de exemplo. Para trocar os dados, veja as anotações deste slide.
 
 <!--
-- Para trocar os dados, veja as anotações do slide Versão do Python que você usa, na parte escura.
+- Para trocar os dados, veja as anotações do slide “Versão do Python que você usa”, na parte escura.
+- Escreva os números do gráfico no texto alternativo, para leitores de tela.
 -->
 
 ---
@@ -668,7 +669,7 @@ Troque pelo seu QR code: contato, slides ou site
 Identidade visual de Ana Terhorst, [anaterhorstdesign.com](https://anaterhorstdesign.com). Valeu, Ana!
 
 <!--
-- Copie a linha da figurinha para o seu slide; o w:200 define a largura em pixels.
+- Copie a linha da figurinha para o seu slide; o número em w:190 define a largura em pixels.
 - A figurinha marca-texto é um realce: troque a palavra dela, ou use <mark>palavra</mark> numa palavra sua. O círculo pixelado é <span class="circulo">palavra</span>.
 - Uma figurinha por slide costuma bastar.
 -->

@@ -20,7 +20,7 @@ Python Brasil 2026 slide template
 **Your name here** · @your_username
 
 <!--
-- We're glad you're speaking! Your own way of speaking matters more than any tip in this template.
+- We're glad you're speaking! Your own style matters more than any tip in this template.
 - This file is a template: each example slide shows a layout and has tips in the speaker notes. Use the ones that work for you.
 - To get started: keep an unchanged copy, choose the dark or the light version, and copy the slides you want to use. The _class comment at the top of each slide sets the layout.
 - When you reuse a slide, delete these notes and write your own.
@@ -54,9 +54,9 @@ Every slide in this template has tips in the speaker notes: press P to see them.
 - Describing yourself helps people who cannot see
 
 <!--
-- Replace the gray box with your photo: in the Markdown, replace img/foto-exemplo-en.png with the path to your photo.
+- To use your photo, replace img/foto-exemplo-en.png with its path.
 - The session chair often introduces you; if time is short, you can skip this slide.
-- Describing yourself helps people who cannot see. For example: “I'm Maria. I'm 1.60 m tall, with black hair worn down, green-framed glasses and a PyLadies T-shirt.”
+- Describing yourself helps people who cannot see. For example: “I'm Maria. I'm 1.60 m tall and have black hair worn down. I wear green-framed glasses and a PyLadies T-shirt.”
 -->
 
 ---
@@ -68,7 +68,7 @@ The Zen of Python, PEP 20
 Tips, <mark>not rules</mark>: use the ones that work for you.
 
 <!--
-- Up to three lines, with who said it and where. Check the attribution in a primary source.
+- Up to three lines, with who said it and where. It helps to check the attribution in a primary source.
 - The green quotation marks come from the theme: start the quote line with > and write the quote without quotation marks.
 -->
 
@@ -123,18 +123,18 @@ Tips, <mark>not rules</mark>: use the ones that work for you.
 - Whole paragraphs
 - Reading the slide aloud
 - Shrinking the font to fit
-- A script on the slide
+- A cheat sheet on the slide
 
 ### Try
 
 - One idea per slide
-- Saying what the slide doesn't
-- Splitting it into two slides
-- The script in the notes
+- Saying what the slide does not say
+- Splitting the content into two slides
+- The cheat sheet in the speaker notes
 
 <!--
 - Each column has its own heading: before and after, problem and solution.
-- The details and the script go in the speaker notes, which only you see.
+- The details and your cheat sheet go in the speaker notes, which only you see.
 -->
 
 ---
@@ -162,7 +162,7 @@ Tips, <mark>not rules</mark>: use the ones that work for you.
 - Your own photos or openly licensed ones
 - Does the license allow this use?
 - Credit the author on the slide
-- At least 1000 px tall
+- At least 1080 px tall
 
 <!--
 - A portrait photo fills this space; a landscape photo is cropped at the sides. Change left to right to put the image on the right.
@@ -204,7 +204,7 @@ class Talk:
 
 <!--
 - If your talk has no code, you can skip this slide.
-- Up to 8 lines and 60 columns. If the snippet is longer, split it across slides or show only what matters.
+- Up to 8 lines, with up to 60 characters per line. If the snippet is longer, split it across slides or show only what matters.
 - Marp adds syntax highlighting for you: open the block with ```python, or with the language of the snippet.
 - The code sits on a light card, even on the dark slide. Legibility studies show that dark text on a light background is easier to read, especially at small sizes such as code (Piepenbrock, Mayr and Buchner, 2014).
 - If you prefer a dark background for code, replace the code colors in pybr2026.css with the Monokai theme on #1A1A1A, and make the font large.
@@ -251,8 +251,8 @@ def fits(talk, slot):
 
 <!--
 - Before and after a refactoring, or two ways to solve the same problem.
-- Each column fits lines of up to 30 characters. The left column, with the miuda class, shows how tiny text looks on the big screen.
-- Emoji are a tool too: a sad or a happy face shows at once which side is the example to avoid. The heading says the same in words, for people who cannot see the emoji.
+- Each code block fits lines of up to 30 characters. The miuda class on the slide makes the left code small on purpose, to show how tiny text looks on the big screen.
+- Emoji are a tool too: a sad or a happy face shows immediately which side is the example to avoid. The heading says the same in words, for people who cannot see the emoji.
 -->
 
 ---
@@ -261,7 +261,7 @@ def fits(talk, slot):
 
 ## Three numbers that help
 
-- **18** point font: readable from the back row
+- **18** point text: you can read it from the back row
 - **1** rehearsal out loud shows how long the talk takes
 - **5** minutes for questions at the end
 
@@ -277,12 +277,12 @@ def fits(talk, slot):
 ## Before you go on stage
 
 1. **Live coding** Plan B: screenshots or a video of the demo.
-2. **Internet** With videos and pages downloaded, you don't depend on the network.
+2. **Internet** With videos and pages downloaded, you do not depend on the network.
 3. **PDF** Bring the slides as a PDF on a USB drive.
 
 <!--
 - Choose the plan B that fits your talk, and rehearse the switch to it on your computer.
-- With back-to-back talks, there is not always time for a sound check; a captioned video works without audio.
+- When talks follow each other with no break, there is not always time for a sound check. A video with captions works without audio.
 -->
 
 ---
@@ -293,27 +293,27 @@ def fits(talk, slot):
 |---|---|
 | Before the event | Ask questions in the speakers' Telegram group |
 | The day before | Go easy on the karaoke :P Rest your voice and sleep well |
-| On the day | Arrive early and get to know the room |
+| On the day | Arrive early and look around the room |
 | 15 min before | Say hello to the room volunteers |
-| During the talk | Keep the mic close, even when facing the screen |
-| After | Upload your slides to the link in your QR code |
+| During the talk | Keep the mic close to your mouth, even when you look at the screen |
+| After | Publish your slides at the address in your QR code |
 
 <!--
 - Markdown tables get the lime header from the theme.
-- If you test your video adapter and screen mirroring at home, the day is calmer.
+- Testing your video adapter and screen mirroring at home usually makes the day calmer.
 - Every room has a volunteer. Projector, microphone, courage: whatever you need, we will help.
 -->
 
 ---
 
-## Which Python version do you use?
+## Which Python version do you use? (%)
 
 ![Bar chart with sample data: Python 3.10 8%, 3.11 15%, 3.12 29%, 3.13 33% and 3.14 15%](img/grafico-exemplo.png)
 
 Sample data. To change the data, see the notes on this slide.
 
 <!--
-- Marp has no built-in charts: the chart is an image made with matplotlib. Change the labels and values in scripts/grafico.py and run uv run scripts/grafico.py.
+- Marp has no built-in charts: the chart is an image made with matplotlib. Change the labels and values in scripts/grafico.py, then run the command uv run scripts/grafico.py.
 - Write the chart numbers in the alt text, for screen readers.
 - One chart, one message: say out loud what the audience should see in the bars.
 -->
@@ -331,7 +331,7 @@ Sample data. To change the data, see the notes on this slide.
 
 <!--
 - A flow shows a sequence: the steps of a process, the stages of a pipeline, the schedule of the day.
-- Walk through the flow from left to right: first, then, finally.
+- Describe the flow from left to right: first, then, finally.
 -->
 
 ---
@@ -342,7 +342,7 @@ Sample data. To change the data, see the notes on this slide.
 
 ![bg](img/fundo-exemplo-en.png)
 
-Photo caption. Photo: Person's Name · CC BY 4.0
+Photo caption. Photo: Person's name · CC BY 4.0
 
 <!--
 - Replace the file in ![bg](...). The caption is the last paragraph of the slide.
@@ -356,7 +356,7 @@ Photo caption. Photo: Person's Name · CC BY 4.0
 ## Your talk is for everyone
 
 - The audience includes children: content for all ages
-- Humor at nobody's expense, examples without stereotypes
+- Humor that mocks nobody, examples without stereotypes
 - Unsure about some content? The organizers can help
 
 <!--
@@ -397,7 +397,7 @@ Replace with your QR code: contact, slides or site
 <!--
 - The QR code can lead to your contact details, your slides or a page with all of them. With a single page of links, you can update the links later and keep the same QR code.
 - To generate your QR code: uv run scripts/qr.py https://your-url. The script replaces img/qr.png. Then replace the caption with the link.
-- You already have what you need. The next slides repeat the layouts in the light version, with optional tips.
+- The next slides repeat the layouts in the light version, with more tips.
 -->
 
 ---
@@ -410,12 +410,12 @@ Replace with your QR code: contact, slides or site
 
 # Your talk title
 
-Light version, for projectors
+Light version, for projectors, TVs and monitors
 
 **Your name here** · @your_username
 
 <!--
-- Large LED screen: use the dark version, which does not dazzle the audience. Smaller screen or projector: use the light version. Code stays on a light background in both.
+- LED screen as big as a wall: use the dark version, which is not too bright for the audience. Projector, TV or monitor: use the light version. Code stays on a light background in both.
 -->
 
 ---
@@ -466,7 +466,7 @@ Light version, for projectors
 - Slides you skip in rehearsal
 
 <!--
-- Rehearsing out loud shows how long the talk takes and makes your delivery more relaxed.
+- Rehearsing out loud shows how long the talk takes and usually makes your delivery more relaxed.
 -->
 
 ---
@@ -524,7 +524,7 @@ class Talk:
 **Prefer a dark background for code?** Use the Monokai theme and make the font large.
 
 <!--
-- To get colored code, see the notes on the “Code in color” slide in the dark section.
+- For code on a dark background, see the notes on the “Code in color” slide in the dark section.
 -->
 
 ---
@@ -547,7 +547,7 @@ Python Brasil community, 2016
 # Less text, larger font.
 
 <!--
-- With less text on the slide, the font gets larger and the audience's attention stays on you.
+- With less text on the slide, a larger font fits, and the audience tends to look at you more.
 -->
 
 ---
@@ -558,7 +558,7 @@ Python Brasil community, 2016
 
 - Show the steps instead of saying it is easy
 - Explain each acronym the first time
-- Ask who has used it instead of assuming
+- Ask who has used a tool instead of assuming
 
 <!--
 - The lime green panel holds the message the room should not miss, with up to four short bullets beside it.
@@ -573,7 +573,7 @@ Python Brasil community, 2016
 ## After the talk
 
 1. **Notes** Write down what worked, for your next talk.
-2. **Chat** Stay nearby: many questions come up in the hallway.
+2. **Chat** Stay nearby: many people ask questions in the hallway.
 3. **Rest** Enjoy the rest of the event. You earned it.
 
 <!--
@@ -619,7 +619,7 @@ Python Brasil community, 2016
 
 <!-- _class: light -->
 
-## Which Python version do you use?
+## Which Python version do you use? (%)
 
 ![Bar chart with sample data: Python 3.10 8%, 3.11 15%, 3.12 29%, 3.13 33% and 3.14 15%](img/grafico-exemplo-claro.png)
 
@@ -627,6 +627,7 @@ Sample data. To change the data, see the notes on this slide.
 
 <!--
 - To change the data, see the notes on the “Which Python version do you use?” slide in the dark section.
+- Write the chart numbers in the alt text, for screen readers.
 -->
 
 ---
@@ -669,7 +670,7 @@ Visual identity by Ana Terhorst, [anaterhorstdesign.com](https://anaterhorstdesi
 
 <!--
 - “Dazumbanho! Chegasse ao fim, ixtepô!” is an expression in the Florianópolis (manezinho) dialect, roughly “Wow! You made it to the end, look at that!”.
-- Copy the sticker line into your slide; w:200 sets the width in pixels.
+- Copy the sticker line into your slide; the number in w:190 sets the width in pixels.
 - The highlighter sticker is live text: change its word, or use <mark>word</mark> on a word of your own. The pixelated circle is <span class="circulo">word</span>.
 - One sticker per slide is usually enough.
 -->

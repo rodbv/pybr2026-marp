@@ -15,7 +15,7 @@ title: Python Brasil 2026
 
 # Título de tu charla
 
-Plantilla de diapositivas de la Python Brasil 2026
+Plantilla de diapositivas de Python Brasil 2026
 
 **Tu nombre aquí** · @tu_usuario
 
@@ -54,9 +54,9 @@ Cada diapositiva de esta plantilla trae consejos en las notas: presiona P para v
 - Una autodescripción ayuda a quien no ve
 
 <!--
-- Reemplaza la caja gris por tu foto: en el Markdown, pon la ruta de tu foto en lugar de img/foto-exemplo-es.png.
+- Para usar tu foto, pon su ruta en lugar de img/foto-exemplo-es.png.
 - Quien abre la sesión suele presentarte; si hay poco tiempo, puedes quitar esta diapositiva.
-- Una autodescripción ayuda a quien no ve, por ejemplo: “Soy María, mido 1,60 m, tengo el pelo negro suelto, lentes de montura verde y una camiseta de PyLadies.”
+- Una autodescripción ayuda a quien no ve, por ejemplo: “Soy María, mido 1,60 m, tengo el pelo negro suelto, uso lentes de montura verde y llevo una camiseta de PyLadies.”
 -->
 
 ---
@@ -109,7 +109,7 @@ Consejos, <mark>no reglas</mark>: usa los que te sirvan.
 # _01_ Una sección para cada parte de la agenda
 
 <!--
-- El número entre guiones bajos va al disco verde lima: # _01_ Título. El número sigue el orden de la agenda.
+- El número entre guiones bajos aparece en el disco verde lima: # _01_ Título. El número sigue el orden de la agenda.
 -->
 
 ---
@@ -130,7 +130,7 @@ Consejos, <mark>no reglas</mark>: usa los que te sirvan.
 - Una idea por diapositiva
 - Decir lo que la diapositiva no dice
 - Dividir en dos diapositivas
-- El guion en las notas
+- El guion en las notas de la diapositiva
 
 <!--
 - Cada columna tiene su título: antes y después, problema y solución.
@@ -162,7 +162,7 @@ Consejos, <mark>no reglas</mark>: usa los que te sirvan.
 - Fotos tuyas o de licencia libre
 - ¿La licencia permite este uso?
 - El crédito de autoría en la diapositiva
-- Al menos 1000 px de altura
+- Al menos 1080 px de altura
 
 <!--
 - Una foto vertical llena este espacio; una foto horizontal aparece recortada en los lados. Cambia left por right para que la imagen vaya a la derecha.
@@ -180,7 +180,7 @@ Consejos, <mark>no reglas</mark>: usa los que te sirvan.
 - ![Captura de pantalla de ejemplo](img/captura-exemplo-es.png) Sin contraseñas, tokens ni correos
 
 <!--
-- Reemplaza cada caja gris por tu captura de pantalla: pon su ruta en lugar de img/captura-exemplo-es.png y descríbela entre los corchetes.
+- Para cada captura, pon la ruta del archivo en lugar de img/captura-exemplo-es.png y describe la imagen entre los corchetes.
 - Antes de capturar la pantalla, aumenta el zoom del navegador o el tamaño de letra de la terminal.
 - Revisa si la captura muestra contraseñas, tokens, correos, pestañas o notificaciones.
 -->
@@ -204,9 +204,9 @@ class Charla:
 
 <!--
 - Si tu charla no tiene código, puedes saltar esta diapositiva.
-- Hasta 8 líneas de 60 caracteres. Si el fragmento es más largo, divídelo en varias diapositivas o muestra solo lo que importa.
+- Hasta 8 líneas de unos 60 caracteres. Si el fragmento es más largo, divídelo en varias diapositivas o muestra solo lo que importa.
 - Marp colorea el código por su cuenta: abre el bloque con ```python, o con el lenguaje del fragmento.
-- El código va en una tarjeta clara también en la diapositiva oscura. Los estudios de legibilidad muestran que el texto oscuro sobre fondo claro se lee mejor, sobre todo en letra pequeña, como la del código (Piepenbrock, Mayr y Buchner, 2014).
+- El código va en una tarjeta blanca también en la diapositiva oscura. Los estudios de legibilidad muestran que el texto oscuro sobre fondo claro se lee mejor, sobre todo en letra pequeña, como la del código (Piepenbrock, Mayr y Buchner, 2014).
 - Si prefieres fondo oscuro para el código, cambia los colores del código en pybr2026.css por los del tema Monokai, con el fondo #1A1A1A, y pon la letra bien grande.
 -->
 
@@ -251,7 +251,7 @@ def cabe(charla, bloque):
 
 <!--
 - Antes y después de una refactorización, o dos formas de resolver el mismo problema.
-- Cada columna admite líneas de hasta 30 caracteres. La de la izquierda, con la clase miuda, muestra cómo se ve la letra diminuta proyectada.
+- Cada bloque de código admite líneas de hasta 30 caracteres. Con la clase miuda en la diapositiva, el código de la izquierda queda pequeño a propósito, para mostrar cómo se ve la letra diminuta en la pantalla grande.
 - El emoji también es un recurso: una cara triste o feliz muestra al instante qué lado es el ejemplo a evitar. El título dice lo mismo con palabras, para quien no ve el emoji.
 -->
 
@@ -261,7 +261,7 @@ def cabe(charla, bloque):
 
 ## Tres números que ayudan
 
-- **18** puntos de letra como mínimo: se lee desde el fondo de la sala
+- **18** puntos de letra: se puede leer desde el fondo de la sala
 - **1** ensayo en voz alta muestra cuánto dura la charla
 - **5** minutos para preguntas al final
 
@@ -300,13 +300,13 @@ def cabe(charla, bloque):
 
 <!--
 - Las tablas en Markdown ya salen con el encabezado verde lima.
-- Probar en casa el adaptador de video y la opción de duplicar pantalla hace el día más tranquilo.
+- Probar en casa el adaptador de video y la opción de duplicar pantalla suele hacer el día más tranquilo.
 - Cada sala tiene una persona voluntaria. Proyector, micrófono, ánimo: si te falta algo, te ayudamos.
 -->
 
 ---
 
-## La versión de Python que usas
+## La versión de Python que usas (%)
 
 ![Gráfico de barras con datos de ejemplo: Python 3.10 8%, 3.11 15%, 3.12 29%, 3.13 33% y 3.14 15%](img/grafico-exemplo.png)
 
@@ -356,7 +356,7 @@ Leyenda de la foto. Foto: Nombre de la persona · CC BY 4.0
 ## Tu charla es para todo el público
 
 - Hay público infantil: contenido para todas las edades
-- Humor sin víctimas y ejemplos sin estereotipos
+- Humor que no ridiculiza a nadie, ejemplos sin estereotipos
 - Si tienes dudas sobre algún contenido, la organización te ayuda
 
 <!--
@@ -369,7 +369,7 @@ Leyenda de la foto. Foto: Nombre de la persona · CC BY 4.0
 ## Referencias
 
 - Código de conducta de Python Brasil [python.org.br/cdc](https://python.org.br/cdc)
-- Tema Marp para diapositivas [marp.app](https://marp.app)
+- Marp, diapositivas en Markdown [marp.app](https://marp.app)
 - Fuentes Roboto y Cascadia Mono [fonts.google.com](https://fonts.google.com)
 - Verificador de contraste [webaim.org/resources/contrastchecker](https://webaim.org/resources/contrastchecker/)
 
@@ -397,7 +397,7 @@ Reemplázalo por tu código QR: contacto, diapositivas o web
 <!--
 - El código QR puede llevar a tu contacto, a tus diapositivas o a una página con todo. Con una sola página, puedes actualizar los enlaces después sin generar otro código QR.
 - Para generar tu código QR: uv run scripts/qr.py https://tu-direccion. El script reemplaza el archivo img/qr.png. Después, cambia la leyenda por el enlace.
-- Ya tienes lo necesario. Las siguientes diapositivas repiten los diseños en la versión clara, con consejos opcionales.
+- Las siguientes diapositivas repiten los diseños en la versión clara, con más consejos.
 -->
 
 ---
@@ -410,12 +410,12 @@ Reemplázalo por tu código QR: contacto, diapositivas o web
 
 # Título de tu charla
 
-Versión clara, para proyector
+Versión clara, para proyector, TV o monitor
 
 **Tu nombre aquí** · @tu_usuario
 
 <!--
-- Pantalla LED grande: usa la versión oscura, que no deslumbra al público. Pantalla más pequeña o proyector: usa la versión clara. El código va sobre fondo claro en las dos.
+- Pantalla LED del tamaño de una pared: usa la versión oscura, que no deslumbra al público. Proyector, TV o monitor: usa la versión clara. El código va sobre fondo claro en las dos.
 -->
 
 ---
@@ -435,7 +435,7 @@ Versión clara, para proyector
 
 <!-- _class: light -->
 
-## Tu pantalla en el proyector
+## Tu computadora en la pantalla grande
 
 - Notificaciones apagadas (modo No molestar)
 - Fondo de pantalla neutro
@@ -443,7 +443,7 @@ Versión clara, para proyector
 - Ventana privada: el historial no aparece al escribir direcciones
 
 <!--
-- El proyector muestra todo lo que aparece en tu pantalla: activa el modo No molestar antes de subir al escenario.
+- La pantalla grande muestra todo lo que aparece en tu computadora: activa el modo No molestar antes de subir al escenario.
 - En una ventana privada, el navegador no sugiere direcciones del historial.
 -->
 
@@ -466,7 +466,7 @@ Versión clara, para proyector
 - Diapositivas que saltas al ensayar
 
 <!--
-- Ensayar en voz alta muestra cuánto dura la charla y hace que hables con más soltura.
+- Ensayar en voz alta muestra cuánto dura la charla y suele darte más soltura al hablar.
 -->
 
 ---
@@ -500,8 +500,8 @@ Versión clara, para proyector
 - Señalar con palabras, no con el puntero
 
 <!--
-- Las notas aparecen solo para ti en la vista del presentador. Mirar las notas en el escenario es normal.
-- En el HTML exportado, presiona P: la vista del presentador muestra las notas, la siguiente diapositiva y el cronómetro.
+- Las notas aparecen solo para ti en la vista de presentación. Mirar las notas en el escenario es normal.
+- En el HTML exportado, presiona P: la vista de presentación muestra las notas, la siguiente diapositiva y el cronómetro.
 -->
 
 ---
@@ -524,7 +524,7 @@ class Charla:
 **¿Prefieres fondo oscuro para el código?** Usa el tema Monokai y pon la letra bien grande.
 
 <!--
-- Para colorear el código, mira las notas de la diapositiva Código con colores, en la parte oscura.
+- Para código sobre fondo oscuro, mira las notas de la diapositiva “Código con colores”, en la parte oscura.
 -->
 
 ---
@@ -537,7 +537,7 @@ Comunidad Python Brasil, 2016
 
 <!--
 - En el fondo blanco, destaca la palabra principal con el resaltador verde lima, <mark>palabra</mark>, y mantén el texto negro.
-- El lema de la comunidad Python Brasil desde 2016.
+- El lema de la comunidad Python Brasil desde 2016: «Personas > Tecnología».
 -->
 
 ---
@@ -547,7 +547,7 @@ Comunidad Python Brasil, 2016
 # Menos texto, letra más grande.
 
 <!--
-- Con menos texto en la diapositiva, la letra crece y la atención del público se centra en ti.
+- Con menos texto en la diapositiva, cabe una letra más grande, y el público tiende a mirarte más a ti.
 -->
 
 ---
@@ -619,14 +619,15 @@ Comunidad Python Brasil, 2016
 
 <!-- _class: light -->
 
-## La versión de Python que usas
+## La versión de Python que usas (%)
 
 ![Gráfico de barras con datos de ejemplo: Python 3.10 8%, 3.11 15%, 3.12 29%, 3.13 33% y 3.14 15%](img/grafico-exemplo-claro.png)
 
 Datos de ejemplo. Para cambiar los datos, mira las notas de esta diapositiva.
 
 <!--
-- Para cambiar los datos, mira las notas de la diapositiva La versión de Python que usas, en la parte oscura.
+- Para cambiar los datos, mira las notas de la diapositiva “La versión de Python que usas”, en la parte oscura.
+- Escribe los números del gráfico en el texto alternativo, para los lectores de pantalla.
 -->
 
 ---
@@ -648,7 +649,7 @@ Reemplázalo por tu código QR: contacto, diapositivas o web
 <!--
 - Durante las preguntas, repite cada una al micrófono, para la sala y la grabación.
 - “No lo sé, puedo revisarlo y te respondo después” es una buena respuesta. Una pregunta que no respeta el código de conducta no necesita respuesta.
-- De la organización: nos alegra mucho tenerte en Python Brasil 2026. Cuenta con la organización: estamos aquí para apoyarte y darte ánimo.
+- De la organización: nos alegra mucho tenerte en Python Brasil 2026. Cuenta con el equipo: estamos aquí para apoyarte y estamos de tu lado.
 -->
 
 ---
@@ -669,7 +670,7 @@ Identidad visual de Ana Terhorst, [anaterhorstdesign.com](https://anaterhorstdes
 
 <!--
 - “Dazumbanho! Chegasse ao fim, ixtepô!” es un saludo en el dialecto de Florianópolis, algo como “¡Caramba! Llegaste al final, ¡mira nada más!”.
-- Copia la línea del sticker a tu diapositiva; el w:200 define el ancho en píxeles.
+- Copia la línea del sticker a tu diapositiva; el número en w:190 define el ancho en píxeles.
 - El sticker resaltador es texto editable: cambia su palabra, o usa <mark>palabra</mark> en una palabra tuya. El círculo pixelado es <span class="circulo">palabra</span>.
 - Un sticker por diapositiva suele bastar.
 -->
