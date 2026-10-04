@@ -305,7 +305,7 @@ def cabe(palestra, slot):
 
 ## Contraste das cores deste modelo
 
-![Gráfico de barras do contraste com o fundo preto: texto 16,5, limão 15,8, cinza 8,4 e o mínimo 4,5](img/grafico-contraste.png)
+![Gráfico de barras do contraste com o fundo preto: texto 16,5, limão 15,8, cinza 8,3 e o mínimo 4,5](img/grafico-contraste.png)
 
 Outras cores? Confira o contraste em [webaim.org/resources/contrastchecker](https://webaim.org/resources/contrastchecker/)
 

@@ -31,8 +31,8 @@ def contraste(a: str, b: str) -> float:
     return round((claro + 0.05) / (escuro + 0.05), 1)
 
 
-def grafico(arquivo: str, fundo: str, texto: str, cores: dict[str, str]) -> None:
-    rotulos = [*cores, "Mínimo"]
+def grafico(arquivo: str, fundo: str, texto: str, cores: dict[str, str], minimo: str = "Mínimo", decimal: str = ",") -> None:
+    rotulos = [*cores, minimo]
     valores = [*(contraste(cor, fundo) for cor in cores.values()), 4.5]
 
     plt.rcParams["font.family"] = ["Roboto", "DejaVu Sans"]
@@ -40,7 +40,7 @@ def grafico(arquivo: str, fundo: str, texto: str, cores: dict[str, str]) -> None
     ax.set_facecolor(fundo)
     # As barras ficam limão nos dois fundos: o número sobre cada barra leva a informação.
     barras = ax.bar(rotulos, valores, color=LIMAO, width=0.5)
-    ax.bar_label(barras, labels=[f"{v:.1f}".replace(".", ",") for v in valores], padding=6, color=texto, fontsize=18, fontweight="bold")
+    ax.bar_label(barras, labels=[f"{v:.1f}".replace(".", decimal) for v in valores], padding=6, color=texto, fontsize=18, fontweight="bold")
     ax.tick_params(axis="x", colors=texto, labelsize=18, length=0)
     ax.set_yticks([])
     for borda in ax.spines.values():
@@ -49,5 +49,13 @@ def grafico(arquivo: str, fundo: str, texto: str, cores: dict[str, str]) -> None
     fig.savefig(IMG / arquivo, facecolor=fundo)
 
 
-grafico("grafico-contraste.png", PRETO, OFF_WHITE, {"Texto": OFF_WHITE, "Limão": LIMAO, "Cinza": CINZA})
-grafico("grafico-contraste-claro.png", "#FFFFFF", PRETO, {"Texto": PRETO, "Cinza": CINZA_ESCURO})
+# Um gráfico por idioma dos slides: rótulos e separador decimal de cada um.
+IDIOMAS = {
+    "": {"texto": "Texto", "limao": "Limão", "cinza": "Cinza", "minimo": "Mínimo", "decimal": ","},
+    "-en": {"texto": "Text", "limao": "Lime", "cinza": "Gray", "minimo": "Minimum", "decimal": "."},
+    "-es": {"texto": "Texto", "limao": "Lima", "cinza": "Gris", "minimo": "Mínimo", "decimal": ","},
+}
+
+for sufixo, r in IDIOMAS.items():
+    grafico(f"grafico-contraste{sufixo}.png", PRETO, OFF_WHITE, {r["texto"]: OFF_WHITE, r["limao"]: LIMAO, r["cinza"]: CINZA}, r["minimo"], r["decimal"])
+    grafico(f"grafico-contraste-claro{sufixo}.png", "#FFFFFF", PRETO, {r["texto"]: PRETO, r["cinza"]: CINZA_ESCURO}, r["minimo"], r["decimal"])

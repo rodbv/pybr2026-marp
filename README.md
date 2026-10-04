@@ -1,5 +1,7 @@
 # Slides da Python Brasil 2026 em Markdown
 
+Português · [English](README.en.md) · [Español](README.es.md)
+
 Monte a sua palestra para a [Python Brasil 2026](https://2026.pythonbrasil.org.br/) conversando com um agente de IA, em Markdown puro. Deixe o seu agente favorito ler o [`AGENTS.md`](AGENTS.md) e escrever os slides com os layouts e as regras da marca. Cada push publica a apresentação no GitHub Pages, com um PDF junto.
 
 Os blocos de código saem coloridos sozinhos. Escreva ` ```python ` e o código, e o tema aplica as cores do Monokai num cartão escuro, com a fonte Cascadia Mono, nos slides escuros e nos claros. Não precisa copiar o código de outro site nem colar imagem.
@@ -10,15 +12,21 @@ O tema usa o [Marp](https://marp.app/) e a identidade visual do evento: cores, f
 
 Prefere PowerPoint, LibreOffice ou Google Slides? Use o [modelo em `.pptx`](https://github.com/rodbv/pybr2026-slides).
 
-Veja os slides de exemplo [no navegador](https://rodbv.github.io/pybr2026-marp/) ou [em PDF](https://rodbv.github.io/pybr2026-marp/slides.pdf).
+Os slides de exemplo existem em três idiomas, com as mesmas dicas:
+
+| Idioma | Arquivo | Ver |
+|---|---|---|
+| Português | `slides.md` | [no navegador](https://rodbv.github.io/pybr2026-marp/) · [PDF](https://rodbv.github.io/pybr2026-marp/slides.pdf) |
+| English | `slides.en.md` | [no navegador](https://rodbv.github.io/pybr2026-marp/en.html) · [PDF](https://rodbv.github.io/pybr2026-marp/slides.en.pdf) |
+| Español | `slides.es.md` | [no navegador](https://rodbv.github.io/pybr2026-marp/es.html) · [PDF](https://rodbv.github.io/pybr2026-marp/slides.es.pdf) |
 
 ![Os 39 slides de exemplo, nas versões escura e clara](docs/overview.png)
 
 ## Começar
 
 1. Clique em **Use this template > Create a new repository**.
-2. No repositório novo, abra **Settings > Pages** e escolha **GitHub Actions** em **Source**.
-3. Edite o `slides.md`. A cada push na `main`, a Action publica os slides em `https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/` e o PDF em `.../slides.pdf`.
+2. No repositório novo, abra **Settings > Pages** e escolha **GitHub Actions** em **Source**. A cópia roda a Action uma vez ao ser criada, antes do Pages estar ligado, e essa primeira execução falha. O próximo push publica normalmente.
+3. Edite o arquivo do idioma da sua palestra (`slides.md`, `slides.en.md` ou `slides.es.md`) e apague os outros, se quiser. A cada push na `main`, a Action publica cada arquivo: o `slides.md` em `https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/`, o inglês em `.../en.html` e o espanhol em `.../es.html`, cada um com o seu PDF.
 
 Esse endereço serve para o QR code do encerramento: o público abre os seus slides no celular.
 

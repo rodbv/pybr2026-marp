@@ -1,0 +1,112 @@
+# Python Brasil 2026 slides in Markdown
+
+[Português](README.md) · English · [Español](README.es.md)
+
+Build your talk for [Python Brasil 2026](https://2026.pythonbrasil.org.br/) in plain Markdown, together with an AI agent. Let your favorite agent read [`AGENTS.md`](AGENTS.md) and write the slides with the event's layouts and brand rules. Every push publishes the deck to GitHub Pages, with a PDF next to it.
+
+Code blocks get syntax highlighting automatically. Write ` ```python ` and your code, and the theme applies the Monokai colors on a dark card, in the Cascadia Mono font, on both dark and light slides. You do not need to copy code from another site or paste screenshots of it.
+
+![Code slide: a Palestra dataclass with Monokai syntax highlighting on a dark card, with the wizard sticker beside it](docs/codigo.png)
+
+The theme uses [Marp](https://marp.app/) and the event's visual identity: colors, fonts, logo and stickers.
+
+Prefer PowerPoint, LibreOffice or Google Slides? Use the [`.pptx` template](https://github.com/rodbv/pybr2026-slides). That template is in Portuguese.
+
+The example slides come in three languages, with the same tips:
+
+| Language | File | View |
+|---|---|---|
+| Português | `slides.md` | [in the browser](https://rodbv.github.io/pybr2026-marp/) · [PDF](https://rodbv.github.io/pybr2026-marp/slides.pdf) |
+| English | `slides.en.md` | [in the browser](https://rodbv.github.io/pybr2026-marp/en.html) · [PDF](https://rodbv.github.io/pybr2026-marp/slides.en.pdf) |
+| Español | `slides.es.md` | [in the browser](https://rodbv.github.io/pybr2026-marp/es.html) · [PDF](https://rodbv.github.io/pybr2026-marp/slides.es.pdf) |
+
+![The 39 example slides, in the dark and light versions](docs/overview.png)
+
+## Get started
+
+1. Click **Use this template > Create a new repository**.
+2. In the new repository, open **Settings > Pages** and choose **GitHub Actions** under **Source**. The new copy runs the Action once when it is created, before Pages is on, so that first run fails. The next push publishes the slides.
+3. If your talk is in English, edit `slides.en.md`. You can delete `slides.md` and `slides.es.md` if you do not need them. On every push to `main`, the Action publishes each slides file it finds: `slides.md` at `https://YOUR-USERNAME.github.io/REPOSITORY-NAME/`, the English file at `.../en.html` and the Spanish file at `.../es.html`, each with its own PDF.
+
+Use that address for the QR code on the closing slide, so the audience can open your slides on their phones.
+
+## With an AI agent
+
+Open the repository in your editor with your agent and describe the talk. For example:
+
+```
+I want a 25-minute talk about testing with pytest for beginners.
+Write the slides in slides.en.md, replacing the examples, with a title slide,
+a three-part agenda, a section slide for each part, two code slides and a
+closing slide. Put what I will say on each slide in the speaker notes.
+```
+
+`AGENTS.md` tells the agent which layouts exist, how to write each one, and the brand and content rules: up to 8 lines of code per slide, alt text on every image, lime as a text color only on dark backgrounds, gender-neutral language. `CLAUDE.md` points to the same file.
+
+After that, ask for changes the way you would ask a person: "split slide 7 into two", "replace the table with a flow", "make the notes shorter".
+
+## In VS Code
+
+1. Open the repository folder. VS Code suggests the **Marp for VS Code** extension: install it.
+2. Open `slides.en.md` and click the preview button in the top corner. The theme is already configured.
+3. To export, run **Marp: Export Slide Deck** from the Command Palette and choose HTML, PDF or PPTX. PDF and PPTX export need Chrome, Edge or Firefox installed.
+
+You can also edit `slides.en.md` directly on GitHub, in the browser. The Action publishes it the same way.
+
+## Present
+
+Open the GitHub Pages address or the exported HTML in the browser.
+
+- **F**: full screen.
+- **P**: opens presenter view in a new window, with the speaker notes, the next slide and the timer. The two windows stay in sync: keep presenter view on your laptop screen and the slides on the projector. To leave presenter view, close its window.
+- Arrow keys or Space: next slide.
+
+Bring the PDF on a USB drive too. It opens on any computer, without internet access.
+
+## Layouts
+
+Each slide picks its layout with a comment at the top, such as `<!-- _class: secao -->`. The examples in `slides.en.md` show all of them, and [`AGENTS.md`](AGENTS.md) gives the Markdown that each one expects. The class names are in Portuguese.
+
+| Class | Use it for |
+|---|---|
+| (none) | Title and bullets, a table, code or an image |
+| `capa` | Talk title, your name and the date badge |
+| `frase` | One sentence, large |
+| `secao` | Section divider with the number in the lime circle |
+| `duas-colunas` | Before and after, problem and solution, two code snippets |
+| `numeros` | Three large numbers with labels |
+| `cartoes` | Three numbered cards with a title and a description |
+| `fluxo` | Steps in boxes connected by arrows |
+| `tres-imagens` | Three screenshots with captions |
+| `palestrante` | Photo, name, role and three facts |
+| `destaque` | Lime panel with the message the room should not miss |
+| `imagem-cheia` | Full-screen background photo with a caption bar |
+| `encerramento` | "Questions?" or "Thank you!", contact details and a QR code |
+| `figurinhas` | Logo, stickers, pixelated circle and highlighter |
+| `light` | Light version of any layout: `<!-- _class: frase light -->` |
+
+For text next to an image, use the Marp syntax: `![bg right:42%](img/foto.png)`.
+
+## Chart and QR code
+
+Marp has no built-in charts. The scripts in `scripts/` generate the images in the brand colors, with [uv](https://docs.astral.sh/uv/):
+
+```sh
+uv run scripts/qr.py https://your-username.github.io/your-talk/en.html
+uv run scripts/grafico.py
+```
+
+`qr.py` replaces `img/qr.png`. `grafico.py` shows how to make a bar chart with matplotlib in the theme's style; copy it and change the data.
+
+## Accessibility
+
+- Body text is 36 px on a 1280 px slide, the same as 20 pt in the `.pptx` template. Nothing goes below 18 pt, for people sitting at the back.
+- Every color combination in the theme meets WCAG 2.1 level AA. The colors and the contrast of each one are in the [`.pptx` template README](https://github.com/rodbv/pybr2026-slides#cores-e-contraste).
+- Each slides file declares its language for screen readers in the `lang:` field at the top. `slides.en.md` uses `en`.
+- Write alt text between the brackets of every image: `![Bar chart: ...](img/grafico.png)`.
+
+## Licenses
+
+- Code in this repository: MIT.
+- Logo, stickers and visual identity: Python Brasil 2026 and APyB, from the event's official brand board, created by [Ana Terhorst](https://anaterhorstdesign.com).
+- Roboto and Cascadia Mono fonts: SIL Open Font License 1.1, loaded from Google Fonts.

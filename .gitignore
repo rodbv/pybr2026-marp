@@ -1,4 +1,4 @@
 _site/
-slides.html
-slides.pdf
-slides.pptx
+slides*.html
+slides*.pdf
+slides*.pptx

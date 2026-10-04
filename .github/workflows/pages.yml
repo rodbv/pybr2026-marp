@@ -1,5 +1,6 @@
-# Publishes the slides on GitHub Pages at every push to main: the presentation as
-# index.html and a PDF copy as slides.pdf.
+# Publishes the slides on GitHub Pages at every push to main. Each slides*.md file
+# becomes a page and a PDF: slides.md -> index.html and slides.pdf,
+# slides.en.md -> en.html and slides.en.pdf. Deleting a file removes its page.
 name: pages
 
 on:
@@ -29,8 +30,14 @@ jobs:
       - name: Build the slides
         run: |
           mkdir -p _site
-          npx -y @marp-team/marp-cli@4 --theme-set pybr2026.css --html --allow-local-files -o _site/index.html slides.md
-          npx -y @marp-team/marp-cli@4 --theme-set pybr2026.css --html --allow-local-files --pdf -o _site/slides.pdf slides.md
+          for deck in slides*.md; do
+            name="${deck%.md}"
+            lang="${name#slides}"
+            lang="${lang#.}"
+            page="${lang:-index}.html"
+            npx -y @marp-team/marp-cli@4 --theme-set pybr2026.css --html --allow-local-files -o "_site/$page" "$deck"
+            npx -y @marp-team/marp-cli@4 --theme-set pybr2026.css --html --allow-local-files --pdf -o "_site/$name.pdf" "$deck"
+          done
           cp -r img _site/
 
       - uses: actions/upload-pages-artifact@v3

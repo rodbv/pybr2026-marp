@@ -4,7 +4,7 @@ Este repositório é um modelo de slides da Python Brasil 2026 em Markdown, com 
 
 ## Arquivos
 
-- `slides.md`: a apresentação. Os slides de exemplo mostram todos os layouts, cada um com dicas nas anotações.
+- `slides.md`: a apresentação em português. `slides.en.md` e `slides.es.md` são a mesma apresentação em inglês e em espanhol. A pessoa usa o arquivo do idioma da palestra e pode apagar os outros. Os slides de exemplo mostram todos os layouts, cada um com dicas nas anotações.
 - `pybr2026.css`: o tema. Não mude o tema para resolver um slide: use as classes abaixo. Mude o tema só quando a pessoa pedir.
 - `img/`: logos, figurinhas, imagens de exemplo, o gráfico e o QR code. As imagens dos slides ficam aqui.
 - `scripts/grafico.py` e `scripts/qr.py`: geram o gráfico e o QR code nas cores da marca (`uv run scripts/qr.py https://endereco`).
@@ -61,7 +61,8 @@ Texto ao lado de uma imagem usa a sintaxe do Marp: `![bg right:42%](img/x.png)` 
 - Código: até 8 linhas e 60 colunas por slide (30 colunas em `duas-colunas`). Marque a linguagem do bloco, como ` ```python `, para o realce de sintaxe.
 - Toda imagem que não seja de fundo tem texto alternativo entre os colchetes. Gráficos levam os números no texto alternativo.
 - O que não cabe no slide vai para as anotações.
-- Texto em português do Brasil, com linguagem neutra de gênero quando possível ("pessoa palestrante", "o público", "quem assiste").
+- Escreva no idioma do arquivo, indicado em `lang:` no topo: `pt-BR`, `en` ou `es`. Use linguagem neutra de gênero quando possível ("pessoa palestrante", "o público", "quem assiste"; "the speaker", "people"; "la persona que presenta", "el público").
+- Nas versões em inglês e em espanhol, as imagens com texto têm o sufixo do idioma, como `img/imagem-exemplo-en.png`. O lema `pessoas > tecnologia` e a saudação "Dazumbanho!" ficam em português nos três idiomas.
 - O tom é de dica, não de regra: apoio, sem cobrança. Evite "é só", "é fácil" e "todo mundo sabe".
 - Para uma palestra de 25 minutos, de 15 a 25 slides costumam bastar, mais a capa e o encerramento.
 
