@@ -116,6 +116,6 @@ Abre un [issue en GitHub](https://github.com/rodbv/pybr2026-marp/issues) que cue
 
 ## Licencias
 
-- Código de este repositorio: MIT.
+- Plantilla, textos de ejemplo y código de este repositorio: [CC0 1.0](LICENSE) (dominio público). Úsalos, cámbialos y compártelos sin pedir permiso ni dar crédito.
 - Logo, stickers e identidad visual: Python Brasil 2026 y APyB, del brandboard oficial del evento, creado por [Ana Terhorst](https://anaterhorstdesign.com).
 - Fuentes Roboto y Cascadia Mono: SIL Open Font License 1.1, cargadas desde Google Fonts.

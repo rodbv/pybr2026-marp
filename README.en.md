@@ -116,6 +116,6 @@ Open an [issue on GitHub](https://github.com/rodbv/pybr2026-marp/issues) that sa
 
 ## Licenses
 
-- Code in this repository: MIT.
+- Template, example text and code in this repository: [CC0 1.0](LICENSE) (public domain). Use, change and share them without asking for permission or giving credit.
 - Logo, stickers and visual identity: Python Brasil 2026 and APyB, from the event's official brand board, created by [Ana Terhorst](https://anaterhorstdesign.com).
 - Roboto and Cascadia Mono fonts: SIL Open Font License 1.1, loaded from Google Fonts.
