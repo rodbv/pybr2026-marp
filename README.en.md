@@ -36,7 +36,21 @@ Use that address for the QR code on the closing slide, so the audience can open 
 
 The gray boxes on the example slides mark where images go and show the size that fills the space. Replace the image path in the Markdown with yours.
 
-The template is a starting point: change anything you like. To keep the look of the event, use the brand colors and fonts listed in [`AGENTS.md`](AGENTS.md#regras-da-marca).
+The template is a starting point: change anything you like. To keep the look of the event, use the brand colors and fonts listed in [Colors and fonts](#colors-and-fonts).
+
+## Colors and fonts
+
+| | Color | Hex | RGB | Use |
+|---|---|---|---|---|
+| ![Black sample](docs/cores/0F0F0F.png) | Black | `#0F0F0F` | 15, 15, 15 | Dark background, text on light background |
+| ![Off-white sample](docs/cores/E8F4BA.png) | Off-white | `#E8F4BA` | 232, 244, 186 | Text on dark background |
+| ![Lime green sample](docs/cores/B7FF06.png) | Lime green | `#B7FF06` | 183, 255, 6 | Highlight; as a text color, only on dark background |
+| ![Violet sample](docs/cores/BF2EB2.png) | Violet | `#BF2EB2` | 191, 46, 178 | Links on light background |
+
+| Font | Use |
+|---|---|
+| [Cascadia Mono](https://fonts.google.com/specimen/Cascadia+Mono) | Titles and code |
+| [Roboto](https://fonts.google.com/specimen/Roboto) | Text |
 
 ## With an AI agent
 

@@ -36,7 +36,21 @@ Esa dirección sirve para el código QR del cierre: el público abre tus diaposi
 
 Las cajas grises de las diapositivas de ejemplo marcan el lugar de las imágenes y muestran el tamaño que llena el espacio. Cambia la ruta de la imagen en el Markdown por la tuya.
 
-La plantilla es un punto de partida: cambia lo que quieras. Para mantener el estilo del evento, usa los colores y las fuentes de la marca, que están en [`AGENTS.md`](AGENTS.md#regras-da-marca).
+La plantilla es un punto de partida: cambia lo que quieras. Para mantener el estilo del evento, usa los colores y las fuentes de la marca, que están en [Colores y fuentes](#colores-y-fuentes).
+
+## Colores y fuentes
+
+| | Color | Hex | RGB | Uso |
+|---|---|---|---|---|
+| ![Muestra de negro](docs/cores/0F0F0F.png) | Negro | `#0F0F0F` | 15, 15, 15 | Fondo oscuro, texto sobre fondo claro |
+| ![Muestra de blanco roto](docs/cores/E8F4BA.png) | Blanco roto | `#E8F4BA` | 232, 244, 186 | Texto sobre fondo oscuro |
+| ![Muestra de verde lima](docs/cores/B7FF06.png) | Verde lima | `#B7FF06` | 183, 255, 6 | Destacado; como color de texto, solo sobre fondo oscuro |
+| ![Muestra de violeta](docs/cores/BF2EB2.png) | Violeta | `#BF2EB2` | 191, 46, 178 | Enlaces sobre fondo claro |
+
+| Fuente | Uso |
+|---|---|
+| [Cascadia Mono](https://fonts.google.com/specimen/Cascadia+Mono) | Títulos y código |
+| [Roboto](https://fonts.google.com/specimen/Roboto) | Texto |
 
 ## Con un agente de IA
 

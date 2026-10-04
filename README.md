@@ -36,7 +36,21 @@ Esse endereço serve para o QR code do encerramento: o público abre os seus sli
 
 As caixas cinza dos slides de exemplo marcam o lugar das imagens e mostram o tamanho que preenche o espaço. Troque o caminho da imagem no Markdown pelo da sua.
 
-O modelo é um ponto de partida: mude o que quiser. Para manter a cara do evento, use as cores e as fontes da marca, que estão no [`AGENTS.md`](AGENTS.md#regras-da-marca).
+O modelo é um ponto de partida: mude o que quiser. Para manter a cara do evento, use as cores e as fontes da marca, listadas em [Cores e fontes](#cores-e-fontes).
+
+## Cores e fontes
+
+| | Cor | Hex | RGB | Uso |
+|---|---|---|---|---|
+| ![Amostra de preto](docs/cores/0F0F0F.png) | Preto | `#0F0F0F` | 15, 15, 15 | Fundo escuro, texto no fundo claro |
+| ![Amostra de off-white](docs/cores/E8F4BA.png) | Off-white | `#E8F4BA` | 232, 244, 186 | Texto no fundo escuro |
+| ![Amostra de verde limão](docs/cores/B7FF06.png) | Verde limão | `#B7FF06` | 183, 255, 6 | Destaque; como cor de texto, só no fundo escuro |
+| ![Amostra de violeta](docs/cores/BF2EB2.png) | Violeta | `#BF2EB2` | 191, 46, 178 | Links no fundo claro |
+
+| Fonte | Uso |
+|---|---|
+| [Cascadia Mono](https://fonts.google.com/specimen/Cascadia+Mono) | Títulos e código |
+| [Roboto](https://fonts.google.com/specimen/Roboto) | Texto |
 
 ## Com um agente de IA
 
