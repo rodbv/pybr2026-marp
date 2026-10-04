@@ -2,7 +2,7 @@
 
 Português · [English](README.en.md) · [Español](README.es.md)
 
-Escreva o conteúdo da sua palestra para a [Python Brasil 2026](https://2026.pythonbrasil.org.br/) do seu jeito, em Markdown puro, e deixe um agente de IA cuidar da forma. O seu agente favorito lê o [`AGENTS.md`](AGENTS.md) e monta os slides com os layouts, as cores e as regras da marca. Cada push publica a apresentação no GitHub Pages, com um PDF junto.
+Escreva o conteúdo da sua palestra para a [Python Brasil 2026](https://2026.pythonbrasil.org.br/) do seu jeito, em Markdown puro, e deixe um agente de IA cuidar da forma. O seu agente favorito lê o [`AGENTS.md`](AGENTS.md) e formata os slides com os layouts, as cores e as regras da marca. Cada push publica a apresentação no GitHub Pages, com um PDF junto.
 
 Os blocos de código saem coloridos sozinhos. Escreva ` ```python ` e o código, e o tema aplica as cores do Monokai num cartão escuro, com a fonte Cascadia Mono, nos slides escuros e nos claros. Não precisa copiar o código de outro site nem colar imagem.
 

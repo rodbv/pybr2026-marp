@@ -2,7 +2,7 @@
 
 [Português](README.md) · English · [Español](README.es.md)
 
-Write the content of your [Python Brasil 2026](https://2026.pythonbrasil.org.br/) talk your own way, in plain Markdown, and let an AI agent take care of the form. Your favorite agent reads [`AGENTS.md`](AGENTS.md) and builds the slides with the event's layouts, colors and brand rules. Every push publishes the deck to GitHub Pages, with a PDF next to it.
+Write the content of your [Python Brasil 2026](https://2026.pythonbrasil.org.br/) talk your own way, in plain Markdown, and let an AI agent take care of the form. Your favorite agent reads [`AGENTS.md`](AGENTS.md) and formats the slides with the event's layouts, colors and brand rules. Every push publishes the deck to GitHub Pages, with a PDF next to it.
 
 Code blocks get syntax highlighting automatically. Write ` ```python ` and your code, and the theme applies the Monokai colors on a dark card, in the Cascadia Mono font, on both dark and light slides. You do not need to copy code from another site or paste screenshots of it.
 
