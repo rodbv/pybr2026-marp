@@ -10,6 +10,8 @@ O tema usa o [Marp](https://marp.app/) e a identidade visual do evento: cores, f
 
 Prefere PowerPoint, LibreOffice ou Google Slides? Use o [modelo em `.pptx`](https://github.com/rodbv/pybr2026-slides).
 
+Veja os slides de exemplo [no navegador](https://rodbv.github.io/pybr2026-marp/) ou [em PDF](https://rodbv.github.io/pybr2026-marp/slides.pdf).
+
 ![Os 38 slides de exemplo, nas versões escura e clara](docs/overview.png)
 
 ## Começar
