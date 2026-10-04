@@ -379,7 +379,7 @@ Imagem cheia com legenda. Foto: Nome da Pessoa · CC BY 4.0
 
 <!-- _class: encerramento -->
 <!-- _paginate: false -->
-<!-- _footer: pessoas > tecnologia -->
+<!-- _footer: "" -->
 
 # Perguntas?
 
@@ -530,13 +530,13 @@ class Palestra:
 
 <!-- _class: light -->
 
-> <mark>Legibilidade</mark> conta.
+> <mark>Pessoas</mark> &gt; Tecnologia
 
-PEP 20
+Comunidade Python Brasil, 2016
 
 <!--
 - Destaque a palavra principal com o marca-texto limão: <mark>palavra</mark>.
-- A PEP 20 aparece no terminal com import this.
+- O lema da comunidade Python Brasil desde 2016.
 -->
 
 ---
@@ -649,7 +649,7 @@ Outras cores? Confira o contraste em [webaim.org/resources/contrastchecker](http
 
 <!-- _class: encerramento light -->
 <!-- _paginate: false -->
-<!-- _footer: pessoas > tecnologia -->
+<!-- _footer: "" -->
 
 # Valeu!
 
@@ -672,6 +672,8 @@ _Organização da Python Brasil 2026_
 ---
 
 <!-- _class: figurinhas -->
+<!-- _paginate: false -->
+<!-- _footer: "" -->
 
 ## Figurinhas
 

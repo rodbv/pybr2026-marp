@@ -257,9 +257,8 @@ section::after {
   padding: 0;
 }
 
-/* Capa, seção e encerramento abrem ou fecham uma parte da palestra: levam o logo no canto. */
-section.secao::before,
-section.encerramento::before {
+/* A seção abre uma parte da palestra: leva o logo no canto. */
+section.secao::before {
   content: "";
   position: absolute;
   left: 64px;
@@ -703,11 +702,6 @@ section.encerramento > p:has(img) + p {
 
 section.encerramento > h3 {
   font-size: 26px;
-}
-
-/* O lema do evento vai no rodapé, ao lado do logo. */
-section.encerramento footer {
-  left: calc(64px + 140px + 28px);
 }
 
 /* ---------- figurinhas ----------

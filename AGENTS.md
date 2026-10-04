@@ -41,7 +41,7 @@ As anotações do apresentador são comentários HTML no fim do slide, com dois 
 | `palestrante` | `![Foto de ...](img/foto.png)`, `# Nome`, `### Cargo`, lista de até três fatos |
 | `destaque` | `## Mensagem` (vai no painel limão) e até quatro tópicos curtos |
 | `imagem-cheia` | `![bg](img/foto.png)` e um parágrafo de legenda com o crédito |
-| `encerramento` | `# Perguntas?`, contatos (`_@usuario_`), `![QR code para ...](img/qr.png)` e o endereço na linha seguinte. Use `_paginate: false` e `_footer: pessoas > tecnologia` |
+| `encerramento` | `# Perguntas?`, contatos (`_@usuario_`), `![QR code para ...](img/qr.png)` e o endereço na linha seguinte. Use `_paginate: false` e `_footer: ""` |
 | `figurinhas` | Imagens com largura, como `![w:200](img/sticker-witch.png)` |
 | `light` | Combina com qualquer outra: `<!-- _class: frase light -->` |
 

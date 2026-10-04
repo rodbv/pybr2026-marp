@@ -379,7 +379,7 @@ Full-screen image with a caption. Photo: Person's Name · CC BY 4.0
 
 <!-- _class: encerramento -->
 <!-- _paginate: false -->
-<!-- _footer: pessoas > tecnologia -->
+<!-- _footer: "" -->
 
 # Questions?
 
@@ -530,13 +530,13 @@ class Talk:
 
 <!-- _class: light -->
 
-> <mark>Readability</mark> counts.
+> <mark>Pessoas</mark> &gt; Tecnologia
 
-PEP 20
+Python Brasil community, 2016
 
 <!--
 - Highlight the main word with the lime highlighter: <mark>word</mark>.
-- To see PEP 20, type import this in the Python REPL.
+- The motto of the Python Brasil community since 2016.
 -->
 
 ---
@@ -649,7 +649,7 @@ Other colors? Check the contrast at [webaim.org/resources/contrastchecker](https
 
 <!-- _class: encerramento light -->
 <!-- _paginate: false -->
-<!-- _footer: pessoas > tecnologia -->
+<!-- _footer: "" -->
 
 # Thank you!
 
@@ -672,6 +672,8 @@ _The Python Brasil 2026 organizing team_
 ---
 
 <!-- _class: figurinhas -->
+<!-- _paginate: false -->
+<!-- _footer: "" -->
 
 ## Stickers
 

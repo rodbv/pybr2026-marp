@@ -379,7 +379,7 @@ Imagen a pantalla completa con leyenda. Foto: Nombre de la Persona · CC BY 4.0
 
 <!-- _class: encerramento -->
 <!-- _paginate: false -->
-<!-- _footer: pessoas > tecnologia -->
+<!-- _footer: "" -->
 
 # ¿Preguntas?
 
@@ -530,13 +530,13 @@ class Charla:
 
 <!-- _class: light -->
 
-> La <mark>legibilidad</mark> cuenta.
+> <mark>Pessoas</mark> &gt; Tecnologia
 
-PEP 20
+Comunidad Python Brasil, 2016
 
 <!--
 - Destaca la palabra principal con el resaltador lima: <mark>palabra</mark>.
-- La PEP 20 aparece en la terminal con import this.
+- El lema de la comunidad Python Brasil desde 2016.
 -->
 
 ---
@@ -649,7 +649,7 @@ PEP 20
 
 <!-- _class: encerramento light -->
 <!-- _paginate: false -->
-<!-- _footer: pessoas > tecnologia -->
+<!-- _footer: "" -->
 
 # ¡Gracias!
 
@@ -672,6 +672,8 @@ _Organización de Python Brasil 2026_
 ---
 
 <!-- _class: figurinhas -->
+<!-- _paginate: false -->
+<!-- _footer: "" -->
 
 ## Stickers
 
