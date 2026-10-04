@@ -35,7 +35,7 @@ Python Brasil 2026 slide template
 Every slide in this template has tips in the speaker notes: press P to see them.
 
 <!--
-- One idea per slide, in up to two lines. What sentence should the audience take home?
+- One idea per slide, in two lines at most. What sentence should the audience take home?
 - Almost every speaker feels nervous. If you feel nervous, speak to one friendly face in the audience.
 -->
 
@@ -56,7 +56,7 @@ Every slide in this template has tips in the speaker notes: press P to see them.
 <!--
 - Replace the gray box with your photo: in the Markdown, replace img/foto-exemplo-en.png with the path to your photo.
 - The session chair often introduces you; if time is short, you can skip this slide.
-- Describing yourself helps people who cannot see. For example: “I'm Maria. I'm 1.60 m tall, with loose black hair, green glasses and a PyLadies T-shirt.”
+- Describing yourself helps people who cannot see. For example: “I'm Maria. I'm 1.60 m tall, with black hair worn down, green-framed glasses and a PyLadies T-shirt.”
 -->
 
 ---
@@ -181,13 +181,13 @@ Tips, <mark>not rules</mark>: use the ones that work for you.
 
 <!--
 - Replace each gray box with your screenshot: replace img/captura-exemplo-en.png with the path to the screenshot, and describe the screenshot between the brackets.
-- Before you take the screenshot, zoom in the browser or increase the terminal font size.
+- Before you take the screenshot, zoom in on the browser or increase the terminal font size.
 - Check that the screenshot does not show passwords, tokens, emails, open tabs or notifications.
 -->
 
 ---
 
-## Code with colors
+## Code in color
 
 ```python
 @dataclass
@@ -249,7 +249,7 @@ def fits(talk, slot):
 
 <!--
 - Before and after a refactoring, or two ways to solve the same problem.
-- Each column fits up to 30 columns. The left column, with the miuda class, shows how tiny text looks on the big screen.
+- Each column fits lines of up to 30 characters. The left column, with the miuda class, shows how tiny text looks on the big screen.
 - Emoji are a tool too: a sad or a happy face shows at once which side is the example to avoid. The heading says the same in words, for people who cannot see the emoji.
 -->
 
@@ -260,7 +260,7 @@ def fits(talk, slot):
 ## Three numbers that help
 
 - **18** point font: readable from the back row
-- **1** rehearsal out loud shows the real time
+- **1** rehearsal out loud shows how long the talk takes
 - **5** minutes for questions at the end
 
 <!--
@@ -294,7 +294,7 @@ def fits(talk, slot):
 | On the day | Arrive early and get to know the room |
 | 15 min before | Say hello to the room volunteers |
 | During the talk | Keep the mic close, even when facing the screen |
-| After | Post your slides at the QR code link |
+| After | Upload your slides to the link in your QR code |
 
 <!--
 - Markdown tables get the lime header from the theme.
@@ -304,7 +304,7 @@ def fits(talk, slot):
 
 ---
 
-## Which Python version do you use
+## Which Python version do you use?
 
 ![Bar chart with sample data: Python 3.10 8%, 3.11 15%, 3.12 29%, 3.13 33% and 3.14 15%](img/grafico-exemplo.png)
 
@@ -354,7 +354,7 @@ Photo caption. Photo: Person's Name · CC BY 4.0
 ## Your talk is for everyone
 
 - The audience includes children: content for all ages
-- Humor without a target, examples without stereotypes
+- Humor at nobody's expense, examples without stereotypes
 - Unsure about some content? The organizers can help
 
 <!--
@@ -393,7 +393,7 @@ _you@example.com_
 Replace with your QR code: contact, slides or site
 
 <!--
-- The QR code can lead to your contact, your slides or a page with all of them. With a single page of links, you can update the links later and keep the same QR code.
+- The QR code can lead to your contact details, your slides or a page with all of them. With a single page of links, you can update the links later and keep the same QR code.
 - To generate your QR code: uv run scripts/qr.py https://your-url. The script replaces img/qr.png. Then replace the caption with the link.
 - You already have what you need. The next slides repeat the layouts in the light version, with optional tips.
 -->
@@ -455,7 +455,7 @@ Light version, for bright rooms
 
 - With a timer
 - With someone watching
-- On the computer for the talk
+- On the computer you will present from
 
 ### Cut
 
@@ -464,7 +464,7 @@ Light version, for bright rooms
 - Slides you skip in rehearsal
 
 <!--
-- Rehearsing out loud shows the real time and makes your delivery more relaxed.
+- Rehearsing out loud shows how long the talk takes and makes your delivery more relaxed.
 -->
 
 ---
@@ -506,7 +506,7 @@ Light version, for bright rooms
 
 <!-- _class: light -->
 
-## Code with colors
+## Code in color
 
 ```python
 @dataclass
@@ -522,7 +522,7 @@ class Talk:
 **Tip:** the card stays dark on the light slide, so the code keeps the same contrast.
 
 <!--
-- To get colored code, see the notes on the slide Code with colors, in the dark part.
+- To get colored code, see the notes on the “Code in color” slide in the dark section.
 -->
 
 ---
@@ -617,14 +617,14 @@ Python Brasil community, 2016
 
 <!-- _class: light -->
 
-## Which Python version do you use
+## Which Python version do you use?
 
 ![Bar chart with sample data: Python 3.10 8%, 3.11 15%, 3.12 29%, 3.13 33% and 3.14 15%](img/grafico-exemplo-claro.png)
 
 Sample data. To change the data, see the notes on this slide.
 
 <!--
-- To change the data, see the notes on the slide Which Python version do you use, in the dark part.
+- To change the data, see the notes on the “Which Python version do you use?” slide in the dark section.
 -->
 
 ---
@@ -646,7 +646,7 @@ Replace with your QR code: contact, slides or site
 <!--
 - During questions, repeat each question into the microphone, for the room and the recording.
 - “I don't know, but I can check and get back to you” is a good answer. A question that breaks the code of conduct does not need an answer.
-- From the organizers: we're so happy to have you at Python Brasil 2026. Count on us: we are here to support you and cheer for you.
+- From the organizers: we're so happy to have you at Python Brasil 2026. We're here to support you and cheer for you.
 -->
 
 ---
@@ -666,8 +666,8 @@ Replace with your QR code: contact, slides or site
 Visual identity by Ana Terhorst, [anaterhorstdesign.com](https://anaterhorstdesign.com). Thanks, Ana!
 
 <!--
-- “Dazumbanho! Chegasse ao fim, ixtepô!” is a greeting in the Florianópolis dialect, roughly “Wow! You made it to the end, look at that!”.
+- “Dazumbanho! Chegasse ao fim, ixtepô!” is an expression in the Florianópolis (manezinho) dialect, roughly “Wow! You made it to the end, look at that!”.
 - Copy the sticker line into your slide; w:200 sets the width in pixels.
-- The highlighter sticker is a highlight: change its word, or use <mark>word</mark> on a word of your own. The pixelated circle is <span class="circulo">word</span>.
+- The highlighter sticker is live text: change its word, or use <mark>word</mark> on a word of your own. The pixelated circle is <span class="circulo">word</span>.
 - One sticker per slide is usually enough.
 -->
