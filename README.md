@@ -24,9 +24,13 @@ Os slides de exemplo existem em três idiomas, com as mesmas dicas:
 
 ## Começar
 
-1. Clique em **Use this template > Create a new repository**.
-2. No repositório novo, abra **Settings > Pages** e escolha **GitHub Actions** em **Source**. A cópia roda a Action uma vez ao ser criada, antes do Pages estar ligado, e essa primeira execução falha. O próximo push publica normalmente.
-3. Edite o arquivo do idioma da sua palestra (`slides.md`, `slides.en.md` ou `slides.es.md`) e apague os outros, se quiser. A cada push na `main`, a Action publica cada arquivo: o `slides.md` em `https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/`, o inglês em `.../en.html` e o espanhol em `.../es.html`, cada um com o seu PDF.
+1. Clique em **Use this template > Create a new repository**. Deixe o repositório público: o GitHub Pages é grátis para repositórios públicos.
+2. No repositório novo, abra **Settings > Pages** e escolha **GitHub Actions** em **Source**.
+3. Na aba **Actions**, abra a execução "pages", que falhou porque o Pages ainda estava desligado, e clique em **Re-run all jobs**. A partir daí, cada push na `main` publica os slides e os PDFs.
+4. Na página do repositório, clique na engrenagem de **About** e marque **Use your GitHub Pages website**. O link dos seus slides fica no topo do repositório.
+5. Edite o arquivo do idioma da sua palestra (`slides.md`, `slides.en.md` ou `slides.es.md`) e apague os outros, se quiser.
+
+Ao ser criada, a cópia troca os links da tabela acima pelos do seu site. Os slides ficam em `https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/` (inglês em `.../en.html`, espanhol em `.../es.html`) e os PDFs em `.../slides.pdf`, `.../slides.en.pdf` e `.../slides.es.pdf`. Sem o Pages, o PDF também fica para baixar em cada execução da aba Actions, no pacote **slides-pdf**.
 
 Esse endereço serve para o QR code do encerramento: o público abre os seus slides no celular.
 

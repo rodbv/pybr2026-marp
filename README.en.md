@@ -24,9 +24,13 @@ The example slides come in three languages, with the same tips:
 
 ## Get started
 
-1. Click **Use this template > Create a new repository**.
-2. In the new repository, open **Settings > Pages** and choose **GitHub Actions** under **Source**. The new copy runs the Action once when it is created, before Pages is on, so that first run fails. The next push publishes the slides.
-3. If your talk is in English, edit `slides.en.md`. You can delete `slides.md` and `slides.es.md` if you do not need them. On every push to `main`, the Action publishes each slides file it finds: `slides.md` at `https://YOUR-USERNAME.github.io/REPOSITORY-NAME/`, the English file at `.../en.html` and the Spanish file at `.../es.html`, each with its own PDF.
+1. Click **Use this template > Create a new repository**. Keep the repository public: GitHub Pages is free for public repositories.
+2. In the new repository, open **Settings > Pages** and choose **GitHub Actions** under **Source**.
+3. In the **Actions** tab, open the "pages" run, which failed because Pages was still off, and click **Re-run all jobs**. From then on, every push to `main` publishes the slides and the PDFs.
+4. On the repository page, click the gear next to **About** and check **Use your GitHub Pages website**. The link to your slides then shows at the top of the repository.
+5. If your talk is in English, edit `slides.en.md`. You can delete `slides.md` and `slides.es.md` if you do not need them.
+
+When the copy is created, it changes the links in the table above to your own site. The slides are at `https://YOUR-USERNAME.github.io/REPOSITORY-NAME/` (`slides.md`), `.../en.html` and `.../es.html`, and the PDFs at `.../slides.pdf`, `.../slides.en.pdf` and `.../slides.es.pdf`. Without Pages, you can also download the PDF from each run in the Actions tab, in the **slides-pdf** package.
 
 Use that address for the QR code on the closing slide, so the audience can open your slides on their phones.
 

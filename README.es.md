@@ -24,9 +24,13 @@ Las diapositivas de ejemplo existen en tres idiomas, con los mismos consejos:
 
 ## Para empezar
 
-1. Haz clic en **Use this template > Create a new repository**.
-2. En el repositorio nuevo, abre **Settings > Pages** y elige **GitHub Actions** en **Source**. La copia ejecuta la Action una vez al crearse, antes de activar Pages, y esa primera ejecución falla. El siguiente push publica con normalidad.
-3. Si tu charla es en español, edita `slides.es.md`. Si quieres, borra los archivos de los otros idiomas (`slides.md` y `slides.en.md`). Con cada push a `main`, la Action publica cada archivo con su PDF: el español en `https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/es.html`, el portugués (`slides.md`) en la raíz y el inglés en `.../en.html`.
+1. Haz clic en **Use this template > Create a new repository**. Deja el repositorio público: GitHub Pages es gratis para repositorios públicos.
+2. En el repositorio nuevo, abre **Settings > Pages** y elige **GitHub Actions** en **Source**.
+3. En la pestaña **Actions**, abre la ejecución "pages", que falló porque Pages todavía estaba desactivado, y haz clic en **Re-run all jobs**. A partir de ahí, cada push a `main` publica las diapositivas y los PDF.
+4. En la página del repositorio, haz clic en el engranaje de **About** y marca **Use your GitHub Pages website**. El enlace a tus diapositivas aparece arriba del repositorio.
+5. Si tu charla es en español, edita `slides.es.md`. Si quieres, borra los archivos de los otros idiomas (`slides.md` y `slides.en.md`).
+
+Al crearse, la copia cambia los enlaces de la tabla de arriba por los de tu sitio. Las diapositivas quedan en `https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/es.html` (el portugués en la raíz y el inglés en `.../en.html`) y los PDF en `.../slides.es.pdf`, `.../slides.pdf` y `.../slides.en.pdf`. Sin Pages, también puedes descargar el PDF de cada ejecución en la pestaña Actions, en el paquete **slides-pdf**.
 
 Esa dirección sirve para el código QR del cierre: el público abre tus diapositivas en el celular.
 
