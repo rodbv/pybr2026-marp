@@ -20,9 +20,10 @@ Plantilla de diapositivas de la Python Brasil 2026
 **Tu nombre aquí** · @tu_usuario
 
 <!--
-- ¡Qué bueno que vas a dar una charla! Este archivo es una plantilla: las diapositivas de ejemplo muestran cada diseño, con consejos en las notas.
-- Para empezar: copia las diapositivas que quieras usar y borra los ejemplos. El comentario _class al inicio de cada diapositiva elige el diseño.
-- Cada diapositiva trae un consejo; usa los que te sirvan. La versión clara de los diseños viene después del cierre oscuro.
+- ¡Qué bueno que vas a dar una charla! Tu manera de hablar vale más que cualquier consejo de esta plantilla.
+- Este archivo es una plantilla: cada diapositiva de ejemplo muestra un diseño y trae consejos en las notas. Usa los que te sirvan.
+- Para empezar: guarda una copia sin cambios, elige la versión oscura o la clara y copia las diapositivas que quieras usar. El comentario _class al inicio de cada diapositiva elige el diseño.
+- Al reutilizar una diapositiva, borra estas notas y escribe las tuyas.
 -->
 
 ---
@@ -36,7 +37,6 @@ Cada diapositiva de esta plantilla trae consejos en las notas: presiona P para v
 <!--
 - Una idea por diapositiva, en hasta dos líneas. ¿Qué frase quieres que se lleve el público?
 - Casi todas las personas que dan charlas se ponen nerviosas. Si llegan los nervios, háblale a una cara amiga entre el público.
-- Si algo falla, cuenta con calma lo que pasó y sigue adelante: la sala lo olvida en minutos.
 -->
 
 ---
@@ -54,8 +54,9 @@ Cada diapositiva de esta plantilla trae consejos en las notas: presiona P para v
 - Una autodescripción ayuda a quien no ve
 
 <!--
+- Cambia la caja gris por tu foto: en el Markdown, cambia img/foto-exemplo-es.png por la ruta de tu foto.
 - Quien abre la sesión suele presentarte; si hay poco tiempo, puedes quitar esta diapositiva.
-- Una autodescripción ayuda a quien no ve, por ejemplo: "Soy María, mido 1,60 m, tengo el pelo negro suelto, lentes verdes y una camiseta de PyLadies."
+- Una autodescripción ayuda a quien no ve, por ejemplo: “Soy María, mido 1,60 m, tengo el pelo negro suelto, lentes verdes y una camiseta de PyLadies.”
 -->
 
 ---
@@ -69,31 +70,29 @@ Consejos, <mark>no reglas</mark>: usa los que te sirvan.
 <!--
 - Hasta tres líneas, con quién lo dijo y dónde. Conviene confirmar la autoría en una fuente primaria.
 - Las comillas verdes vienen del tema: empieza la línea de la cita con > y escríbela sin comillas.
-- Tu manera de hablar vale más que cualquier consejo de esta plantilla.
 -->
 
 ---
 
 ## A la hora de empezar
 
-- Suelta el aire despacio y toma un sorbo de agua
+- Suelta el aire despacio antes de la primera frase
 - El público está de tu lado
-- Habla más despacio y respira entre frases
+- Habla con calma y respira entre frases
 - La charla es tuya, a tu ritmo
 
 <!--
-- De tres a cinco puntos por diapositiva. Si el texto no cabe, dos diapositivas se leen mejor.
-- Llegar temprano al lugar te da tiempo para conocer la sala, respirar y conversar.
+- De tres a cinco puntos por diapositiva. Si el texto no cabe, divide el contenido en dos diapositivas.
 -->
 
 ---
 
 ## Agenda
 
-1. Muestra al público el camino de la charla
+1. La agenda muestra el camino de la charla
 2. De tres a cinco partes suelen bastar
-3. Puedes volver aquí entre una parte y otra
-4. Cada parte también puede empezar con una sección
+3. Vuelve a esta diapositiva entre una parte y otra
+4. Cada parte puede empezar con una diapositiva de sección
 5. Opcional: puedes quitarla si hay poco tiempo
 
 <!--
@@ -110,8 +109,7 @@ Consejos, <mark>no reglas</mark>: usa los que te sirvan.
 # _01_ Una sección para cada parte de la agenda
 
 <!--
-- El número entre guiones bajos va al disco lima: # _01_ Título.
-- Repetir el nombre de la parte de la agenda ayuda al público a ubicarse.
+- El número entre guiones bajos va al disco lima: # _01_ Título. El número sigue el orden de la agenda.
 -->
 
 ---
@@ -150,7 +148,7 @@ Consejos, <mark>no reglas</mark>: usa los que te sirvan.
 - Descríbela para quien no ve
 
 <!--
-- La imagen se agrega con ![bg right:42%](archivo.png); el texto ocupa el resto de la diapositiva.
+- La caja gris marca el lugar de tu imagen: cambia img/imagem-exemplo-es.png por la ruta de la tuya. Con ![bg right:42%](archivo.png), el texto ocupa el resto de la diapositiva.
 - Escribe el texto alternativo entre los corchetes de cada imagen que no sea de fondo.
 - Al hablar, di lo que muestra la imagen, para quien no ve y para quien escucha la grabación.
 -->
@@ -167,8 +165,8 @@ Consejos, <mark>no reglas</mark>: usa los que te sirvan.
 - Al menos 1000 px de altura
 
 <!--
-- Las fotos de personas, lugares y productos funcionan bien aquí: cambia right por left para que la imagen vaya a la izquierda.
-- Confirma que la licencia de la foto permite usarla en una charla grabada y da el crédito: Foto: nombre, licencia, sitio.
+- Una foto vertical llena este espacio; una foto horizontal aparece recortada en los lados. Cambia left por right para que la imagen vaya a la derecha.
+- Confirma que la licencia de la foto permite usarla en una charla grabada y da el crédito con el formato “Foto: nombre, licencia, sitio”.
 -->
 
 ---
@@ -182,13 +180,14 @@ Consejos, <mark>no reglas</mark>: usa los que te sirvan.
 - ![Captura de pantalla de ejemplo](img/captura-exemplo-es.png) Sin contraseñas, tokens ni correos
 
 <!--
+- Cambia cada caja gris por tu captura de pantalla: cambia img/captura-exemplo-es.png por la ruta de la captura y describe la captura entre los corchetes.
 - Antes de capturar la pantalla, aumenta el zoom del navegador o el tamaño de letra de la terminal.
 - Revisa si la captura muestra contraseñas, tokens, correos, pestañas o notificaciones.
 -->
 
 ---
 
-## Código: 8 líneas caben bien
+## Código con colores
 
 ```python
 @dataclass
@@ -215,7 +214,7 @@ class Charla:
 
 ## Un ejemplo más corto también enseña
 
-### 20 líneas, letra diminuta :(
+### 20 líneas, letra diminuta 😟
 
 ```python
 from dataclasses import dataclass
@@ -239,7 +238,7 @@ class Charla:
         return self.duracion_min + 5 <= bloque_min
 ```
 
-### 4 líneas, letra grande :)
+### 4 líneas, letra grande 😊
 
 ```python
 def cabe(charla, bloque):
@@ -250,7 +249,8 @@ def cabe(charla, bloque):
 
 <!--
 - Antes y después de una refactorización, o dos formas de resolver el mismo problema.
-- Cada columna acepta hasta 8 líneas y 30 columnas. La de la izquierda, con la clase miuda, muestra cómo se ve la letra diminuta proyectada.
+- Cada columna acepta hasta 30 columnas. La de la izquierda, con la clase miuda, muestra cómo se ve la letra diminuta proyectada.
+- El emoji también es un recurso: una cara triste o feliz muestra al instante qué lado es el ejemplo a evitar.
 -->
 
 ---
@@ -259,8 +259,8 @@ def cabe(charla, bloque):
 
 ## Tres números que ayudan
 
-- **18** puntos: letra mínima para quien está lejos
-- **8** líneas de código caben bien
+- **18** puntos de letra: legible desde el fondo de la sala
+- **1** ensayo en voz alta muestra el tiempo real
 - **5** minutos para preguntas al final
 
 <!--
@@ -275,13 +275,12 @@ def cabe(charla, bloque):
 ## Antes de subir al escenario
 
 1. **Live coding** Plan B: capturas de pantalla o un video de la demo.
-2. **Internet** La red puede caerse: descarga videos y páginas antes.
-3. **Archivo** Lleva las diapositivas en PDF en una memoria USB.
+2. **Internet** Con los videos y las páginas descargados, no dependes de la red.
+3. **PDF** Lleva las diapositivas en PDF en una memoria USB.
 
 <!--
-- Elige el plan B que vaya con tu charla y prueba antes el cambio en tu computadora.
+- Elige el plan B que vaya con tu charla y ensaya el cambio a ese plan en tu computadora.
 - Con charlas seguidas, no siempre hay tiempo de probar el sonido; un video subtitulado funciona sin audio.
-- Si algo falla de todos modos, la sala lo entiende: pasa en todas las conferencias.
 -->
 
 ---
@@ -291,16 +290,16 @@ def cabe(charla, bloque):
 | Cuándo | Sugerencia |
 |---|---|
 | Antes del evento | Preguntar en el grupo de ponentes en Telegram |
-| La víspera | ¡Ojo con el karaoke! Cuida la voz y descansa |
-| El día | Llegar temprano y probar tu laptop en el proyector |
+| La víspera | Con calma en el karaoke :P Cuida la voz y descansa |
+| El día | Llegar temprano y conocer la sala |
 | 15 min antes | Saludar al equipo de voluntariado de la sala |
 | En la charla | Micrófono cerca de la boca, aun viendo la pantalla |
 | Después | Publicar las diapositivas en el enlace del QR |
 
 <!--
 - Las tablas en Markdown ya salen con el encabezado lima.
-- Puede que no haya tiempo de probar en la sala: prueba antes el adaptador de video y la opción de duplicar pantalla de tu computadora.
-- Cada sala tiene una persona voluntaria. Proyector, micrófono, ánimo: si algo falla, te ayudamos.
+- Probar en casa el adaptador de video y la opción de duplicar pantalla hace el día más tranquilo.
+- Cada sala tiene una persona voluntaria. Proyector, micrófono, ánimo: lo que te falte, te ayudamos.
 -->
 
 ---
@@ -309,7 +308,7 @@ def cabe(charla, bloque):
 
 ![Gráfico de barras con datos de ejemplo: Python 3.10 8%, 3.11 15%, 3.12 29%, 3.13 33% y 3.14 15%](img/grafico-exemplo.png)
 
-Datos de ejemplo. Cambia los números en `scripts/grafico.py` y ejecuta `uv run scripts/grafico.py`.
+Datos de ejemplo. Para cambiar los datos, mira las notas de esta diapositiva.
 
 <!--
 - Marp no tiene gráficos nativos: el gráfico es una imagen hecha con matplotlib. Cambia las etiquetas y los valores en scripts/grafico.py y ejecuta uv run scripts/grafico.py.
@@ -330,7 +329,7 @@ Datos de ejemplo. Cambia los números en `scripts/grafico.py` y ejecuta `uv run 
 
 <!--
 - Un flujo muestra una secuencia: los pasos de un proceso, las etapas de un pipeline, el programa del día.
-- Recorre el flujo de izquierda a derecha y señala con palabras: primero, después, al final.
+- Recorre el flujo de izquierda a derecha: primero, después, al final.
 -->
 
 ---
@@ -341,7 +340,7 @@ Datos de ejemplo. Cambia los números en `scripts/grafico.py` y ejecuta `uv run 
 
 ![bg](img/fundo-exemplo-es.png)
 
-Imagen a pantalla completa con leyenda. Foto: Nombre de la Persona · CC BY 4.0
+Leyenda de la foto. Foto: Nombre de la Persona · CC BY 4.0
 
 <!--
 - Cambia el archivo en ![bg](...). La leyenda es el último párrafo de la diapositiva.
@@ -389,8 +388,6 @@ Imagen a pantalla completa con leyenda. Foto: Nombre de la Persona · CC BY 4.0
 _@tu_usuario_
 _tu@ejemplo.com_
 
-### Continúa: versión clara con más consejos →
-
 ![Código QR para 2026.pythonbrasil.org.br](img/qr.png)
 
 Cambia por el código QR de tus diapositivas
@@ -398,7 +395,7 @@ Cambia por el código QR de tus diapositivas
 <!--
 - El código QR lleva al público a tus diapositivas desde el celular. Con una sola página, puedes cambiar los enlaces después sin cambiar el código QR.
 - Para generar tu código QR: uv run scripts/qr.py https://tu-direccion. El script reemplaza el archivo img/qr.png. Después, cambia la leyenda por el enlace.
-- Esta no es la última diapositiva: la versión clara de los diseños viene a continuación, con más consejos.
+- Ya tienes lo necesario. Las siguientes diapositivas repiten los diseños en la versión clara, con consejos opcionales.
 -->
 
 ---
@@ -409,15 +406,14 @@ Cambia por el código QR de tus diapositivas
 
 <div class="selo">14 al 19<br>de octubre<br>de 2026<br>{Floripa/SC}</div>
 
-# Todos los diseños tienen versión clara
+# Título de tu charla
 
-Para salas iluminadas o proyectores débiles
+Versión clara, para salas iluminadas
 
 **Tu nombre aquí** · @tu_usuario
 
 <!--
 - En una sala muy iluminada o con un proyector débil, el fondo claro se lee mejor.
-- Pregunta a la organización cómo es tu sala.
 -->
 
 ---
@@ -459,7 +455,7 @@ Para salas iluminadas o proyectores débiles
 
 - Con cronómetro
 - Con alguien mirando
-- En la computadora que vas a usar
+- En la computadora de la charla
 
 ### Recortar
 
@@ -468,8 +464,7 @@ Para salas iluminadas o proyectores débiles
 - Diapositivas que saltas al ensayar
 
 <!--
-- Un ensayo completo en voz alta muestra cuánto dura la charla.
-- Si solo la ensayas en tu cabeza, la charla suele pasarse de tiempo.
+- Ensayar en voz alta muestra el tiempo real y hace que hables con más soltura.
 -->
 
 ---
@@ -482,27 +477,28 @@ Para salas iluminadas o proyectores débiles
 
 - Texto alternativo en cada imagen
 - Leyenda corta si la imagen no es obvia
-- Información que no depende solo del color
+- Información que no dependa solo del color
 
 <!--
 - Parte del público tiene daltonismo o baja visión.
-- Acompaña el color con una etiqueta o un ícono: en lugar de un punto verde y uno rojo, escribe también "pasó" y "falló".
+- Acompaña el color con una etiqueta o un ícono: en lugar de un punto verde y uno rojo, escribe también “pasó” y “falló”.
+- Todo el texto de la plantilla tiene un contraste de 4,5:1 o más con el fondo. Si usas otros colores, revísalos en webaim.org/resources/contrastchecker.
 -->
 
 ---
 
 <!-- _class: light -->
 
-## Mirar a los ojos
+## Hablar con la sala
 
 ![bg left:42%](img/imagem-exemplo-es.png)
 
-- Mirar a una persona amiga, no solo a la pantalla
+- Mirar al público, si te resulta cómodo
 - Las notas de la diapositiva como apoyo
 - Señalar con palabras, no con el mouse
 
 <!--
-- Las notas aparecen solo para ti en la vista del presentador.
+- Las notas aparecen solo para ti en la vista del presentador. Mirar las notas en el escenario es normal.
 - En el HTML exportado, presiona P: la vista del presentador muestra las notas, la siguiente diapositiva y el cronómetro.
 -->
 
@@ -510,7 +506,7 @@ Para salas iluminadas o proyectores débiles
 
 <!-- _class: light -->
 
-## Código: 8 líneas caben bien
+## Código con colores
 
 ```python
 @dataclass
@@ -523,9 +519,10 @@ class Charla:
         return self.duracion_min + 5 <= bloque_min
 ```
 
+**Consejo:** la tarjeta sigue oscura en la diapositiva clara, para que el código tenga el mismo contraste.
+
 <!--
-- La tarjeta sigue oscura, para que el código tenga el mismo contraste.
-- El resaltado de sintaxis también viene del tema en el fondo claro.
+- Para generar el código con colores, mira las notas de la diapositiva Código con colores, en la parte oscura.
 -->
 
 ---
@@ -537,7 +534,7 @@ class Charla:
 Comunidad Python Brasil, 2016
 
 <!--
-- Destaca la palabra principal con el resaltador lima: <mark>palabra</mark>.
+- En el fondo blanco, destaca la palabra principal con el resaltador verde lima, <mark>palabra</mark>, y mantén el texto negro.
 - El lema de la comunidad Python Brasil desde 2016.
 -->
 
@@ -562,24 +559,9 @@ Comunidad Python Brasil, 2016
 - Pregunta quién ya lo usó en vez de suponer
 
 <!--
-- El panel lima guarda el mensaje que la sala no puede perderse; hasta cuatro puntos cortos al lado.
+- El panel verde lima guarda el mensaje que la sala no puede perderse, con hasta cuatro puntos cortos al lado.
 - Para quien está empezando, “solo tienes que” y “todo el mundo sabe” suenan a “deberías saberlo”.
 - Para muchas personas, Python Brasil es su primera conferencia; un ejemplo cotidiano ayuda a quien acaba de llegar.
--->
-
----
-
-<!-- _class: numeros light -->
-
-## Accesibilidad en números
-
-- **4,5:1** contraste mínimo del texto
-- **1** idea por diapositiva
-- **0** datos que dependan solo del color
-
-<!--
-- En el fondo blanco, el tema pone el número en el resaltador lima, con el texto negro.
-- Una idea por diapositiva ayuda a quien lee despacio o usa lector de pantalla.
 -->
 
 ---
@@ -588,13 +570,12 @@ Comunidad Python Brasil, 2016
 
 ## Después de la charla
 
-1. **Diapositivas** Publícalas en el enlace del QR el mismo día.
-2. **Conversación** Quédate cerca: muchas preguntas llegan en el pasillo.
-3. **Descanso** Toma agua y disfruta el evento. Te lo mereces.
+1. **Notas** Anota lo que funcionó, para la próxima charla.
+2. **Conversación** Quédate cerca: muchas preguntas surgen en el pasillo.
+3. **Descanso** Disfruta el resto del evento. Te lo mereces.
 
 <!--
-- Publicar las diapositivas el mismo día ayuda a quien quiere repasar el contenido.
-- Muchas personas prefieren preguntar en el pasillo; vale la pena quedarse un rato cerca.
+- Anotar justo después lo que funcionó ayuda en la próxima charla.
 - El cansancio después de presentar es normal: descansa y disfruta el resto del evento.
 -->
 
@@ -613,8 +594,7 @@ Comunidad Python Brasil, 2016
 - Una foto reciente
 
 <!--
-- Con los pronombres en la diapositiva, quien mencione tu charla después usará los correctos.
-- Una foto reciente ayuda al público a encontrarte en los descansos.
+- Con los pronombres en la diapositiva, quien mencione tu charla sabrá cómo referirse a ti.
 -->
 
 ---
@@ -630,7 +610,7 @@ Comunidad Python Brasil, 2016
 
 <!--
 - Una lista numerada se convierte en cajas con flechas; el último paso va en lima.
-- De tres a cinco pasos caben en una línea. Para un flujo con ramas, divídelo en dos diapositivas.
+- De tres a cinco pasos caben en una línea. Para un flujo con ramificaciones, divídelo en dos diapositivas.
 -->
 
 ---
@@ -641,10 +621,10 @@ Comunidad Python Brasil, 2016
 
 ![Gráfico de barras con datos de ejemplo: Python 3.10 8%, 3.11 15%, 3.12 29%, 3.13 33% y 3.14 15%](img/grafico-exemplo-claro.png)
 
-Datos de ejemplo. Cambia los números en `scripts/grafico.py` y ejecuta `uv run scripts/grafico.py`.
+Datos de ejemplo. Para cambiar los datos, mira las notas de esta diapositiva.
 
 <!--
-- Para generar el gráfico, mira las notas de la diapositiva 17.
+- Para cambiar los datos, mira las notas de la diapositiva La versión de Python que usas, en la parte oscura.
 -->
 
 ---
@@ -655,20 +635,18 @@ Datos de ejemplo. Cambia los números en `scripts/grafico.py` y ejecuta `uv run 
 
 # ¡Gracias!
 
-**Nos alegra mucho tenerte en Python Brasil 2026.**
-
-Cuenta con nosotros: estamos aquí para apoyarte y darte ánimo.
-
-_Organización de Python Brasil 2026_
+**Tu nombre aquí**
+_@tu_usuario_
+_tu@ejemplo.com_
 
 ![Código QR para 2026.pythonbrasil.org.br](img/qr.png)
 
 Cambia por el código QR de tus diapositivas
 
 <!--
-- En tu charla, cambia el texto por tus contactos y el código QR por el enlace de tus diapositivas.
 - En las preguntas, repite cada pregunta por el micrófono, para la sala y la grabación.
-- "No lo sé, puedo revisarlo y te respondo después" es una buena respuesta. Una pregunta que no respeta el código de conducta no necesita respuesta.
+- “No lo sé, puedo revisarlo y te respondo después” es una buena respuesta. Una pregunta que no respeta el código de conducta no necesita respuesta.
+- De la organización: nos alegra mucho tenerte en Python Brasil 2026. Cuenta con nosotros: estamos aquí para apoyarte y darte ánimo.
 -->
 
 ---
@@ -688,8 +666,8 @@ Cambia por el código QR de tus diapositivas
 Identidad visual de Ana Terhorst, [anaterhorstdesign.com](https://anaterhorstdesign.com). ¡Gracias, Ana!
 
 <!--
-- "Dazumbanho! Chegasse ao fim, ixtepô!" es un saludo en el dialecto de Florianópolis, algo como "¡Caramba! Llegaste al final, ¡mira nada más!".
+- “Dazumbanho! Chegasse ao fim, ixtepô!” es un saludo en el dialecto de Florianópolis, algo como “¡Caramba! Llegaste al final, ¡mira nada más!”.
 - Copia la línea del sticker a tu diapositiva; el w:200 define el ancho en píxeles.
-- El resaltador es <mark>palabra</mark>, y el círculo pixelado es <span class="circulo">palabra</span>.
+- El sticker resaltador es un resaltado: cambia su palabra, o usa <mark>palabra</mark> en una palabra tuya. El círculo pixelado es <span class="circulo">palabra</span>.
 - Un sticker por diapositiva suele bastar.
 -->

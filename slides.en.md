@@ -20,9 +20,10 @@ Python Brasil 2026 slide template
 **Your name here** · @your_username
 
 <!--
-- We're glad you're speaking! This file is a template: the example slides show each layout, with tips in the speaker notes.
-- To get started: copy the slides you want to use and delete the examples. The _class comment at the top of each slide sets the layout.
-- Each slide has a tip; use the ones that work for you. The light versions of the layouts come after the dark closing slide.
+- We're glad you're speaking! Your own way of speaking matters more than any tip in this template.
+- This file is a template: each example slide shows a layout and has tips in the speaker notes. Use the ones that work for you.
+- To get started: keep an unchanged copy, choose the dark or the light version, and copy the slides you want to use. The _class comment at the top of each slide sets the layout.
+- When you reuse a slide, delete these notes and write your own.
 -->
 
 ---
@@ -36,7 +37,6 @@ Every slide in this template has tips in the speaker notes: press P to see them.
 <!--
 - One idea per slide, in up to two lines. What sentence should the audience take home?
 - Almost every speaker feels nervous. If you feel nervous, speak to one friendly face in the audience.
-- If something fails, calmly say what happened and continue: the room forgets in minutes.
 -->
 
 ---
@@ -54,8 +54,9 @@ Every slide in this template has tips in the speaker notes: press P to see them.
 - Describing yourself helps people who cannot see
 
 <!--
+- Replace the gray box with your photo: in the Markdown, replace img/foto-exemplo-en.png with the path to your photo.
 - The session chair often introduces you; if time is short, you can skip this slide.
-- Describing yourself helps people who cannot see. For example: "I'm Maria. I'm 1.60 m tall, with loose black hair, green glasses and a PyLadies T-shirt."
+- Describing yourself helps people who cannot see. For example: “I'm Maria. I'm 1.60 m tall, with loose black hair, green glasses and a PyLadies T-shirt.”
 -->
 
 ---
@@ -69,31 +70,29 @@ Tips, <mark>not rules</mark>: use the ones that work for you.
 <!--
 - Up to three lines, with who said it and where. Check the attribution in a primary source.
 - The green quotation marks come from the theme: start the quote line with > and write the quote without quotation marks.
-- Your own way of speaking matters more than any tip in this template.
 -->
 
 ---
 
 ## When you start
 
-- Breathe out slowly and take a sip of water
+- Breathe out slowly before your first sentence
 - The audience is on your side
-- Speak more slowly and breathe between sentences
+- Speak calmly and breathe between sentences
 - The talk is yours, at your own pace
 
 <!--
-- Three to five bullets per slide. If the text does not fit, two slides work better.
-- If you arrive early at the venue, you have time to see the room, breathe and talk to people.
+- Three to five bullets per slide. If the text does not fit, split the content into two slides.
 -->
 
 ---
 
 ## Agenda
 
-1. Shows the audience where the talk is going
+1. The agenda shows where the talk is going
 2. Three to five parts are usually enough
-3. You can come back here between parts
-4. Each part can also open with a section slide
+3. Come back to this slide between parts
+4. Each part can open with a section slide
 5. Optional: you can skip it if time is short
 
 <!--
@@ -110,8 +109,7 @@ Tips, <mark>not rules</mark>: use the ones that work for you.
 # _01_ One section for each part of the agenda
 
 <!--
-- The number between underscores goes into the lime circle: # _01_ Title.
-- If you repeat the name of the agenda part, the audience can follow along.
+- The number between underscores goes into the lime circle: # _01_ Title. The number follows the order of the agenda.
 -->
 
 ---
@@ -150,7 +148,7 @@ Tips, <mark>not rules</mark>: use the ones that work for you.
 - Describe it for people who cannot see
 
 <!--
-- Add the image with ![bg right:42%](file.png); the text fills the rest of the slide.
+- The gray box marks the place for your image: replace img/imagem-exemplo-en.png with the path to yours. With ![bg right:42%](file.png), the text fills the rest of the slide.
 - Write alt text between the brackets of every image that is not a background.
 - When you speak, say what the image shows, for people who cannot see it and for people who listen to the recording.
 -->
@@ -167,8 +165,8 @@ Tips, <mark>not rules</mark>: use the ones that work for you.
 - At least 1000 px tall
 
 <!--
-- Photos of people, places and products work well here. Change right to left to put the image on the left.
-- Check that the photo's license allows use in a recorded talk, and credit it: Photo: name, license, site.
+- A portrait photo fills this space; a landscape photo is cropped at the sides. Change left to right to put the image on the right.
+- Check that the photo's license allows use in a recorded talk, and credit it in the format “Photo: name, license, site”.
 -->
 
 ---
@@ -182,13 +180,14 @@ Tips, <mark>not rules</mark>: use the ones that work for you.
 - ![Example screenshot](img/captura-exemplo-en.png) No passwords, tokens or emails
 
 <!--
+- Replace each gray box with your screenshot: replace img/captura-exemplo-en.png with the path to the screenshot, and describe the screenshot between the brackets.
 - Before you take the screenshot, zoom in the browser or increase the terminal font size.
 - Check that the screenshot does not show passwords, tokens, emails, open tabs or notifications.
 -->
 
 ---
 
-## Code: 8 lines fit well
+## Code with colors
 
 ```python
 @dataclass
@@ -215,7 +214,7 @@ class Talk:
 
 ## A smaller example teaches too
 
-### 20 lines, tiny font :(
+### 20 lines, tiny font 😟
 
 ```python
 from dataclasses import dataclass
@@ -239,7 +238,7 @@ class Talk:
         return self.duration_min + 5 <= slot_min
 ```
 
-### 4 lines, large font :)
+### 4 lines, large font 😊
 
 ```python
 def fits(talk, slot):
@@ -250,7 +249,8 @@ def fits(talk, slot):
 
 <!--
 - Before and after a refactoring, or two ways to solve the same problem.
-- Each column fits up to 8 lines and 30 columns. The left column, with the miuda class, shows how tiny text looks on the big screen.
+- Each column fits up to 30 columns. The left column, with the miuda class, shows how tiny text looks on the big screen.
+- Emoji are a tool too: a sad or a happy face shows at once which side is the example to avoid.
 -->
 
 ---
@@ -259,8 +259,8 @@ def fits(talk, slot):
 
 ## Three numbers that help
 
-- **18** points: minimum font size for the back row
-- **8** lines of code fit well
+- **18** point font: readable from the back row
+- **1** rehearsal out loud shows the real time
 - **5** minutes for questions at the end
 
 <!--
@@ -275,13 +275,12 @@ def fits(talk, slot):
 ## Before you go on stage
 
 1. **Live coding** Plan B: screenshots or a video of the demo.
-2. **Internet** The network can fail: download videos and pages.
-3. **File** Bring the slides as a PDF on a USB drive.
+2. **Internet** With videos and pages downloaded, you don't depend on the network.
+3. **PDF** Bring the slides as a PDF on a USB drive.
 
 <!--
-- Choose the plan B that fits your talk, and practice the switch on your computer beforehand.
+- Choose the plan B that fits your talk, and rehearse the switch to it on your computer.
 - With back-to-back talks, there is not always time for a sound check; a captioned video works without audio.
-- If something still fails, the room understands: it happens at every conference.
 -->
 
 ---
@@ -291,16 +290,16 @@ def fits(talk, slot):
 | When | Suggestion |
 |---|---|
 | Before the event | Ask questions in the speakers' Telegram group |
-| The day before | Less karaoke! Rest your voice and sleep well |
-| On the day | Arrive early and test your laptop on the projector |
+| The day before | Go easy on the karaoke :P Rest your voice and sleep well |
+| On the day | Arrive early and get to know the room |
 | 15 min before | Say hello to the room volunteers |
 | During the talk | Keep the mic close, even when facing the screen |
 | After | Post your slides at the QR code link |
 
 <!--
 - Markdown tables get the lime header from the theme.
-- You may not have time to test in the room: test your video adapter and screen mirroring on your own computer beforehand.
-- Every room has a volunteer. Projector, microphone, courage: whatever fails, we will help.
+- If you test your video adapter and screen mirroring at home, the day is calmer.
+- Every room has a volunteer. Projector, microphone, courage: whatever you need, we will help.
 -->
 
 ---
@@ -309,7 +308,7 @@ def fits(talk, slot):
 
 ![Bar chart with sample data: Python 3.10 8%, 3.11 15%, 3.12 29%, 3.13 33% and 3.14 15%](img/grafico-exemplo.png)
 
-Sample data. Change the numbers in `scripts/grafico.py` and run `uv run scripts/grafico.py`.
+Sample data. To change the data, see the notes on this slide.
 
 <!--
 - Marp has no built-in charts: the chart is an image made with matplotlib. Change the labels and values in scripts/grafico.py and run uv run scripts/grafico.py.
@@ -330,7 +329,7 @@ Sample data. Change the numbers in `scripts/grafico.py` and run `uv run scripts/
 
 <!--
 - A flow shows a sequence: the steps of a process, the stages of a pipeline, the schedule of the day.
-- Walk through the flow from left to right, pointing with words: first, then, finally.
+- Walk through the flow from left to right: first, then, finally.
 -->
 
 ---
@@ -341,7 +340,7 @@ Sample data. Change the numbers in `scripts/grafico.py` and run `uv run scripts/
 
 ![bg](img/fundo-exemplo-en.png)
 
-Full-screen image with a caption. Photo: Person's Name · CC BY 4.0
+Photo caption. Photo: Person's Name · CC BY 4.0
 
 <!--
 - Replace the file in ![bg](...). The caption is the last paragraph of the slide.
@@ -389,8 +388,6 @@ Full-screen image with a caption. Photo: Person's Name · CC BY 4.0
 _@your_username_
 _you@example.com_
 
-### Next: the light version, with more tips →
-
 ![QR code for 2026.pythonbrasil.org.br](img/qr.png)
 
 Replace with the QR code for your slides
@@ -398,7 +395,7 @@ Replace with the QR code for your slides
 <!--
 - The QR code takes the audience to your slides on their phones. With a single page of links, you can update the links later and keep the same QR code.
 - To generate your QR code: uv run scripts/qr.py https://your-url. The script replaces img/qr.png. Then replace the caption with the link.
-- This is not the last slide: the light version of the layouts comes next, with more tips.
+- You already have what you need. The next slides repeat the layouts in the light version, with optional tips.
 -->
 
 ---
@@ -409,15 +406,14 @@ Replace with the QR code for your slides
 
 <div class="selo">October<br>14 to 19<br>2026<br>{Floripa/SC}</div>
 
-# Every layout has a light version
+# Your talk title
 
-For bright rooms or dim projectors
+Light version, for bright rooms
 
 **Your name here** · @your_username
 
 <!--
 - In a very bright room or with a dim projector, the light background is easier to read.
-- Ask the organizers what your room is like.
 -->
 
 ---
@@ -459,7 +455,7 @@ For bright rooms or dim projectors
 
 - With a timer
 - With someone watching
-- On the computer you will use
+- On the computer for the talk
 
 ### Cut
 
@@ -468,8 +464,7 @@ For bright rooms or dim projectors
 - Slides you skip in rehearsal
 
 <!--
-- A full rehearsal out loud shows how long the talk takes.
-- A talk rehearsed only in your head tends to run over time.
+- Rehearsing out loud shows the real time and makes your delivery more relaxed.
 -->
 
 ---
@@ -486,23 +481,24 @@ For bright rooms or dim projectors
 
 <!--
 - Some people in the audience are color blind or have low vision.
-- Pair color with a label or an icon: instead of a green dot and a red dot, also write "passed" and "failed".
+- Pair color with a label or an icon: instead of a green dot and a red dot, also write “passed” and “failed”.
+- All text in the template has a contrast ratio of 4.5:1 or more against the background. If you use other colors, check them at webaim.org/resources/contrastchecker.
 -->
 
 ---
 
 <!-- _class: light -->
 
-## Eye contact
+## Talk to the room
 
 ![bg left:42%](img/imagem-exemplo-en.png)
 
-- Look at a friendly face, not only at the screen
+- Look at the audience, if that feels comfortable
 - Speaker notes for support
 - Point with words, not with the mouse
 
 <!--
-- Only you see the speaker notes, in presenter view.
+- Only you see the speaker notes, in presenter view. Looking at your notes on stage is normal.
 - In the exported HTML, press P: presenter view shows the notes, the next slide and the timer.
 -->
 
@@ -510,7 +506,7 @@ For bright rooms or dim projectors
 
 <!-- _class: light -->
 
-## Code: 8 lines fit well
+## Code with colors
 
 ```python
 @dataclass
@@ -523,9 +519,10 @@ class Talk:
         return self.duration_min + 5 <= slot_min
 ```
 
+**Tip:** the card stays dark on the light slide, so the code keeps the same contrast.
+
 <!--
-- The card stays dark, so the code keeps the same contrast.
-- The theme applies syntax highlighting on the light background too.
+- To get colored code, see the notes on the slide Code with colors, in the dark part.
 -->
 
 ---
@@ -537,7 +534,7 @@ class Talk:
 Python Brasil community, 2016
 
 <!--
-- Highlight the main word with the lime highlighter: <mark>word</mark>.
+- On the white background, highlight the main word with the lime green highlighter, <mark>word</mark>, and keep the text black.
 - The motto of the Python Brasil community since 2016.
 -->
 
@@ -562,24 +559,9 @@ Python Brasil community, 2016
 - Ask who has used it instead of assuming
 
 <!--
-- The lime panel holds the message the room should not miss, with up to four short bullets beside it.
+- The lime green panel holds the message the room should not miss, with up to four short bullets beside it.
 - For beginners, “it's just” and “everyone knows” sound like “you should know this”.
 - For many people, Python Brasil is their first conference; an everyday example helps newcomers.
--->
-
----
-
-<!-- _class: numeros light -->
-
-## Accessibility in numbers
-
-- **4.5:1** minimum text contrast
-- **1** idea per slide
-- **0** messages conveyed by color alone
-
-<!--
-- On the white background, the theme puts the number on a lime highlight, with black text.
-- One idea per slide helps people who read slowly or use a screen reader.
 -->
 
 ---
@@ -588,13 +570,12 @@ Python Brasil community, 2016
 
 ## After the talk
 
-1. **Slides** Post your slides at the QR code link the same day.
-2. **Chat** Stay nearby: people often ask in the hallway.
-3. **Rest** Drink water and enjoy the event. You earned it.
+1. **Notes** Write down what worked, for your next talk.
+2. **Chat** Stay nearby: many questions come up in the hallway.
+3. **Rest** Enjoy the rest of the event. You earned it.
 
 <!--
-- If you post the slides the same day, people can review the content while it is fresh.
-- Many people prefer to ask in the hallway; stay nearby for a while if you can.
+- If you write down what worked right after the talk, your next talk benefits.
 - Feeling tired after speaking is normal: take a break and enjoy the rest of the event.
 -->
 
@@ -613,8 +594,7 @@ Python Brasil community, 2016
 - A recent photo
 
 <!--
-- With your pronouns on the slide, people who mention your talk later can get them right.
-- A recent photo helps the audience find you during the breaks.
+- With your pronouns on the slide, people who mention your talk can refer to you correctly.
 -->
 
 ---
@@ -641,10 +621,10 @@ Python Brasil community, 2016
 
 ![Bar chart with sample data: Python 3.10 8%, 3.11 15%, 3.12 29%, 3.13 33% and 3.14 15%](img/grafico-exemplo-claro.png)
 
-Sample data. Change the numbers in `scripts/grafico.py` and run `uv run scripts/grafico.py`.
+Sample data. To change the data, see the notes on this slide.
 
 <!--
-- To generate the chart, see the notes on slide 17.
+- To change the data, see the notes on the slide Which Python version do you use, in the dark part.
 -->
 
 ---
@@ -655,20 +635,18 @@ Sample data. Change the numbers in `scripts/grafico.py` and run `uv run scripts/
 
 # Thank you!
 
-**We're so happy to have you at Python Brasil 2026.**
-
-Count on us: we are here to support you and cheer for you.
-
-_The Python Brasil 2026 organizing team_
+**Your name here**
+_@your_username_
+_you@example.com_
 
 ![QR code for 2026.pythonbrasil.org.br](img/qr.png)
 
 Replace with the QR code for your slides
 
 <!--
-- In your talk, replace this text with your contact details and the QR code with one for your slides.
 - During questions, repeat each question into the microphone, for the room and the recording.
-- "I don't know, but I can check and get back to you" is a good answer. A question that breaks the code of conduct does not need an answer.
+- “I don't know, but I can check and get back to you” is a good answer. A question that breaks the code of conduct does not need an answer.
+- From the organizers: we're so happy to have you at Python Brasil 2026. Count on us: we are here to support you and cheer for you.
 -->
 
 ---
@@ -688,8 +666,8 @@ Replace with the QR code for your slides
 Visual identity by Ana Terhorst, [anaterhorstdesign.com](https://anaterhorstdesign.com). Thanks, Ana!
 
 <!--
-- "Dazumbanho! Chegasse ao fim, ixtepô!" is a greeting in the Florianópolis dialect, roughly "Wow! You made it to the end, look at that!".
+- “Dazumbanho! Chegasse ao fim, ixtepô!” is a greeting in the Florianópolis dialect, roughly “Wow! You made it to the end, look at that!”.
 - Copy the sticker line into your slide; w:200 sets the width in pixels.
-- The highlighter is <mark>word</mark>, and the pixelated circle is <span class="circulo">word</span>.
+- The highlighter sticker is a highlight: change its word, or use <mark>word</mark> on a word of your own. The pixelated circle is <span class="circulo">word</span>.
 - One sticker per slide is usually enough.
 -->

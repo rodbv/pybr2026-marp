@@ -20,9 +20,10 @@ Modelo de slides da Python Brasil 2026
 **Seu nome aqui** · @seu_usuario
 
 <!--
-- Que bom que você vai palestrar! Este arquivo é um modelo: os slides de exemplo mostram cada layout, com dicas nas anotações.
-- Para começar: copie os slides que quiser usar e apague os exemplos. O comentário _class no topo de cada slide escolhe o layout.
-- Cada slide traz uma dica; use as que servirem para você. A versão clara dos layouts vem depois do encerramento escuro.
+- Que bom que você vai palestrar! O seu jeito de falar vale mais do que qualquer dica deste modelo.
+- Este arquivo é um modelo: cada slide de exemplo mostra um layout e traz dicas nas anotações. Use as que servirem para você.
+- Para começar: guarde uma cópia sem mudanças, escolha a versão escura ou a clara e copie os slides que quiser usar. O comentário _class no topo de cada slide escolhe o layout.
+- Ao reaproveitar um slide, apague estas anotações e escreva as suas.
 -->
 
 ---
@@ -36,7 +37,6 @@ Cada slide deste modelo traz dicas nas anotações: aperte P para ver.
 <!--
 - Uma ideia por slide, em até duas linhas. Que frase o público deve levar da sala?
 - Quase toda pessoa palestrante fica nervosa. Se bater o nervosismo, fale para um rosto amigo na plateia.
-- Se algo falhar, comente com calma o que aconteceu e siga em frente: a sala esquece em minutos.
 -->
 
 ---
@@ -54,8 +54,9 @@ Cada slide deste modelo traz dicas nas anotações: aperte P para ver.
 - Uma autodescrição ajuda quem não vê
 
 <!--
+- Troque a caixa cinza pela sua foto: no Markdown, troque img/foto-exemplo.png pelo caminho da sua foto.
 - Quem abre a sessão costuma apresentar você; com o tempo curto, este slide pode sair.
-- Uma autodescrição ajuda quem não vê, por exemplo: "Sou a Maria, tenho 1,60 m, cabelo preto solto, óculos verdes e uma camiseta da PyLadies."
+- Uma autodescrição ajuda quem não vê, por exemplo: “Sou a Maria, tenho 1,60 m, cabelo preto solto, óculos verdes e uma camiseta da PyLadies.”
 -->
 
 ---
@@ -69,31 +70,29 @@ Dicas, <mark>não regras</mark>: use as que servirem para você.
 <!--
 - Até três linhas, com quem disse e onde. Vale conferir a autoria numa fonte primária.
 - As aspas verdes vêm do tema: comece a linha da citação com > e escreva sem aspas.
-- O seu jeito de falar vale mais do que qualquer dica deste modelo.
 -->
 
 ---
 
 ## Na hora de começar
 
-- Solte o ar devagar e beba um gole de água
+- Solte o ar devagar antes da primeira frase
 - O público está do seu lado
-- Fale mais devagar e respire entre as frases
+- Fale com calma e respire entre as frases
 - A palestra é sua, no seu ritmo
 
 <!--
-- De três a cinco tópicos por slide. Se o texto não couber, dois slides leem melhor.
-- Chegar cedo ao local dá tempo de conhecer a sala, respirar e conversar.
+- De três a cinco tópicos por slide. Se o texto não couber, divida o conteúdo em dois slides.
 -->
 
 ---
 
 ## Agenda
 
-1. Mostra ao público o caminho da palestra
+1. A agenda mostra o caminho da palestra
 2. Três a cinco partes costumam bastar
-3. Pode voltar entre uma parte e outra
-4. Cada parte também pode abrir com uma seção
+3. Volte a este slide entre uma parte e outra
+4. Cada parte pode abrir com um slide de seção
 5. Opcional: pode sair se o tempo for curto
 
 <!--
@@ -110,8 +109,7 @@ Dicas, <mark>não regras</mark>: use as que servirem para você.
 # _01_ Uma seção para cada parte da agenda
 
 <!--
-- O número entre sublinhados vai para o disco limão: # _01_ Título.
-- Repetir o nome da parte da agenda ajuda o público a se localizar.
+- O número entre sublinhados vai para o disco limão: # _01_ Título. O número acompanha a ordem da agenda.
 -->
 
 ---
@@ -150,7 +148,7 @@ Dicas, <mark>não regras</mark>: use as que servirem para você.
 - Descreva para quem não vê
 
 <!--
-- A imagem entra com ![bg right:42%](arquivo.png); o texto ocupa o resto do slide.
+- A caixa cinza marca o lugar da sua imagem: troque img/imagem-exemplo.png pelo caminho da sua. Com ![bg right:42%](arquivo.png), o texto ocupa o resto do slide.
 - Escreva o texto alternativo entre os colchetes de cada imagem que não seja de fundo.
 - Na fala, diga o que a imagem mostra, para quem não enxerga e para quem ouve a gravação.
 -->
@@ -167,8 +165,8 @@ Dicas, <mark>não regras</mark>: use as que servirem para você.
 - Pelo menos 1000 px de altura
 
 <!--
-- Fotos de pessoas, lugares e produtos funcionam bem aqui: troque right por left para a imagem ir à esquerda.
-- Confira se a licença da foto permite o uso numa palestra gravada e dê o crédito: Foto: nome, licença, site.
+- Uma foto na vertical preenche este espaço; uma foto na horizontal aparece recortada nas laterais. Troque left por right para a imagem ir à direita.
+- Confira se a licença da foto permite o uso numa palestra gravada e dê o crédito no formato “Foto: nome, licença, site”.
 -->
 
 ---
@@ -182,13 +180,14 @@ Dicas, <mark>não regras</mark>: use as que servirem para você.
 - ![Captura de tela de exemplo](img/captura-exemplo.png) Sem senhas, tokens nem e-mails
 
 <!--
+- Troque cada caixa cinza pela sua captura de tela: troque img/captura-exemplo.png pelo caminho da captura e descreva a captura entre os colchetes.
 - Antes de capturar a tela, aumente o zoom do navegador ou a fonte do terminal.
 - Confira se a captura mostra senhas, tokens, e-mails, abas ou notificações.
 -->
 
 ---
 
-## Código: 8 linhas cabem bem
+## Código com cores
 
 ```python
 @dataclass
@@ -215,7 +214,7 @@ class Palestra:
 
 ## Um exemplo menor também ensina
 
-### 20 linhas, letra miúda :(
+### 20 linhas, letra miúda 😟
 
 ```python
 from dataclasses import dataclass
@@ -239,7 +238,7 @@ class Palestra:
         return self.duracao_min + 5 <= slot_min
 ```
 
-### 4 linhas, letra grande :)
+### 4 linhas, letra grande 😊
 
 ```python
 def cabe(palestra, slot):
@@ -250,7 +249,8 @@ def cabe(palestra, slot):
 
 <!--
 - Antes e depois de uma refatoração, ou duas formas de resolver o mesmo problema.
-- Cada coluna aceita até 8 linhas e 30 colunas. A da esquerda, com a classe miuda, mostra como fica a letra miúda no telão.
+- Cada coluna aceita até 30 colunas. A da esquerda, com a classe miuda, mostra como fica a letra miúda no telão.
+- Emoji também é recurso: um rosto triste ou feliz diz na hora qual lado é o exemplo a evitar.
 -->
 
 ---
@@ -259,8 +259,8 @@ def cabe(palestra, slot):
 
 ## Três números que ajudam
 
-- **18** pontos: fonte mínima para quem está longe
-- **8** linhas de código cabem bem
+- **18** pontos de letra: legível do fundo da sala
+- **1** ensaio em voz alta mostra o tempo real
 - **5** minutos para perguntas no fim
 
 <!--
@@ -272,16 +272,15 @@ def cabe(palestra, slot):
 
 <!-- _class: cartoes -->
 
-## Antes de subir no palco
+## Antes de subir ao palco
 
 1. **Live coding** Plano B: capturas de tela ou um vídeo da demo.
-2. **Internet** A rede pode cair: baixe vídeos e páginas antes.
-3. **Arquivo** Leve os slides em PDF num pendrive.
+2. **Internet** Com vídeos e páginas baixados, você não depende da rede.
+3. **PDF** Leve os slides em PDF num pendrive.
 
 <!--
-- Escolha o plano B que combina com a sua palestra e teste a troca no seu computador antes.
+- Escolha o plano B que combina com a sua palestra e ensaie a troca para ele no seu computador.
 - Com palestras emendadas, nem sempre dá para testar o som; um vídeo legendado funciona sem áudio.
-- Se algo falhar mesmo assim, a sala entende: acontece em toda conferência.
 -->
 
 ---
@@ -291,16 +290,16 @@ def cabe(palestra, slot):
 | Quando | Sugestão |
 |---|---|
 | Antes do evento | Tirar dúvidas no grupo de palestrantes no Telegram |
-| Na véspera | Pega leve no karaokê! Voz e descanso em dia |
-| No dia | Chegar cedo e testar o notebook no projetor da sala |
+| Na véspera | Pega leve no karaokê :P Voz e descanso em dia |
+| No dia | Chegar cedo e conhecer a sala |
 | 15 min antes | Dar um oi ao voluntariado da sala |
 | Na palestra | Microfone perto da boca, mesmo ao olhar para o telão |
 | Depois | Publicar os slides no link do QR code |
 
 <!--
 - Tabelas em Markdown já saem com o cabeçalho limão.
-- Pode não haver tempo de testar na sala: teste antes o adaptador de vídeo e o espelhamento de tela do seu computador.
-- Cada sala tem alguém do voluntariado. Projetor, microfone, coragem: o que falhar, a gente ajuda.
+- Testar em casa o adaptador de vídeo e o espelhamento de tela deixa o dia mais tranquilo.
+- Cada sala tem alguém do voluntariado. Projetor, microfone, coragem: o que faltar, a gente ajuda.
 -->
 
 ---
@@ -309,7 +308,7 @@ def cabe(palestra, slot):
 
 ![Gráfico de barras com dados de exemplo: Python 3.10 8%, 3.11 15%, 3.12 29%, 3.13 33% e 3.14 15%](img/grafico-exemplo.png)
 
-Dados de exemplo. Troque os números em `scripts/grafico.py` e rode `uv run scripts/grafico.py`.
+Dados de exemplo. Para trocar os dados, veja as anotações deste slide.
 
 <!--
 - O Marp não tem gráfico nativo: o gráfico é uma imagem gerada com matplotlib. Troque os rótulos e os valores em scripts/grafico.py e rode uv run scripts/grafico.py.
@@ -330,7 +329,7 @@ Dados de exemplo. Troque os números em `scripts/grafico.py` e rode `uv run scri
 
 <!--
 - Um fluxo mostra uma sequência: os passos de um processo, as etapas de um pipeline, a programação do dia.
-- Conte o fluxo da esquerda para a direita, apontando com palavras: primeiro, depois, no fim.
+- Conte o fluxo da esquerda para a direita: primeiro, depois, no fim.
 -->
 
 ---
@@ -341,7 +340,7 @@ Dados de exemplo. Troque os números em `scripts/grafico.py` e rode `uv run scri
 
 ![bg](img/fundo-exemplo.png)
 
-Imagem cheia com legenda. Foto: Nome da Pessoa · CC BY 4.0
+Legenda da foto. Foto: Nome da Pessoa · CC BY 4.0
 
 <!--
 - Troque o arquivo em ![bg](...). A legenda é o último parágrafo do slide.
@@ -389,8 +388,6 @@ Imagem cheia com legenda. Foto: Nome da Pessoa · CC BY 4.0
 _@seu_usuario_
 _voce@exemplo.com.br_
 
-### Continua: versão clara com mais dicas →
-
 ![QR code para 2026.pythonbrasil.org.br](img/qr.png)
 
 Troque pelo QR code do link dos seus slides
@@ -398,7 +395,7 @@ Troque pelo QR code do link dos seus slides
 <!--
 - O QR code leva o público aos seus slides pelo celular. Com uma página só, você troca os links depois sem mudar o QR code.
 - Para gerar o seu QR code: uv run scripts/qr.py https://seu-endereco. O script troca o arquivo img/qr.png. Depois, troque a legenda pelo link.
-- Este não é o último slide: a versão clara dos layouts vem a seguir, com mais dicas.
+- Você já tem o necessário. Os próximos slides repetem os layouts na versão clara, com dicas opcionais.
 -->
 
 ---
@@ -409,15 +406,14 @@ Troque pelo QR code do link dos seus slides
 
 <div class="selo">14 a 19<br>de outubro<br>de 2026<br>{Floripa/SC}</div>
 
-# Todos os layouts têm versão clara
+# Título da sua palestra
 
-Para salas claras ou projetores fracos
+Versão clara, para salas iluminadas
 
 **Seu nome aqui** · @seu_usuario
 
 <!--
 - Em sala muito iluminada ou com projetor fraco, o fundo claro fica mais legível.
-- Pergunte à organização como é a sua sala.
 -->
 
 ---
@@ -439,13 +435,13 @@ Para salas claras ou projetores fracos
 
 ## A sua tela no telão
 
-- Notificações desligadas (modo Não perturbe)
+- Notificações desligadas (modo Não incomodar)
 - Papel de parede neutro
 - Só as abas e os programas da palestra
 - Janela anônima: o histórico não aparece ao digitar endereços
 
 <!--
-- O telão mostra tudo o que aparece na sua tela: ative o modo Não perturbe antes de subir ao palco.
+- O telão mostra tudo o que aparece na sua tela: ative o modo Não incomodar antes de subir ao palco.
 - Numa janela anônima, o navegador não sugere endereços do histórico.
 -->
 
@@ -459,7 +455,7 @@ Para salas claras ou projetores fracos
 
 - Com cronômetro
 - Com alguém assistindo
-- No computador do dia
+- No computador da palestra
 
 ### Cortar
 
@@ -468,8 +464,7 @@ Para salas claras ou projetores fracos
 - Slides que você pula ao ensaiar
 
 <!--
-- Um ensaio completo em voz alta mostra quanto tempo a palestra leva.
-- Ensaiada só na cabeça, a palestra costuma passar do tempo.
+- Ensaiar em voz alta mostra o tempo real e deixa a fala mais solta.
 -->
 
 ---
@@ -482,27 +477,28 @@ Para salas claras ou projetores fracos
 
 - Texto alternativo em toda imagem
 - Legenda curta se a imagem não for óbvia
-- Informação que não depende só da cor
+- Informação que não dependa só da cor
 
 <!--
 - Parte do público tem daltonismo ou baixa visão.
-- Junte a cor a um rótulo ou ícone: em vez de uma bolinha verde e uma vermelha, escreva também "passou" e "falhou".
+- Junte a cor a um rótulo ou ícone: em vez de uma bolinha verde e uma vermelha, escreva também “passou” e “falhou”.
+- Todo texto do modelo tem contraste de 4,5:1 ou mais com o fundo. Ao usar outras cores, confira em webaim.org/resources/contrastchecker.
 -->
 
 ---
 
 <!-- _class: light -->
 
-## Olho no olho
+## Falar com a sala
 
 ![bg left:42%](img/imagem-exemplo.png)
 
-- Olhar para uma pessoa amiga, não só para a tela
+- Olhar para o público, se for confortável
 - As anotações do slide como apoio
 - Apontar com palavras, não com o mouse
 
 <!--
-- As anotações aparecem só para você na visão do apresentador.
+- As anotações aparecem só para você na visão do apresentador. Olhar as anotações no palco é normal.
 - No HTML exportado, aperte P: a visão do apresentador mostra as anotações, o próximo slide e o cronômetro.
 -->
 
@@ -510,7 +506,7 @@ Para salas claras ou projetores fracos
 
 <!-- _class: light -->
 
-## Código: 8 linhas cabem bem
+## Código com cores
 
 ```python
 @dataclass
@@ -523,9 +519,10 @@ class Palestra:
         return self.duracao_min + 5 <= slot_min
 ```
 
+**Dica:** o cartão continua escuro no slide claro, para o código ter o mesmo contraste.
+
 <!--
-- O cartão continua escuro, para o código ter o mesmo contraste.
-- O realce de sintaxe vem do tema também no fundo claro.
+- Para gerar o código colorido, veja as anotações do slide Código com cores, na parte escura.
 -->
 
 ---
@@ -537,7 +534,7 @@ class Palestra:
 Comunidade Python Brasil, 2016
 
 <!--
-- Destaque a palavra principal com o marca-texto limão: <mark>palavra</mark>.
+- No fundo branco, destaque a palavra principal com o marca-texto verde limão, <mark>palavra</mark>, e mantenha o texto preto.
 - O lema da comunidade Python Brasil desde 2016.
 -->
 
@@ -555,31 +552,16 @@ Comunidade Python Brasil, 2016
 
 <!-- _class: destaque light -->
 
-## Fale de um jeito que acolhe
+## Fale de um jeito que acolha
 
 - Mostre o passo a passo em vez de dizer que é fácil
 - Explique cada sigla na primeira vez
 - Pergunte quem já usou em vez de supor
 
 <!--
-- O painel limão guarda a mensagem que a sala não pode perder; até quatro tópicos curtos ao lado.
+- O painel verde limão guarda a mensagem que a sala não pode perder, com até quatro tópicos curtos ao lado.
 - Para quem está começando, “é só” e “todo mundo sabe” soam como “você deveria saber”.
-- Muita gente chega à Python Brasil na primeira conferência; um exemplo do dia a dia ajuda quem chegou agora.
--->
-
----
-
-<!-- _class: numeros light -->
-
-## Acessibilidade em números
-
-- **4,5:1** contraste mínimo do texto
-- **1** ideia por slide
-- **0** informações passadas só pela cor
-
-<!--
-- No fundo branco, o tema põe o número no marca-texto limão, com o texto preto.
-- Uma ideia por slide ajuda quem lê devagar ou usa leitor de tela.
+- Para muita gente, a Python Brasil é a primeira conferência; um exemplo do dia a dia ajuda quem chegou agora.
 -->
 
 ---
@@ -588,13 +570,12 @@ Comunidade Python Brasil, 2016
 
 ## Depois da palestra
 
-1. **Slides** Publique os slides no link do QR code no mesmo dia.
-2. **Conversa** Fique por perto: muita pergunta chega no corredor.
-3. **Descanso** Beba água e aproveite o evento. Você mereceu.
+1. **Anotações** Anote o que funcionou, para a próxima palestra.
+2. **Conversa** Fique por perto: muitas perguntas aparecem no corredor.
+3. **Descanso** Aproveite o resto do evento. Você mereceu.
 
 <!--
-- Publicar os slides no mesmo dia ajuda quem quer rever o conteúdo.
-- Muita gente prefere perguntar no corredor; vale ficar um pouco por perto.
+- Anotar logo depois o que funcionou ajuda na próxima palestra.
 - Cansaço depois de palestrar é normal: descanse e aproveite o resto do evento.
 -->
 
@@ -613,8 +594,7 @@ Comunidade Python Brasil, 2016
 - Uma foto recente
 
 <!--
-- Com os pronomes no slide, quem cita a sua palestra depois acerta.
-- Uma foto recente ajuda o público a encontrar você nos intervalos.
+- Com os pronomes no slide, quem cita a sua palestra acerta como se referir a você.
 -->
 
 ---
@@ -630,7 +610,7 @@ Comunidade Python Brasil, 2016
 
 <!--
 - Uma lista numerada vira caixas com setas; o último passo leva o limão.
-- De três a cinco passos cabem numa linha. Para um fluxo com ramos, divida em dois slides.
+- De três a cinco passos cabem numa linha. Para um fluxo com ramificações, divida em dois slides.
 -->
 
 ---
@@ -641,10 +621,10 @@ Comunidade Python Brasil, 2016
 
 ![Gráfico de barras com dados de exemplo: Python 3.10 8%, 3.11 15%, 3.12 29%, 3.13 33% e 3.14 15%](img/grafico-exemplo-claro.png)
 
-Dados de exemplo. Troque os números em `scripts/grafico.py` e rode `uv run scripts/grafico.py`.
+Dados de exemplo. Para trocar os dados, veja as anotações deste slide.
 
 <!--
-- Para gerar o gráfico, veja as anotações do slide 17.
+- Para trocar os dados, veja as anotações do slide Versão do Python que você usa, na parte escura.
 -->
 
 ---
@@ -655,20 +635,18 @@ Dados de exemplo. Troque os números em `scripts/grafico.py` e rode `uv run scri
 
 # Valeu!
 
-**Ficamos muito felizes por ter você na Python Brasil 2026.**
-
-Conte com a gente: estamos aqui para apoiar e torcer por você.
-
-_Organização da Python Brasil 2026_
+**Seu nome aqui**
+_@seu_usuario_
+_voce@exemplo.com.br_
 
 ![QR code para 2026.pythonbrasil.org.br](img/qr.png)
 
 Troque pelo QR code do link dos seus slides
 
 <!--
-- Na sua palestra, troque o texto pelos seus contatos e o QR code pelo link dos seus slides.
 - Nas perguntas, repita cada pergunta no microfone, para a sala e a gravação.
-- "Não sei, posso ver e te respondo depois" é uma boa resposta. Uma pergunta que desrespeita o código de conduta não precisa de resposta.
+- “Não sei, posso ver e te respondo depois” é uma boa resposta. Uma pergunta que desrespeita o código de conduta não precisa de resposta.
+- Da organização: ficamos muito felizes por ter você na Python Brasil 2026. Conte com a gente: estamos aqui para apoiar você e torcer por você.
 -->
 
 ---
@@ -689,6 +667,6 @@ Identidade visual de Ana Terhorst, [anaterhorstdesign.com](https://anaterhorstde
 
 <!--
 - Copie a linha da figurinha para o seu slide; o w:200 define a largura em pixels.
-- O marca-texto é <mark>palavra</mark>, e o círculo pixelado é <span class="circulo">palavra</span>.
+- A figurinha marca-texto é um realce: troque a palavra dela, ou use <mark>palavra</mark> numa palavra sua. O círculo pixelado é <span class="circulo">palavra</span>.
 - Uma figurinha por slide costuma bastar.
 -->
