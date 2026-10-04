@@ -4,15 +4,15 @@
 
 Escribe el contenido de tu charla para [Python Brasil 2026](https://2026.pythonbrasil.org.br/) a tu manera, en Markdown puro, y deja que un agente de IA le dé forma. Tu agente favorito lee el [`AGENTS.md`](AGENTS.md) y da formato a las diapositivas con los diseños, los colores y las reglas de la marca. Con cada push, la presentación se publica en GitHub Pages, junto con un PDF.
 
-Los bloques de código se colorean solos. Escribe ` ```python ` y el código, y el tema aplica los colores de GitHub Light en una tarjeta blanca, con la fuente Cascadia Mono, tanto en las diapositivas oscuras como en las claras. El texto oscuro sobre fondo claro se lee mejor, sobre todo en letra pequeña. Si prefieres el código sobre fondo oscuro, usa Monokai y pon la letra bien grande. No hace falta copiar el código de otro sitio ni pegar una imagen.
+Los bloques de código se colorean solos. Escribe ` ```python ` y el código, y el tema aplica los colores de GitHub Light en una tarjeta blanca, con la fuente Cascadia Mono, tanto en las diapositivas oscuras como en las claras. El texto oscuro sobre fondo claro se lee mejor, sobre todo en letra pequeña. Si prefieres el código sobre fondo oscuro, cambia los colores del código en `pybr2026.css` por los de Monokai, con el fondo `#1A1A1A`, y pon la letra bien grande. No hace falta copiar el código de otro sitio ni pegar una imagen.
 
 ![Diapositiva de código oscura: una dataclass Palestra con resaltado de sintaxis GitHub Light en una tarjeta blanca, con el sticker del mago al lado](docs/codigo.png)
 
 El tema usa [Marp](https://marp.app/) y la identidad visual del evento: colores, fuentes, logo y stickers.
 
-¿Prefieres PowerPoint, LibreOffice o Google Slides? Usa la [plantilla en `.pptx`](https://github.com/rodbv/pybr2026-slides), que está en portugués.
+¿Prefieres PowerPoint, LibreOffice o Google Slides? Usa la [plantilla en `.pptx`](https://github.com/rodbv/pybr2026-slides/blob/main/README.es.md), con instrucciones en español y diapositivas de ejemplo en portugués.
 
-Las diapositivas de ejemplo existen en tres idiomas, con los mismos consejos:
+Las diapositivas de ejemplo están disponibles en tres idiomas, con los mismos consejos:
 
 | Idioma | Archivo | Ver |
 |---|---|---|
@@ -27,7 +27,7 @@ Las diapositivas de ejemplo existen en tres idiomas, con los mismos consejos:
 1. Haz clic en **Use this template > Create a new repository**. Deja el repositorio público: GitHub Pages es gratis para repositorios públicos.
 2. En el repositorio nuevo, abre **Settings > Pages** y elige **GitHub Actions** en **Source**.
 3. En la pestaña **Actions**, abre la ejecución "pages", que falló porque Pages todavía no estaba activado, y haz clic en **Re-run all jobs**. A partir de ahí, cada push a `main` publica las diapositivas y los PDF.
-4. En la página del repositorio, haz clic en el engranaje de **About** y marca **Use your GitHub Pages website**. El enlace a tus diapositivas aparece arriba del repositorio.
+4. En la página del repositorio, haz clic en el engranaje de **About** y marca **Use your GitHub Pages website**. El enlace a tus diapositivas aparece en la parte superior de la página del repositorio.
 5. Quédate solo con el archivo del idioma de tu charla. Si es en español, borra `slides.md` y `slides.en.md`, y luego cambia el nombre de `slides.es.md` a `slides.md`. Así la charla se publica en la raíz del sitio.
 
 En tu copia, los enlaces de la tabla de arriba apuntan a tu sitio. Las diapositivas quedan en `https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/` y el PDF en `.../slides.pdf`. Sin Pages, también puedes descargar el PDF de cada ejecución en la pestaña Actions, en el artefacto **slides-pdf**.
@@ -64,7 +64,7 @@ bloques con resaltado, y lo que voy a decir en las notas. No inventes
 contenido: si falta algo, pregúntame.
 ```
 
-El `AGENTS.md` le dice al agente qué diseños existen, cómo escribir cada uno y cuáles son las reglas de la marca y del contenido: hasta 8 líneas de código por diapositiva, texto alternativo en cada imagen, verde lima como color de texto solo sobre fondo oscuro, lenguaje neutro en cuanto al género. El `CLAUDE.md` apunta al mismo archivo.
+El `AGENTS.md` le dice al agente qué diseños existen, cómo escribir cada uno y cuáles son las reglas de la marca y del contenido: hasta 8 líneas de unos 60 caracteres de código por diapositiva, texto alternativo en cada imagen, verde lima como color de texto solo sobre fondo oscuro, lenguaje neutro en cuanto al género. El `CLAUDE.md` apunta al mismo archivo.
 
 Después, pide ajustes como se los pedirías a una persona: "divide la diapositiva 7 en dos", "cambia la tabla por un flujo", "acorta las notas".
 
@@ -81,10 +81,10 @@ También puedes editar `slides.md` directamente en GitHub, desde el navegador: l
 Abre la dirección de GitHub Pages o el HTML exportado en el navegador.
 
 - **F**: pantalla completa.
-- **P**: abre la vista del presentador en una ventana nueva, con las notas, la siguiente diapositiva y el cronómetro. Las dos ventanas avanzan juntas: deja la del presentador en tu pantalla y la de las diapositivas en el proyector. Para salir, cierra la ventana del presentador.
+- **P**: abre la vista de presentación (presenter view) en una ventana nueva, con las notas, la siguiente diapositiva y el cronómetro. Las dos ventanas avanzan juntas: deja la vista de presentación en tu pantalla y las diapositivas en la pantalla grande. Para salir, cierra la ventana de la vista de presentación.
 - Flechas o barra espaciadora: siguiente diapositiva.
 
-Pantalla LED grande: usa la versión oscura, que no deslumbra al público. Pantalla más pequeña o proyector: usa la versión clara (clase `light`). El código va sobre fondo claro en las dos.
+Pantalla LED del tamaño de una pared: usa la versión oscura, que no deslumbra al público. Proyector, TV o monitor: usa la versión clara (clase `light`). El código va sobre fondo claro en las dos.
 
 Lleva también el PDF en una memoria USB: se abre en cualquier computadora, sin internet.
 
@@ -125,8 +125,8 @@ uv run scripts/grafico.py
 
 ## Accesibilidad
 
-- El texto del cuerpo mide 36 px en una diapositiva de 1280 px, lo mismo que 20 pt en la plantilla `.pptx`. Nada por debajo de 18 pt, para quien se sienta lejos.
-- Todas las combinaciones de colores del tema cumplen el nivel AA de WCAG 2.1. Los colores y el contraste de cada uno están en el [README de la plantilla `.pptx`](https://github.com/rodbv/pybr2026-slides#cores-e-contraste), en portugués.
+- El texto del cuerpo mide 36 px en una diapositiva de 1280 px, lo mismo que 20 pt en la plantilla `.pptx`. Para que quien se sienta lejos pueda leer, evita el texto de menos de 32 px (18 pt en el `.pptx`).
+- Todas las combinaciones de colores del tema cumplen el nivel AA de WCAG 2.1. Los colores y el contraste de cada uno están en la [referencia de la plantilla `.pptx`](https://github.com/rodbv/pybr2026-slides/blob/main/docs/referencia.md#cores-e-contraste) (en portugués).
 - El idioma de cada documento está declarado en `lang:` (`es` en `slides.es.md`), para los lectores de pantalla.
 - Escribe el texto alternativo entre los corchetes de cada imagen: `![Gráfico de barras: ...](img/grafico.png)`.
 

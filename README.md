@@ -4,7 +4,7 @@ Português · [English](README.en.md) · [Español](README.es.md)
 
 Escreva o conteúdo da sua palestra para a [Python Brasil 2026](https://2026.pythonbrasil.org.br/) do seu jeito, em Markdown puro, e deixe um agente de IA cuidar da forma. O seu agente favorito lê o [`AGENTS.md`](AGENTS.md) e formata os slides com os layouts, as cores e as regras da marca. Cada push publica a apresentação no GitHub Pages, com um PDF junto.
 
-Os blocos de código saem coloridos sozinhos. Escreva ` ```python ` e o código, e o tema aplica as cores do GitHub Light num cartão branco, com a fonte Cascadia Mono, nos slides escuros e nos claros. Texto escuro sobre fundo claro se lê melhor, em especial em letra pequena. Se preferir código no fundo escuro, use o Monokai e deixe a fonte bem grande. Não precisa copiar o código de outro site nem colar imagem.
+Os blocos de código saem coloridos sozinhos. Escreva ` ```python ` e o código, e o tema aplica as cores do GitHub Light num cartão branco, com a fonte Cascadia Mono, nos slides escuros e nos claros. Texto escuro sobre fundo claro se lê melhor, em especial em letra pequena. Se preferir código no fundo escuro, troque as cores do código no `pybr2026.css` pelas do Monokai, com o fundo `#1A1A1A`, e deixe a fonte bem grande. Não precisa copiar o código de outro site nem colar imagem.
 
 ![Slide de código escuro: uma dataclass Palestra com realce de sintaxe GitHub Light num cartão branco, com a figurinha do mago ao lado](docs/codigo.png)
 
@@ -64,7 +64,7 @@ realce, e o que eu vou falar nas anotações. Não invente conteúdo: se faltar
 alguma coisa, me pergunte.
 ```
 
-O `AGENTS.md` diz ao agente quais layouts existem, como escrever cada um, e as regras da marca e do conteúdo: até 8 linhas de código por slide, texto alternativo em toda imagem, limão como cor de texto só no fundo escuro, linguagem neutra de gênero. O `CLAUDE.md` aponta para o mesmo arquivo.
+O `AGENTS.md` diz ao agente quais layouts existem, como escrever cada um, e as regras da marca e do conteúdo: até 8 linhas e 60 colunas de código por slide, texto alternativo em toda imagem, limão como cor de texto só no fundo escuro, linguagem neutra de gênero. O `CLAUDE.md` aponta para o mesmo arquivo.
 
 Depois, peça ajustes como faria a uma pessoa: "divida o slide 7 em dois", "troque a tabela por um fluxo", "deixe as anotações mais curtas".
 
@@ -81,10 +81,10 @@ Também dá para editar o `slides.md` direto no GitHub, pelo navegador: a Action
 Abra o endereço do GitHub Pages ou o HTML exportado no navegador.
 
 - **F**: tela cheia.
-- **P**: abre a visão do apresentador numa janela nova, com as anotações, o próximo slide e o cronômetro. As duas janelas andam juntas: deixe a do apresentador na sua tela e a dos slides no projetor. Para sair, feche a janela do apresentador.
+- **P**: abre a visão de apresentação (presenter view) numa janela nova, com as anotações, o próximo slide e o cronômetro. As duas janelas andam juntas: deixe a visão de apresentação na sua tela e os slides no telão. Para sair, feche a janela da visão de apresentação.
 - Setas ou espaço: próximo slide.
 
-Telão de LED grande: use a versão escura, que não ofusca o público. Telão menor ou projetor: use a versão clara (classe `light`). O código fica em fundo claro nas duas.
+Tela de LED do tamanho de uma parede: use a versão escura, que não ofusca o público. Projetor, TV ou monitor: use a versão clara (classe `light`). O código fica em fundo claro nas duas.
 
 Leve também o PDF num pendrive: ele abre em qualquer computador, sem internet.
 
@@ -125,8 +125,8 @@ O `qr.py` troca o `img/qr.png`. O `grafico.py` gera o gráfico de exemplo com ma
 
 ## Acessibilidade
 
-- O texto do corpo tem 36 px num slide de 1280 px, o mesmo que 20 pt no modelo em `.pptx`. Nada abaixo de 18 pt para quem senta longe.
-- Todas as combinações de cor do tema passam no nível AA do WCAG 2.1. As cores e o contraste de cada uma estão no [README do modelo em `.pptx`](https://github.com/rodbv/pybr2026-slides#cores-e-contraste).
+- O texto do corpo tem 36 px num slide de 1280 px, o mesmo que 20 pt no modelo em `.pptx`. Para quem senta longe ler, evite texto abaixo de 32 px (18 pt no `.pptx`).
+- Todas as combinações de cor do tema passam no nível AA do WCAG 2.1. As cores e o contraste de cada uma estão na [referência do modelo em `.pptx`](https://github.com/rodbv/pybr2026-slides/blob/main/docs/referencia.md#cores-e-contraste).
 - O idioma do documento é português do Brasil, para leitores de tela.
 - Escreva o texto alternativo entre os colchetes de cada imagem: `![Gráfico de barras: ...](img/grafico.png)`.
 

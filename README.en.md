@@ -4,13 +4,13 @@
 
 Write the content of your [Python Brasil 2026](https://2026.pythonbrasil.org.br/) talk your own way, in plain Markdown, and let an AI agent take care of the design. Your favorite agent reads [`AGENTS.md`](AGENTS.md) and formats the slides with the event's layouts, colors and brand rules. Every push publishes the deck to GitHub Pages, with a PDF next to it.
 
-Code blocks get syntax highlighting automatically. Write ` ```python ` and your code, and the theme applies the GitHub Light colors on a white card, in the Cascadia Mono font, on both dark and light slides. Dark text on a light background is easier to read, especially at small sizes. If you prefer code on a dark background, use Monokai and make the font large. You do not need to copy code from another site or paste screenshots of it.
+Code blocks get syntax highlighting automatically. Write ` ```python ` and your code, and the theme applies the GitHub Light colors on a white card, in the Cascadia Mono font, on both dark and light slides. Dark text on a light background is easier to read, especially at small sizes. If you prefer code on a dark background, change the code colors in `pybr2026.css` to the Monokai colors, on `#1A1A1A`, and make the font large. You do not need to copy code from another site or paste screenshots of it.
 
 ![Dark code slide: a Palestra dataclass with GitHub Light syntax highlighting on a white card, with the wizard sticker beside it](docs/codigo.png)
 
 The theme uses [Marp](https://marp.app/) and the event's visual identity: colors, fonts, logo and stickers.
 
-Prefer PowerPoint, LibreOffice or Google Slides? Use the [`.pptx` template](https://github.com/rodbv/pybr2026-slides). That template is in Portuguese.
+Prefer PowerPoint, LibreOffice or Google Slides? Use the [`.pptx` template](https://github.com/rodbv/pybr2026-slides/blob/main/README.en.md). Its example slides and speaker notes are in Portuguese.
 
 The example slides come in three languages, with the same tips:
 
@@ -28,7 +28,7 @@ The example slides come in three languages, with the same tips:
 2. In the new repository, open **Settings > Pages** and choose **GitHub Actions** under **Source**.
 3. In the **Actions** tab, open the "pages" run, which failed because Pages was not enabled yet, and click **Re-run all jobs**. From then on, every push to `main` publishes the slides and the PDFs.
 4. On the repository page, click the gear next to **About** and check **Use your GitHub Pages website**. The link to your slides then shows at the top of the repository.
-5. Keep only the file in the language of your talk. If your talk is in English, delete `slides.md` and `slides.es.md`, then rename `slides.en.md` to `slides.md`. The talk is then published at the root of the site.
+5. Keep only the file in the language of your talk. If your talk is in Portuguese, delete `slides.en.md` and `slides.es.md`. If it is in English or Spanish, delete the other two files and rename yours to `slides.md`. The talk is then published at the root of the site.
 
 In your copy, the links in the table above point to your own site. The slides are at `https://YOUR-USERNAME.github.io/REPOSITORY-NAME/` and the PDF at `.../slides.pdf`. Without Pages, you can also download the PDF from each run in the Actions tab, in the **slides-pdf** artifact.
 
@@ -64,7 +64,7 @@ highlighted blocks, and what I will say in the speaker notes. Do not make up
 content: if something is missing, ask me.
 ```
 
-`AGENTS.md` tells the agent which layouts exist, how to write each one, and the brand and content rules: up to 8 lines of code per slide, alt text on every image, lime as a text color only on dark backgrounds, gender-neutral language. `CLAUDE.md` points to the same file.
+`AGENTS.md` tells the agent which layouts exist, how to write each one, and the brand and content rules: up to 8 lines of code per slide and up to 60 characters per line, alt text on every image, lime as a text color only on dark backgrounds, gender-neutral language. `CLAUDE.md` points to the same file.
 
 After that, ask for changes the way you would ask a person: "split slide 7 into two", "replace the table with a flow", "make the notes shorter".
 
@@ -81,10 +81,10 @@ You can also edit `slides.md` directly on GitHub, in the browser. The Action pub
 Open the GitHub Pages address or the exported HTML in the browser.
 
 - **F**: full screen.
-- **P**: opens presenter view in a new window, with the speaker notes, the next slide and the timer. The two windows stay in sync: keep presenter view on your laptop screen and the slides on the projector. To leave presenter view, close its window.
+- **P**: opens presenter view in a new window, with the speaker notes, the next slide and the timer. The two windows stay in sync: keep presenter view on your laptop screen and the slides on the big screen. To leave presenter view, close its window.
 - Arrow keys or Space: next slide.
 
-Large LED screen: use the dark version, which does not dazzle the audience. Smaller screen or projector: use the light version (the `light` class). Code stays on a light background in both.
+LED screen as big as a wall: use the dark version, which is not too bright for the audience. Projector, TV or monitor: use the light version (the `light` class). Code stays on a light background in both.
 
 Bring the PDF on a USB drive too. It opens on any computer, without internet access.
 
@@ -125,8 +125,8 @@ uv run scripts/grafico.py
 
 ## Accessibility
 
-- Body text is 36 px on a 1280 px slide, the same as 20 pt in the `.pptx` template. Nothing goes below 18 pt, for people sitting at the back.
-- Every color combination in the theme meets WCAG 2.1 level AA. The colors and the contrast of each one are in the [`.pptx` template README](https://github.com/rodbv/pybr2026-slides#cores-e-contraste).
+- Body text is 36 px on a 1280 px slide, the same as 20 pt in the `.pptx` template. So that people at the back can read it, avoid text smaller than 32 px (18 pt in the `.pptx`).
+- Every color combination in the theme meets WCAG 2.1 level AA. The colors and the contrast of each one are in the [reference of the `.pptx` template](https://github.com/rodbv/pybr2026-slides/blob/main/docs/referencia.md#cores-e-contraste) (in Portuguese).
 - Each slides file declares its language for screen readers in the `lang:` field at the top. `slides.en.md` uses `en`.
 - Write alt text between the brackets of every image: `![Bar chart: ...](img/grafico.png)`.
 
