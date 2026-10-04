@@ -46,7 +46,8 @@ def grafico(arquivo: str, fundo: str, texto: str, cores: dict[str, str], minimo:
     for borda in ax.spines.values():
         borda.set_visible(False)
     fig.tight_layout()
-    fig.savefig(IMG / arquivo, facecolor=fundo)
+    # Fundo transparente: o gráfico pega a cor do slide, sem um retângulo em volta.
+    fig.savefig(IMG / arquivo, transparent=True)
 
 
 # Um gráfico por idioma dos slides: rótulos e separador decimal de cada um.
