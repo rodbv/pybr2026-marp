@@ -12,7 +12,7 @@ Prefere PowerPoint, LibreOffice ou Google Slides? Use o [modelo em `.pptx`](http
 
 Veja os slides de exemplo [no navegador](https://rodbv.github.io/pybr2026-marp/) ou [em PDF](https://rodbv.github.io/pybr2026-marp/slides.pdf).
 
-![Os 38 slides de exemplo, nas versões escura e clara](docs/overview.png)
+![Os 39 slides de exemplo, nas versões escura e clara](docs/overview.png)
 
 ## Começar
 

@@ -317,6 +317,22 @@ Outras cores? Confira o contraste em [webaim.org/resources/contrastchecker](http
 
 ---
 
+<!-- _class: fluxo -->
+
+## Um dia de evento
+
+1. Palestras
+2. Coffee break
+3. Lightning talks
+4. PyBar
+
+<!--
+- Um fluxo mostra uma sequência: os passos de um processo, as etapas de um pipeline, a programação do dia.
+- Conte o fluxo da esquerda para a direita, apontando com palavras: primeiro, depois, no fim.
+-->
+
+---
+
 <!-- _class: imagem-cheia -->
 <!-- _paginate: false -->
 <!-- _footer: "" -->
