@@ -15,7 +15,7 @@ title: Python Brasil 2026
 
 # Que bom que você vai palestrar na Python Brasil 2026
 
-Mais dicas nas anotações de cada slide
+Aperte P para ver as dicas de cada slide
 
 **Seu nome aqui** · @seu_usuario
 
