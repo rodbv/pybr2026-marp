@@ -61,7 +61,7 @@ Cada diapositiva de esta plantilla trae consejos en las notas: presiona P para v
 
 ---
 
-> La legibilidad cuenta.
+> La legibilidad es importante.
 
 The Zen of Python, PEP 20
 
