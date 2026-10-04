@@ -40,6 +40,13 @@ jobs:
           done
           cp -r img _site/
 
+      # The PDFs also go up on their own, so they can be downloaded from the run page
+      # even when GitHub Pages is off.
+      - uses: actions/upload-artifact@v4
+        with:
+          name: slides-pdf
+          path: _site/*.pdf
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
