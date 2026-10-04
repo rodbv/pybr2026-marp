@@ -28,9 +28,9 @@ Las diapositivas de ejemplo existen en tres idiomas, con los mismos consejos:
 2. En el repositorio nuevo, abre **Settings > Pages** y elige **GitHub Actions** en **Source**.
 3. En la pestaña **Actions**, abre la ejecución "pages", que falló porque Pages todavía no estaba activado, y haz clic en **Re-run all jobs**. A partir de ahí, cada push a `main` publica las diapositivas y los PDF.
 4. En la página del repositorio, haz clic en el engranaje de **About** y marca **Use your GitHub Pages website**. El enlace a tus diapositivas aparece arriba del repositorio.
-5. Si tu charla es en español, edita `slides.es.md`. Si quieres, borra los archivos de los otros idiomas (`slides.md` y `slides.en.md`).
+5. Quédate solo con el archivo del idioma de tu charla. Si es en español, borra `slides.md` y `slides.en.md`, y luego cambia el nombre de `slides.es.md` a `slides.md`. Así la charla se publica en la raíz del sitio.
 
-En tu copia, los enlaces de la tabla de arriba apuntan a tu sitio. Las diapositivas quedan en `https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/es.html` (la versión en portugués en la raíz y el inglés en `.../en.html`) y los PDF en `.../slides.es.pdf`, `.../slides.pdf` y `.../slides.en.pdf`. Sin Pages, también puedes descargar el PDF de cada ejecución en la pestaña Actions, en el artefacto **slides-pdf**.
+En tu copia, los enlaces de la tabla de arriba apuntan a tu sitio. Las diapositivas quedan en `https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/` y el PDF en `.../slides.pdf`. Sin Pages, también puedes descargar el PDF de cada ejecución en la pestaña Actions, en el artefacto **slides-pdf**.
 
 Esa dirección sirve para el código QR del cierre: el público abre tus diapositivas en el celular.
 
@@ -43,7 +43,7 @@ La plantilla es un punto de partida: cambia lo que quieras. Para mantener el est
 El contenido es tuyo: escribe el guion de tu charla en un archivo, en viñetas, como borrador o en texto corrido. Después, abre el repositorio en tu editor con el agente y pídele que arme las diapositivas. Por ejemplo:
 
 ```
-Mi guion está en guion.md. Arma las diapositivas en slides.es.md, en lugar de
+Mi guion está en guion.md. Arma las diapositivas en slides.md, en lugar de
 los ejemplos, con los diseños y los colores de la plantilla: portada, agenda,
 una sección para cada parte y el cierre. Una idea por diapositiva, el código en
 bloques con resaltado, y lo que voy a decir en las notas. No inventes
@@ -57,10 +57,10 @@ Después, pide ajustes como se los pedirías a una persona: "divide la diapositi
 ## En VS Code
 
 1. Abre la carpeta del repositorio. VS Code sugiere la extensión **Marp for VS Code**: instálala.
-2. Abre `slides.es.md` y haz clic en el botón de vista previa, en la esquina superior derecha. El tema ya viene configurado.
+2. Abre `slides.md` y haz clic en el botón de vista previa, en la esquina superior derecha. El tema ya viene configurado.
 3. Para exportar, usa **Marp: Export Slide Deck** en la paleta de comandos y elige HTML, PDF o PPTX. El PDF y el PPTX necesitan Chrome, Edge o Firefox instalado.
 
-También puedes editar `slides.es.md` directamente en GitHub, desde el navegador: la Action publica igualmente.
+También puedes editar `slides.md` directamente en GitHub, desde el navegador: la Action publica igualmente.
 
 ## Presentar
 
@@ -101,7 +101,7 @@ Para poner texto al lado de una imagen, usa la sintaxis de Marp: `![bg right:42%
 Marp no tiene gráficos nativos. Los scripts de `scripts/` generan las imágenes con los colores de la marca, con [uv](https://docs.astral.sh/uv/):
 
 ```sh
-uv run scripts/qr.py https://tu-usuario.github.io/tu-charla/es.html
+uv run scripts/qr.py https://tu-usuario.github.io/tu-charla/
 uv run scripts/grafico.py
 ```
 

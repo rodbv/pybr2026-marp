@@ -4,7 +4,7 @@ Este repositório é um modelo de slides da Python Brasil 2026 em Markdown, com 
 
 ## Arquivos
 
-- `slides.md`: a apresentação em português. `slides.en.md` e `slides.es.md` são a mesma apresentação em inglês e em espanhol. A pessoa usa o arquivo do idioma da palestra e pode apagar os outros. Os slides de exemplo mostram todos os layouts, cada um com dicas nas anotações.
+- `slides.md`: a apresentação em português. `slides.en.md` e `slides.es.md` são a mesma apresentação em inglês e em espanhol. A pessoa fica só com o arquivo do idioma da palestra, renomeado para `slides.md`, para a palestra sair na raiz do site. Os slides de exemplo mostram todos os layouts, cada um com dicas nas anotações.
 - `pybr2026.css`: o tema. Não mude o tema para resolver um slide: use as classes abaixo. Mude o tema só quando a pessoa pedir.
 - `img/`: logos, figurinhas, imagens de exemplo, o gráfico e o QR code. As imagens dos slides ficam aqui. As imagens `*-exemplo*.png` são caixas cinza que marcam o lugar de uma imagem: troque pela imagem da pessoa, nunca use uma delas na palestra.
 - `scripts/grafico.py` e `scripts/qr.py`: geram o gráfico e o QR code nas cores da marca (`uv run scripts/qr.py https://endereco`). Para um gráfico com os dados da pessoa, troque `ROTULOS` e `VALORES` no script, ou copie o script para um gráfico novo.

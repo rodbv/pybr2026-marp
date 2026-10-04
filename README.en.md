@@ -28,9 +28,9 @@ The example slides come in three languages, with the same tips:
 2. In the new repository, open **Settings > Pages** and choose **GitHub Actions** under **Source**.
 3. In the **Actions** tab, open the "pages" run, which failed because Pages was not enabled yet, and click **Re-run all jobs**. From then on, every push to `main` publishes the slides and the PDFs.
 4. On the repository page, click the gear next to **About** and check **Use your GitHub Pages website**. The link to your slides then shows at the top of the repository.
-5. If your talk is in English, edit `slides.en.md`. You can delete `slides.md` and `slides.es.md` if you do not need them.
+5. Keep only the file in the language of your talk. If your talk is in English, delete `slides.md` and `slides.es.md`, then rename `slides.en.md` to `slides.md`. The talk is then published at the root of the site.
 
-In your copy, the links in the table above point to your own site. The slides are at `https://YOUR-USERNAME.github.io/REPOSITORY-NAME/` (`slides.md`), `.../en.html` and `.../es.html`, and the PDFs at `.../slides.pdf`, `.../slides.en.pdf` and `.../slides.es.pdf`. Without Pages, you can also download the PDF from each run in the Actions tab, in the **slides-pdf** artifact.
+In your copy, the links in the table above point to your own site. The slides are at `https://YOUR-USERNAME.github.io/REPOSITORY-NAME/` and the PDF at `.../slides.pdf`. Without Pages, you can also download the PDF from each run in the Actions tab, in the **slides-pdf** artifact.
 
 Use that address for the QR code on the closing slide, so the audience can open your slides on their phones.
 
@@ -43,7 +43,7 @@ The template is a starting point: change anything you like. To keep the look of 
 The content is yours: write the outline of your talk in a file, as bullets, a rough draft or full text. Then open the repository in your editor with your agent and ask it to build the slides. For example:
 
 ```
-My outline is in outline.md. Build the slides in slides.en.md, replacing the
+My outline is in outline.md. Build the slides in slides.md, replacing the
 examples, using the template's layouts and colors: title slide, agenda, a
 section slide for each part and a closing slide. One idea per slide, code in
 highlighted blocks, and what I will say in the speaker notes. Do not make up
@@ -57,10 +57,10 @@ After that, ask for changes the way you would ask a person: "split slide 7 into 
 ## In VS Code
 
 1. Open the repository folder. VS Code suggests the **Marp for VS Code** extension: install it.
-2. Open `slides.en.md` and click the preview button in the top-right corner. The theme is already configured.
+2. Open `slides.md` and click the preview button in the top-right corner. The theme is already configured.
 3. To export, run **Marp: Export Slide Deck** from the Command Palette and choose HTML, PDF or PPTX. PDF and PPTX export need Chrome, Edge or Firefox installed.
 
-You can also edit `slides.en.md` directly on GitHub, in the browser. The Action publishes it the same way.
+You can also edit `slides.md` directly on GitHub, in the browser. The Action publishes it the same way.
 
 ## Present
 
@@ -101,7 +101,7 @@ For text next to an image, use the Marp syntax: `![bg right:42%](img/foto.png)`.
 Marp has no built-in charts. The scripts in `scripts/` generate the images in the brand colors, with [uv](https://docs.astral.sh/uv/):
 
 ```sh
-uv run scripts/qr.py https://your-username.github.io/your-talk/en.html
+uv run scripts/qr.py https://your-username.github.io/your-talk/
 uv run scripts/grafico.py
 ```
 
