@@ -206,6 +206,8 @@ class Palestra:
 - Se a sua palestra não tem código, pode pular este slide.
 - Até 8 linhas e 60 colunas. Se o trecho for maior, divida em slides ou mostre só o que importa.
 - O Marp colore o código sozinho: abra o bloco com ```python, ou com a linguagem do trecho.
+- O código fica num cartão claro também no slide escuro. Estudos de legibilidade mostram que texto escuro sobre fundo claro se lê melhor, em especial em letra pequena, como a do código (Piepenbrock, Mayr e Buchner, 2014).
+- Se preferir fundo escuro no código, troque as cores do código no pybr2026.css pelas do tema Monokai, com o fundo #1A1A1A, e deixe a fonte bem grande.
 -->
 
 ---
@@ -408,12 +410,12 @@ Troque pelo seu QR code: contato, slides ou site
 
 # Título da sua palestra
 
-Versão clara, para salas iluminadas
+Versão clara, para projetor
 
 **Seu nome aqui** · @seu_usuario
 
 <!--
-- Em sala muito iluminada ou com projetor fraco, o fundo claro fica mais legível.
+- Telão de LED grande: use a versão escura, que não ofusca o público. Telão menor ou projetor: use a versão clara. O código fica em fundo claro nas duas.
 -->
 
 ---
@@ -519,7 +521,7 @@ class Palestra:
         return self.duracao_min + 5 <= slot_min
 ```
 
-**Dica:** o cartão continua escuro no slide claro, para o código ter o mesmo contraste.
+**Prefere fundo escuro para o código?** Use o tema Monokai e deixe a fonte bem grande.
 
 <!--
 - Para gerar o código colorido, veja as anotações do slide Código com cores, na parte escura.

@@ -206,6 +206,8 @@ class Talk:
 - If your talk has no code, you can skip this slide.
 - Up to 8 lines and 60 columns. If the snippet is longer, split it across slides or show only what matters.
 - Marp adds syntax highlighting for you: open the block with ```python, or with the language of the snippet.
+- The code sits on a light card, even on the dark slide. Legibility studies show that dark text on a light background is easier to read, especially at small sizes such as code (Piepenbrock, Mayr and Buchner, 2014).
+- If you prefer a dark background for code, replace the code colors in pybr2026.css with the Monokai theme on #1A1A1A, and make the font large.
 -->
 
 ---
@@ -408,12 +410,12 @@ Replace with your QR code: contact, slides or site
 
 # Your talk title
 
-Light version, for bright rooms
+Light version, for projectors
 
 **Your name here** · @your_username
 
 <!--
-- In a very bright room or with a dim projector, the light background is easier to read.
+- Large LED screen: use the dark version, which does not dazzle the audience. Smaller screen or projector: use the light version. Code stays on a light background in both.
 -->
 
 ---
@@ -519,7 +521,7 @@ class Talk:
         return self.duration_min + 5 <= slot_min
 ```
 
-**Tip:** the card stays dark on the light slide, so the code keeps the same contrast.
+**Prefer a dark background for code?** Use the Monokai theme and make the font large.
 
 <!--
 - To get colored code, see the notes on the “Code in color” slide in the dark section.

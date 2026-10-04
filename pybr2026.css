@@ -21,7 +21,7 @@
   --violeta-claro: #d26cc9;
   --cinza: #ababab;
   --cinza-escuro: #4a4a4a;
-  --cartao-codigo: #1a1a1a;
+  --cartao-codigo: #ffffff;
 
   --bg: var(--preto);
   --text: var(--off-white);
@@ -161,10 +161,11 @@ blockquote + p {
 
 /* ---------- código ---------- */
 
-/* O cartão de código é escuro nos dois modos, para as cores do Monokai manterem o contraste. */
+/* O cartão de código é claro nos dois modos: texto escuro sobre fundo claro se lê melhor,
+ * em especial em letra pequena. As cores são as do tema GitHub Light, todas com contraste AA. */
 pre {
   background: var(--cartao-codigo);
-  border: 1px solid #3a3a3a;
+  border: 1px solid #d0d7de;
   border-radius: 12px;
   padding: 24px 28px;
   margin: 0 0 0.5em;
@@ -177,30 +178,29 @@ code {
 }
 
 :not(pre) > code {
-  background: var(--cartao-codigo);
-  color: var(--off-white);
+  background: #eef0f2;
+  color: #24292e;
   border-radius: 6px;
   padding: 0.05em 0.3em;
   font-size: 0.9em;
 }
 
 pre code {
-  color: #f8f8f2;
+  color: #24292e;
 }
 
 .hljs-keyword,
-.hljs-literal,
-.hljs-operator { color: #f92672; }
+.hljs-operator { color: #d73a49; }
 .hljs-built_in,
 .hljs-type,
-.hljs-params { color: #66d9ef; font-style: italic; }
+.hljs-literal,
+.hljs-number { color: #005cc5; }
 .hljs-title,
 .hljs-title.function_,
-.hljs-title.class_ { color: #a6e22e; }
-.hljs-string { color: #e6db74; }
-.hljs-number { color: #ae81ff; }
-.hljs-comment { color: #a59f85; }
-.hljs-meta { color: #a6e22e; }
+.hljs-title.class_,
+.hljs-meta { color: #6f42c1; }
+.hljs-string { color: #032f62; }
+.hljs-comment { color: #6a737d; }
 
 /* ---------- tabela ---------- */
 

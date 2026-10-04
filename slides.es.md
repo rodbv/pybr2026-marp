@@ -206,6 +206,8 @@ class Charla:
 - Si tu charla no tiene código, puedes saltar esta diapositiva.
 - Hasta 8 líneas de 60 caracteres. Si el fragmento es más largo, divídelo en varias diapositivas o muestra solo lo que importa.
 - Marp colorea el código por su cuenta: abre el bloque con ```python, o con el lenguaje del fragmento.
+- El código va en una tarjeta clara también en la diapositiva oscura. Los estudios de legibilidad muestran que el texto oscuro sobre fondo claro se lee mejor, sobre todo en letra pequeña, como la del código (Piepenbrock, Mayr y Buchner, 2014).
+- Si prefieres fondo oscuro para el código, cambia los colores del código en pybr2026.css por los del tema Monokai, con el fondo #1A1A1A, y pon la letra bien grande.
 -->
 
 ---
@@ -408,12 +410,12 @@ Reemplázalo por tu código QR: contacto, diapositivas o web
 
 # Título de tu charla
 
-Versión clara, para salas iluminadas
+Versión clara, para proyector
 
 **Tu nombre aquí** · @tu_usuario
 
 <!--
-- En una sala muy iluminada o con un proyector débil, el fondo claro se lee mejor.
+- Pantalla LED grande: usa la versión oscura, que no deslumbra al público. Pantalla más pequeña o proyector: usa la versión clara. El código va sobre fondo claro en las dos.
 -->
 
 ---
@@ -519,7 +521,7 @@ class Charla:
         return self.duracion_min + 5 <= bloque_min
 ```
 
-**Consejo:** la tarjeta sigue oscura en la diapositiva clara, para que el código tenga el mismo contraste.
+**¿Prefieres fondo oscuro para el código?** Usa el tema Monokai y pon la letra bien grande.
 
 <!--
 - Para colorear el código, mira las notas de la diapositiva Código con colores, en la parte oscura.
