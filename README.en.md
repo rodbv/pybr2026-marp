@@ -20,7 +20,7 @@ The example slides come in three languages, with the same tips:
 | English | `slides.en.md` | [in the browser](https://rodbv.github.io/pybr2026-marp/en.html) · [PDF](https://rodbv.github.io/pybr2026-marp/slides.en.pdf) |
 | Español | `slides.es.md` | [in the browser](https://rodbv.github.io/pybr2026-marp/es.html) · [PDF](https://rodbv.github.io/pybr2026-marp/slides.es.pdf) |
 
-![The 39 example slides, in the dark and light versions](docs/overview.png)
+![The 38 example slides, in the dark and light versions](docs/overview.png)
 
 ## Get started
 
