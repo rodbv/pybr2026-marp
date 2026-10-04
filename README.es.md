@@ -4,9 +4,9 @@
 
 Escribe el contenido de tu charla para [Python Brasil 2026](https://2026.pythonbrasil.org.br/) a tu manera, en Markdown puro, y deja que un agente de IA le dé forma. Tu agente favorito lee el [`AGENTS.md`](AGENTS.md) y da formato a las diapositivas con los diseños, los colores y las reglas de la marca. Con cada push, la presentación se publica en GitHub Pages, junto con un PDF.
 
-Los bloques de código se colorean solos. Escribe ` ```python ` y el código, y el tema aplica los colores de Monokai en una tarjeta oscura, con la fuente Cascadia Mono, tanto en las diapositivas oscuras como en las claras. No hace falta copiar el código de otro sitio ni pegar una imagen.
+Los bloques de código se colorean solos. Escribe ` ```python ` y el código, y el tema aplica los colores de GitHub Light en una tarjeta blanca, con la fuente Cascadia Mono, tanto en las diapositivas oscuras como en las claras. El texto oscuro sobre fondo claro se lee mejor, sobre todo en letra pequeña. Si prefieres el código sobre fondo oscuro, usa Monokai y pon la letra bien grande. No hace falta copiar el código de otro sitio ni pegar una imagen.
 
-![Diapositiva de código: una dataclass Palestra con resaltado de sintaxis Monokai en una tarjeta oscura, con el sticker del mago al lado](docs/codigo.png)
+![Diapositiva de código oscura: una dataclass Palestra con resaltado de sintaxis GitHub Light en una tarjeta blanca, con el sticker del mago al lado](docs/codigo.png)
 
 El tema usa [Marp](https://marp.app/) y la identidad visual del evento: colores, fuentes, logo y stickers.
 
@@ -83,6 +83,8 @@ Abre la dirección de GitHub Pages o el HTML exportado en el navegador.
 - **F**: pantalla completa.
 - **P**: abre la vista del presentador en una ventana nueva, con las notas, la siguiente diapositiva y el cronómetro. Las dos ventanas avanzan juntas: deja la del presentador en tu pantalla y la de las diapositivas en el proyector. Para salir, cierra la ventana del presentador.
 - Flechas o barra espaciadora: siguiente diapositiva.
+
+Pantalla LED grande: usa la versión oscura, que no deslumbra al público. Pantalla más pequeña o proyector: usa la versión clara (clase `light`). El código va sobre fondo claro en las dos.
 
 Lleva también el PDF en una memoria USB: se abre en cualquier computadora, sin internet.
 

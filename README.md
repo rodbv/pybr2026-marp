@@ -4,9 +4,9 @@ Português · [English](README.en.md) · [Español](README.es.md)
 
 Escreva o conteúdo da sua palestra para a [Python Brasil 2026](https://2026.pythonbrasil.org.br/) do seu jeito, em Markdown puro, e deixe um agente de IA cuidar da forma. O seu agente favorito lê o [`AGENTS.md`](AGENTS.md) e formata os slides com os layouts, as cores e as regras da marca. Cada push publica a apresentação no GitHub Pages, com um PDF junto.
 
-Os blocos de código saem coloridos sozinhos. Escreva ` ```python ` e o código, e o tema aplica as cores do Monokai num cartão escuro, com a fonte Cascadia Mono, nos slides escuros e nos claros. Não precisa copiar o código de outro site nem colar imagem.
+Os blocos de código saem coloridos sozinhos. Escreva ` ```python ` e o código, e o tema aplica as cores do GitHub Light num cartão branco, com a fonte Cascadia Mono, nos slides escuros e nos claros. Texto escuro sobre fundo claro se lê melhor, em especial em letra pequena. Se preferir código no fundo escuro, use o Monokai e deixe a fonte bem grande. Não precisa copiar o código de outro site nem colar imagem.
 
-![Slide de código: uma dataclass Palestra com realce de sintaxe Monokai num cartão escuro, com a figurinha do mago ao lado](docs/codigo.png)
+![Slide de código escuro: uma dataclass Palestra com realce de sintaxe GitHub Light num cartão branco, com a figurinha do mago ao lado](docs/codigo.png)
 
 O tema usa o [Marp](https://marp.app/) e a identidade visual do evento: cores, fontes, logo e figurinhas.
 
@@ -83,6 +83,8 @@ Abra o endereço do GitHub Pages ou o HTML exportado no navegador.
 - **F**: tela cheia.
 - **P**: abre a visão do apresentador numa janela nova, com as anotações, o próximo slide e o cronômetro. As duas janelas andam juntas: deixe a do apresentador na sua tela e a dos slides no projetor. Para sair, feche a janela do apresentador.
 - Setas ou espaço: próximo slide.
+
+Telão de LED grande: use a versão escura, que não ofusca o público. Telão menor ou projetor: use a versão clara (classe `light`). O código fica em fundo claro nas duas.
 
 Leve também o PDF num pendrive: ele abre em qualquer computador, sem internet.
 

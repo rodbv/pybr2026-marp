@@ -4,9 +4,9 @@
 
 Write the content of your [Python Brasil 2026](https://2026.pythonbrasil.org.br/) talk your own way, in plain Markdown, and let an AI agent take care of the design. Your favorite agent reads [`AGENTS.md`](AGENTS.md) and formats the slides with the event's layouts, colors and brand rules. Every push publishes the deck to GitHub Pages, with a PDF next to it.
 
-Code blocks get syntax highlighting automatically. Write ` ```python ` and your code, and the theme applies the Monokai colors on a dark card, in the Cascadia Mono font, on both dark and light slides. You do not need to copy code from another site or paste screenshots of it.
+Code blocks get syntax highlighting automatically. Write ` ```python ` and your code, and the theme applies the GitHub Light colors on a white card, in the Cascadia Mono font, on both dark and light slides. Dark text on a light background is easier to read, especially at small sizes. If you prefer code on a dark background, use Monokai and make the font large. You do not need to copy code from another site or paste screenshots of it.
 
-![Code slide: a Palestra dataclass with Monokai syntax highlighting on a dark card, with the wizard sticker beside it](docs/codigo.png)
+![Dark code slide: a Palestra dataclass with GitHub Light syntax highlighting on a white card, with the wizard sticker beside it](docs/codigo.png)
 
 The theme uses [Marp](https://marp.app/) and the event's visual identity: colors, fonts, logo and stickers.
 
@@ -83,6 +83,8 @@ Open the GitHub Pages address or the exported HTML in the browser.
 - **F**: full screen.
 - **P**: opens presenter view in a new window, with the speaker notes, the next slide and the timer. The two windows stay in sync: keep presenter view on your laptop screen and the slides on the projector. To leave presenter view, close its window.
 - Arrow keys or Space: next slide.
+
+Large LED screen: use the dark version, which does not dazzle the audience. Smaller screen or projector: use the light version (the `light` class). Code stays on a light background in both.
 
 Bring the PDF on a USB drive too. It opens on any computer, without internet access.
 

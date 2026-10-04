@@ -52,6 +52,8 @@ Texto ao lado de uma imagem usa a sintaxe do Marp: `![bg right:42%](img/x.png)` 
 - Cores: preto `#0F0F0F` (RGB 15, 15, 15), off white `#E8F4BA` (232, 244, 186), verde cítrico `#B7FF06` (183, 255, 6), violeta `#BF2EB2` (191, 46, 178). O tema já aplica as cores; não escreva cores no Markdown. Use estas cores em imagens, gráficos e diagramas que você criar.
 - Fontes: Cascadia Mono nos títulos e no código, Roboto no texto. O tema já carrega as duas.
 - Verde limão como cor de texto, só no fundo escuro. No fundo claro, destaque com o marca-texto: `<mark>palavra</mark>`.
+- Código: o tema aplica as cores do GitHub Light num cartão branco, nos slides escuros e nos claros. Monokai com fundo `#1A1A1A` é a alternativa para quem pedir código no fundo escuro; nesse caso, use fonte grande.
+- Telão de LED grande: versão escura. Telão menor ou projetor: versão clara, com a classe `light`. O código fica em fundo claro nas duas.
 - Use as figurinhas de `img/` como estão: sem distorcer e sem recolorir. Uma figurinha por slide costuma bastar.
 - A identidade visual é de Ana Terhorst; mantenha o crédito no slide de figurinhas.
 
