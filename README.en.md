@@ -2,7 +2,7 @@
 
 [Português](README.md) · English · [Español](README.es.md)
 
-Build your talk for [Python Brasil 2026](https://2026.pythonbrasil.org.br/) in plain Markdown, together with an AI agent. Let your favorite agent read [`AGENTS.md`](AGENTS.md) and write the slides with the event's layouts and brand rules. Every push publishes the deck to GitHub Pages, with a PDF next to it.
+Write the content of your [Python Brasil 2026](https://2026.pythonbrasil.org.br/) talk your own way, in plain Markdown, and let an AI agent take care of the form. Your favorite agent reads [`AGENTS.md`](AGENTS.md) and builds the slides with the event's layouts, colors and brand rules. Every push publishes the deck to GitHub Pages, with a PDF next to it.
 
 Code blocks get syntax highlighting automatically. Write ` ```python ` and your code, and the theme applies the Monokai colors on a dark card, in the Cascadia Mono font, on both dark and light slides. You do not need to copy code from another site or paste screenshots of it.
 
@@ -32,13 +32,14 @@ Use that address for the QR code on the closing slide, so the audience can open 
 
 ## With an AI agent
 
-Open the repository in your editor with your agent and describe the talk. For example:
+The content is yours: write the outline of your talk in a file, as bullets, a rough draft or full text. Then open the repository in your editor with your agent and ask for the form. For example:
 
 ```
-I want a 25-minute talk about testing with pytest for beginners.
-Write the slides in slides.en.md, replacing the examples, with a title slide,
-a three-part agenda, a section slide for each part, two code slides and a
-closing slide. Put what I will say on each slide in the speaker notes.
+My outline is in outline.md. Build the slides in slides.en.md, replacing the
+examples, using the template's layouts and colors: title slide, agenda, a
+section slide for each part and a closing slide. One idea per slide, code in
+highlighted blocks, and what I will say in the speaker notes. Do not make up
+content: if something is missing, ask me.
 ```
 
 `AGENTS.md` tells the agent which layouts exist, how to write each one, and the brand and content rules: up to 8 lines of code per slide, alt text on every image, lime as a text color only on dark backgrounds, gender-neutral language. `CLAUDE.md` points to the same file.

@@ -2,7 +2,7 @@
 
 Português · [English](README.en.md) · [Español](README.es.md)
 
-Monte a sua palestra para a [Python Brasil 2026](https://2026.pythonbrasil.org.br/) conversando com um agente de IA, em Markdown puro. Deixe o seu agente favorito ler o [`AGENTS.md`](AGENTS.md) e escrever os slides com os layouts e as regras da marca. Cada push publica a apresentação no GitHub Pages, com um PDF junto.
+Escreva o conteúdo da sua palestra para a [Python Brasil 2026](https://2026.pythonbrasil.org.br/) do seu jeito, em Markdown puro, e deixe um agente de IA cuidar da forma. O seu agente favorito lê o [`AGENTS.md`](AGENTS.md) e monta os slides com os layouts, as cores e as regras da marca. Cada push publica a apresentação no GitHub Pages, com um PDF junto.
 
 Os blocos de código saem coloridos sozinhos. Escreva ` ```python ` e o código, e o tema aplica as cores do Monokai num cartão escuro, com a fonte Cascadia Mono, nos slides escuros e nos claros. Não precisa copiar o código de outro site nem colar imagem.
 
@@ -32,13 +32,14 @@ Esse endereço serve para o QR code do encerramento: o público abre os seus sli
 
 ## Com um agente de IA
 
-Abra o repositório no seu editor com o agente e descreva a palestra. Por exemplo:
+O conteúdo é seu: escreva o roteiro da palestra num arquivo, em tópicos, rascunho ou texto corrido. Depois, abra o repositório no seu editor com o agente e peça a forma. Por exemplo:
 
 ```
-Quero uma palestra de 25 minutos sobre testes com pytest para quem está começando.
-Escreva os slides em slides.md, no lugar dos exemplos, com uma capa, uma agenda de
-três partes, uma seção para cada parte, dois slides de código e o encerramento.
-Coloque nas anotações o que eu vou falar em cada slide.
+Meu roteiro está em roteiro.md. Monte os slides em slides.md, no lugar dos
+exemplos, usando os layouts e as cores do modelo: capa, agenda, uma seção para
+cada parte e o encerramento. Uma ideia por slide, o código em blocos com
+realce, e o que eu vou falar nas anotações. Não invente conteúdo: se faltar
+alguma coisa, me pergunte.
 ```
 
 O `AGENTS.md` diz ao agente quais layouts existem, como escrever cada um, e as regras da marca e do conteúdo: até 8 linhas de código por slide, texto alternativo em toda imagem, limão como cor de texto só no fundo escuro, linguagem neutra de gênero. O `CLAUDE.md` aponta para o mesmo arquivo.

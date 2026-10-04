@@ -2,7 +2,7 @@
 
 [Português](README.md) · [English](README.en.md) · Español
 
-Arma tu charla para [Python Brasil 2026](https://2026.pythonbrasil.org.br/) en Markdown puro, conversando con un agente de IA. Deja que tu agente favorito lea el [`AGENTS.md`](AGENTS.md) y escriba las diapositivas con los diseños y las reglas de la marca. Con cada push, la presentación se publica en GitHub Pages, junto con un PDF.
+Escribe el contenido de tu charla para [Python Brasil 2026](https://2026.pythonbrasil.org.br/) a tu manera, en Markdown puro, y deja que un agente de IA se encargue de la forma. Tu agente favorito lee el [`AGENTS.md`](AGENTS.md) y arma las diapositivas con los diseños, los colores y las reglas de la marca. Con cada push, la presentación se publica en GitHub Pages, junto con un PDF.
 
 Los bloques de código se colorean solos. Escribe ` ```python ` y el código, y el tema aplica los colores de Monokai en una tarjeta oscura, con la fuente Cascadia Mono, tanto en las diapositivas oscuras como en las claras. No hace falta copiar el código de otro sitio ni pegar una imagen.
 
@@ -32,13 +32,14 @@ Esa dirección sirve para el código QR del cierre: el público abre tus diaposi
 
 ## Con un agente de IA
 
-Abre el repositorio en tu editor con el agente y describe la charla. Por ejemplo:
+El contenido es tuyo: escribe el guion de tu charla en un archivo, en viñetas, como borrador o en texto corrido. Después, abre el repositorio en tu editor con el agente y pide la forma. Por ejemplo:
 
 ```
-Quiero una charla de 25 minutos sobre pruebas con pytest para quienes están empezando.
-Escribe las diapositivas en slides.es.md, en lugar de los ejemplos, con una portada,
-una agenda de tres partes, una sección para cada parte, dos diapositivas de código y
-el cierre. Pon en las notas lo que voy a decir en cada diapositiva.
+Mi guion está en guion.md. Arma las diapositivas en slides.es.md, en lugar de
+los ejemplos, con los diseños y los colores de la plantilla: portada, agenda,
+una sección para cada parte y el cierre. Una idea por diapositiva, el código en
+bloques con resaltado, y lo que voy a decir en las notas. No inventes
+contenido: si falta algo, pregúntame.
 ```
 
 El `AGENTS.md` le dice al agente qué diseños existen, cómo escribir cada uno y cuáles son las reglas de la marca y del contenido: hasta 8 líneas de código por diapositiva, texto alternativo en cada imagen, lima como color de texto solo en el fondo oscuro, lenguaje neutro en cuanto al género. El `CLAUDE.md` apunta al mismo archivo.

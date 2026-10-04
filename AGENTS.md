@@ -57,6 +57,7 @@ Texto ao lado de uma imagem usa a sintaxe do Marp: `![bg right:42%](img/x.png)` 
 
 ## Regras de conteúdo
 
+- O conteúdo é da pessoa palestrante. Organize o que ela escreveu em slides, encurte e escolha os layouts, mas não invente fatos, exemplos, números nem opiniões. Se faltar alguma coisa, pergunte.
 - Uma ideia por slide. De 3 a 5 tópicos curtos, de uma linha cada quando possível.
 - Código: até 8 linhas e 60 colunas por slide (30 colunas em `duas-colunas`). Marque a linguagem do bloco, como ` ```python `, para o realce de sintaxe.
 - Toda imagem que não seja de fundo tem texto alternativo entre os colchetes. Gráficos levam os números no texto alternativo.
