@@ -66,7 +66,7 @@ Texto ao lado de uma imagem usa a sintaxe do Marp: `![bg right:42%](img/x.png)` 
 - Escreva no idioma do arquivo, indicado em `lang:` no topo: `pt-BR`, `en` ou `es`. Use linguagem neutra de gênero quando possível ("pessoa palestrante", "o público", "quem assiste"; "the speaker", "people"; "la persona que presenta", "el público").
 - Nas versões em inglês e em espanhol, as imagens com texto têm o sufixo do idioma, como `img/imagem-exemplo-en.png`. O gráfico de exemplo é o mesmo nos três idiomas. O lema `pessoas > tecnologia` e a saudação "Dazumbanho!" ficam em português nos três idiomas.
 - O tom é de dica, não de regra: apoio, sem cobrança. Evite "é só", "é fácil" e "todo mundo sabe".
-- Para uma palestra de 25 minutos, de 15 a 25 slides costumam bastar, mais a capa e o encerramento.
+- Conte mais ou menos 1 minuto por slide, depois de separar uns 5 minutos para perguntas. Pergunte a duração da palestra se não souber.
 
 ## Conferir o resultado
 
