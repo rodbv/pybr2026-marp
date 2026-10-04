@@ -214,7 +214,7 @@ class Talk:
 
 ## A smaller example teaches too
 
-### 20 lines, tiny font 😟
+### Too small to read 😟
 
 ```python
 from dataclasses import dataclass
@@ -238,7 +238,7 @@ class Talk:
         return self.duration_min + 5 <= slot_min
 ```
 
-### 4 lines, large font 😊
+### Readable from the back 😊
 
 ```python
 def fits(talk, slot):

@@ -214,7 +214,7 @@ class Palestra:
 
 ## Um exemplo menor também ensina
 
-### 20 linhas, letra miúda 😟
+### Muito pequeno para ler 😟
 
 ```python
 from dataclasses import dataclass
@@ -238,7 +238,7 @@ class Palestra:
         return self.duracao_min + 5 <= slot_min
 ```
 
-### 4 linhas, letra grande 😊
+### Dá para ler do fundo 😊
 
 ```python
 def cabe(palestra, slot):

@@ -214,7 +214,7 @@ class Charla:
 
 ## Un ejemplo más corto también enseña
 
-### 20 líneas, letra diminuta 😟
+### Muy pequeño para leer 😟
 
 ```python
 from dataclasses import dataclass
@@ -238,7 +238,7 @@ class Charla:
         return self.duracion_min + 5 <= bloque_min
 ```
 
-### 4 líneas, letra grande 😊
+### Se lee desde el fondo 😊
 
 ```python
 def cabe(charla, bloque):
