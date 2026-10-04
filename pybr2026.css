@@ -722,6 +722,16 @@ section.figurinhas > p:has(img) {
   margin-bottom: 28px;
 }
 
+/* Uma saudação de Floripa para quem chega ao fim do modelo, na linha do título. */
+section.figurinhas > h3 {
+  position: absolute;
+  top: 56px;
+  right: 64px;
+  margin: 0;
+  font-size: 30px;
+  line-height: 46px;
+}
+
 section.figurinhas > p:last-of-type {
   font-family: "Cascadia Mono", monospace;
   font-size: 22px;

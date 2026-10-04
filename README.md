@@ -48,7 +48,7 @@ Também dá para editar o `slides.md` direto no GitHub, pelo navegador: a Action
 Abra o endereço do GitHub Pages ou o HTML exportado no navegador.
 
 - **F**: tela cheia.
-- **P**: visão do apresentador, com as anotações, o próximo slide e o cronômetro.
+- **P**: visão do apresentador, com as anotações, o próximo slide e o cronômetro. Para voltar aos slides, apague o `?view=presenter` do endereço.
 - Setas ou espaço: próximo slide.
 
 Leve também o PDF num pendrive: ele abre em qualquer computador, sem internet.

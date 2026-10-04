@@ -141,7 +141,7 @@ Dicas, <mark>não regras</mark>: use as que servirem para você.
 
 ## Imagens que explicam
 
-![bg right:42% contain](img/imagem-exemplo.png)
+![bg right:42%](img/imagem-exemplo.png)
 
 - Um diagrama no lugar de um parágrafo
 - Uma imagem por ideia
@@ -157,7 +157,7 @@ Dicas, <mark>não regras</mark>: use as que servirem para você.
 
 ## Licença e crédito
 
-![bg left:42% contain](img/imagem-exemplo.png)
+![bg left:42%](img/imagem-exemplo.png)
 
 - Fotos suas ou de licença livre
 - A licença permite este uso?
@@ -460,7 +460,7 @@ Para salas claras ou projetores fracos
 
 ## Imagens acessíveis
 
-![bg right:42% contain](img/imagem-exemplo-claro.png)
+![bg right:42%](img/imagem-exemplo-claro.png)
 
 - Texto alternativo em toda imagem
 - Legenda curta se a imagem não for óbvia
@@ -477,7 +477,7 @@ Para salas claras ou projetores fracos
 
 ## Olho no olho
 
-![bg left:42% contain](img/imagem-exemplo-claro.png)
+![bg left:42%](img/imagem-exemplo-claro.png)
 
 - Olhar para uma pessoa amiga, não só para a tela
 - As anotações do slide como apoio
@@ -659,6 +659,8 @@ _Organização da Python Brasil 2026_
 
 ## Figurinhas
 
+### Dazumbanho! Chegasse ao fim, ixtepô!
+
 ![w:290](img/lockup-on-dark.png) ![w:190](img/sticker-witch.png) ![w:220](img/sticker-mago-ola.png) ![w:130](img/sticker-mago.png) ![w:120](img/magia-explosao.png)
 
 ![w:280](img/logo-assinatura.png) <span class="circulo">olha aqui</span> <mark>marca-texto</mark> ![w:96](img/icone-seta.png) ![w:96](img/icone-codigo.png)
@@ -668,5 +670,5 @@ Identidade visual de Ana Terhorst, [anaterhorstdesign.com](https://anaterhorstde
 <!--
 - Copie a linha da figurinha para o seu slide; o w:200 define a largura em pixels.
 - O marca-texto é <mark>palavra</mark>, e o círculo pixelado é <span class="circulo">palavra</span>.
-- Uma figurinha por slide costuma bastar. Dazumbanho! Chegasse ao fim, ixtepô!
+- Uma figurinha por slide costuma bastar.
 -->
