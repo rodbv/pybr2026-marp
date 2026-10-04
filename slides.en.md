@@ -305,7 +305,7 @@ def fits(talk, slot):
 
 ## Color contrast in this template
 
-![Bar chart of contrast ratios against the black background: Text 16.5, Lime 15.8, Gray 8.3 and the Minimum 4.5](img/grafico-contraste-en.png)
+![Bar chart of each color's WCAG ratio against the black background: Text 16.5, Lime 15.8, Gray 8.3 and the Minimum 4.5](img/grafico-contraste-en.png)
 
 Other colors? Check the contrast at [webaim.org/resources/contrastchecker](https://webaim.org/resources/contrastchecker/)
 
@@ -637,7 +637,7 @@ PEP 20
 
 ## Color contrast in this template
 
-![Bar chart of contrast ratios against the white background: Text 19.2, Gray 8.9 and the Minimum 4.5](img/grafico-contraste-claro-en.png)
+![Bar chart of each color's WCAG ratio against the white background: Text 19.2, Gray 8.9 and the Minimum 4.5](img/grafico-contraste-claro-en.png)
 
 Other colors? Check the contrast at [webaim.org/resources/contrastchecker](https://webaim.org/resources/contrastchecker/)
 

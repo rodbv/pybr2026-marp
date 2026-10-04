@@ -60,6 +60,7 @@ Texto ao lado de uma imagem usa a sintaxe do Marp: `![bg right:42%](img/x.png)` 
 - Uma ideia por slide. De 3 a 5 tópicos curtos, de uma linha cada quando possível.
 - Código: até 8 linhas e 60 colunas por slide (30 colunas em `duas-colunas`). Marque a linguagem do bloco, como ` ```python `, para o realce de sintaxe.
 - Toda imagem que não seja de fundo tem texto alternativo entre os colchetes. Gráficos levam os números no texto alternativo.
+- O Marp lê algumas palavras soltas do texto alternativo como filtros de imagem: `blur`, `brightness`, `contrast`, `drop-shadow`, `grayscale`, `hue-rotate`, `invert`, `opacity`, `saturate` e `sepia`. Em inglês, troque essas palavras por outras no texto alternativo: "contrast" muda as cores do gráfico.
 - O que não cabe no slide vai para as anotações.
 - Escreva no idioma do arquivo, indicado em `lang:` no topo: `pt-BR`, `en` ou `es`. Use linguagem neutra de gênero quando possível ("pessoa palestrante", "o público", "quem assiste"; "the speaker", "people"; "la persona que presenta", "el público").
 - Nas versões em inglês e em espanhol, as imagens com texto têm o sufixo do idioma, como `img/imagem-exemplo-en.png`. O lema `pessoas > tecnologia` e a saudação "Dazumbanho!" ficam em português nos três idiomas.
