@@ -61,7 +61,7 @@ Every slide in this template has tips in the speaker notes: press P to see them.
 
 ---
 
-> Practicality beats purity.
+> Readability counts.
 
 The Zen of Python, PEP 20
 

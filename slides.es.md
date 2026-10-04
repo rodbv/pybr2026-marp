@@ -61,7 +61,7 @@ Cada diapositiva de esta plantilla trae consejos en las notas: presiona P para v
 
 ---
 
-> Lo práctico gana a lo puro.
+> La legibilidad cuenta.
 
 The Zen of Python, PEP 20
 

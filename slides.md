@@ -61,7 +61,7 @@ Cada slide deste modelo traz dicas nas anotações: aperte P para ver.
 
 ---
 
-> A praticidade vence a pureza.
+> Legibilidade conta.
 
 The Zen of Python, PEP 20
 
