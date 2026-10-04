@@ -2,7 +2,7 @@
 
 [Português](README.md) · English · [Español](README.es.md)
 
-Write the content of your [Python Brasil 2026](https://2026.pythonbrasil.org.br/) talk your own way, in plain Markdown, and let an AI agent take care of the form. Your favorite agent reads [`AGENTS.md`](AGENTS.md) and formats the slides with the event's layouts, colors and brand rules. Every push publishes the deck to GitHub Pages, with a PDF next to it.
+Write the content of your [Python Brasil 2026](https://2026.pythonbrasil.org.br/) talk your own way, in plain Markdown, and let an AI agent take care of the design. Your favorite agent reads [`AGENTS.md`](AGENTS.md) and formats the slides with the event's layouts, colors and brand rules. Every push publishes the deck to GitHub Pages, with a PDF next to it.
 
 Code blocks get syntax highlighting automatically. Write ` ```python ` and your code, and the theme applies the Monokai colors on a dark card, in the Cascadia Mono font, on both dark and light slides. You do not need to copy code from another site or paste screenshots of it.
 
@@ -26,11 +26,11 @@ The example slides come in three languages, with the same tips:
 
 1. Click **Use this template > Create a new repository**. Keep the repository public: GitHub Pages is free for public repositories.
 2. In the new repository, open **Settings > Pages** and choose **GitHub Actions** under **Source**.
-3. In the **Actions** tab, open the "pages" run, which failed because Pages was still off, and click **Re-run all jobs**. From then on, every push to `main` publishes the slides and the PDFs.
+3. In the **Actions** tab, open the "pages" run, which failed because Pages was not enabled yet, and click **Re-run all jobs**. From then on, every push to `main` publishes the slides and the PDFs.
 4. On the repository page, click the gear next to **About** and check **Use your GitHub Pages website**. The link to your slides then shows at the top of the repository.
 5. If your talk is in English, edit `slides.en.md`. You can delete `slides.md` and `slides.es.md` if you do not need them.
 
-When the copy is created, it changes the links in the table above to your own site. The slides are at `https://YOUR-USERNAME.github.io/REPOSITORY-NAME/` (`slides.md`), `.../en.html` and `.../es.html`, and the PDFs at `.../slides.pdf`, `.../slides.en.pdf` and `.../slides.es.pdf`. Without Pages, you can also download the PDF from each run in the Actions tab, in the **slides-pdf** package.
+In your copy, the links in the table above point to your own site. The slides are at `https://YOUR-USERNAME.github.io/REPOSITORY-NAME/` (`slides.md`), `.../en.html` and `.../es.html`, and the PDFs at `.../slides.pdf`, `.../slides.en.pdf` and `.../slides.es.pdf`. Without Pages, you can also download the PDF from each run in the Actions tab, in the **slides-pdf** artifact.
 
 Use that address for the QR code on the closing slide, so the audience can open your slides on their phones.
 
@@ -40,7 +40,7 @@ The template is a starting point: change anything you like. To keep the look of 
 
 ## With an AI agent
 
-The content is yours: write the outline of your talk in a file, as bullets, a rough draft or full text. Then open the repository in your editor with your agent and ask for the form. For example:
+The content is yours: write the outline of your talk in a file, as bullets, a rough draft or full text. Then open the repository in your editor with your agent and ask it to build the slides. For example:
 
 ```
 My outline is in outline.md. Build the slides in slides.en.md, replacing the
@@ -57,7 +57,7 @@ After that, ask for changes the way you would ask a person: "split slide 7 into 
 ## In VS Code
 
 1. Open the repository folder. VS Code suggests the **Marp for VS Code** extension: install it.
-2. Open `slides.en.md` and click the preview button in the top corner. The theme is already configured.
+2. Open `slides.en.md` and click the preview button in the top-right corner. The theme is already configured.
 3. To export, run **Marp: Export Slide Deck** from the Command Palette and choose HTML, PDF or PPTX. PDF and PPTX export need Chrome, Edge or Firefox installed.
 
 You can also edit `slides.en.md` directly on GitHub, in the browser. The Action publishes it the same way.
@@ -121,5 +121,5 @@ Open an [issue on GitHub](https://github.com/rodbv/pybr2026-marp/issues) that sa
 ## Licenses
 
 - Template, example text and code in this repository: [CC0 1.0](LICENSE) (public domain). Use, change and share them without asking for permission or giving credit.
-- Logo, stickers and visual identity: Python Brasil 2026 and APyB, from the event's official brand board, created by [Ana Terhorst](https://anaterhorstdesign.com).
+- Logo, stickers and visual identity: Python Brasil 2026 and APyB, from the event's official brand book, created by [Ana Terhorst](https://anaterhorstdesign.com).
 - Roboto and Cascadia Mono fonts: SIL Open Font License 1.1, loaded from Google Fonts.

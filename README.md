@@ -30,7 +30,7 @@ Os slides de exemplo existem em três idiomas, com as mesmas dicas:
 4. Na página do repositório, clique na engrenagem de **About** e marque **Use your GitHub Pages website**. O link dos seus slides fica no topo do repositório.
 5. Edite o arquivo do idioma da sua palestra (`slides.md`, `slides.en.md` ou `slides.es.md`) e apague os outros, se quiser.
 
-Ao ser criada, a cópia troca os links da tabela acima pelos do seu site. Os slides ficam em `https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/` (inglês em `.../en.html`, espanhol em `.../es.html`) e os PDFs em `.../slides.pdf`, `.../slides.en.pdf` e `.../slides.es.pdf`. Sem o Pages, o PDF também fica para baixar em cada execução da aba Actions, no pacote **slides-pdf**.
+Ao ser criada, a cópia troca os links da tabela acima pelos do seu site. Os slides ficam em `https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/` (inglês em `.../en.html`, espanhol em `.../es.html`) e os PDFs em `.../slides.pdf`, `.../slides.en.pdf` e `.../slides.es.pdf`. Sem o Pages, o PDF também fica para baixar em cada execução da aba Actions, no artefato **slides-pdf**.
 
 Esse endereço serve para o QR code do encerramento: o público abre os seus slides no celular.
 
@@ -57,7 +57,7 @@ Depois, peça ajustes como faria a uma pessoa: "divida o slide 7 em dois", "troq
 ## No VS Code
 
 1. Abra a pasta do repositório. O VS Code sugere a extensão **Marp for VS Code**: instale.
-2. Abra o `slides.md` e clique no botão de visualização, no canto de cima. O tema já vem configurado.
+2. Abra o `slides.md` e clique no botão de visualização, no canto superior direito. O tema já vem configurado.
 3. Para exportar, use **Marp: Export Slide Deck** na paleta de comandos e escolha HTML, PDF ou PPTX. O PDF e o PPTX precisam do Chrome, do Edge ou do Firefox instalado.
 
 Também dá para editar o `slides.md` direto no GitHub, pelo navegador: a Action publica do mesmo jeito.
@@ -121,5 +121,5 @@ Abra uma [issue no GitHub](https://github.com/rodbv/pybr2026-marp/issues) contan
 ## Licenças
 
 - Modelo, textos de exemplo e código deste repositório: [CC0 1.0](LICENSE) (domínio público). Use, mude e compartilhe sem pedir permissão nem dar crédito.
-- Logo, figurinhas e identidade visual: Python Brasil 2026 e APyB, do brandboard oficial do evento, criado por [Ana Terhorst](https://anaterhorstdesign.com).
+- Logo, figurinhas e identidade visual: Python Brasil 2026 e APyB, do manual de marca oficial do evento, criado por [Ana Terhorst](https://anaterhorstdesign.com).
 - Fontes Roboto e Cascadia Mono: SIL Open Font License 1.1, carregadas do Google Fonts.

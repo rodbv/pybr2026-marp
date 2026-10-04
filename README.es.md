@@ -2,7 +2,7 @@
 
 [Português](README.md) · [English](README.en.md) · Español
 
-Escribe el contenido de tu charla para [Python Brasil 2026](https://2026.pythonbrasil.org.br/) a tu manera, en Markdown puro, y deja que un agente de IA se encargue de la forma. Tu agente favorito lee el [`AGENTS.md`](AGENTS.md) y da formato a las diapositivas con los diseños, los colores y las reglas de la marca. Con cada push, la presentación se publica en GitHub Pages, junto con un PDF.
+Escribe el contenido de tu charla para [Python Brasil 2026](https://2026.pythonbrasil.org.br/) a tu manera, en Markdown puro, y deja que un agente de IA le dé forma. Tu agente favorito lee el [`AGENTS.md`](AGENTS.md) y da formato a las diapositivas con los diseños, los colores y las reglas de la marca. Con cada push, la presentación se publica en GitHub Pages, junto con un PDF.
 
 Los bloques de código se colorean solos. Escribe ` ```python ` y el código, y el tema aplica los colores de Monokai en una tarjeta oscura, con la fuente Cascadia Mono, tanto en las diapositivas oscuras como en las claras. No hace falta copiar el código de otro sitio ni pegar una imagen.
 
@@ -26,11 +26,11 @@ Las diapositivas de ejemplo existen en tres idiomas, con los mismos consejos:
 
 1. Haz clic en **Use this template > Create a new repository**. Deja el repositorio público: GitHub Pages es gratis para repositorios públicos.
 2. En el repositorio nuevo, abre **Settings > Pages** y elige **GitHub Actions** en **Source**.
-3. En la pestaña **Actions**, abre la ejecución "pages", que falló porque Pages todavía estaba desactivado, y haz clic en **Re-run all jobs**. A partir de ahí, cada push a `main` publica las diapositivas y los PDF.
+3. En la pestaña **Actions**, abre la ejecución "pages", que falló porque Pages todavía no estaba activado, y haz clic en **Re-run all jobs**. A partir de ahí, cada push a `main` publica las diapositivas y los PDF.
 4. En la página del repositorio, haz clic en el engranaje de **About** y marca **Use your GitHub Pages website**. El enlace a tus diapositivas aparece arriba del repositorio.
 5. Si tu charla es en español, edita `slides.es.md`. Si quieres, borra los archivos de los otros idiomas (`slides.md` y `slides.en.md`).
 
-Al crearse, la copia cambia los enlaces de la tabla de arriba por los de tu sitio. Las diapositivas quedan en `https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/es.html` (el portugués en la raíz y el inglés en `.../en.html`) y los PDF en `.../slides.es.pdf`, `.../slides.pdf` y `.../slides.en.pdf`. Sin Pages, también puedes descargar el PDF de cada ejecución en la pestaña Actions, en el paquete **slides-pdf**.
+En tu copia, los enlaces de la tabla de arriba apuntan a tu sitio. Las diapositivas quedan en `https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/es.html` (la versión en portugués en la raíz y el inglés en `.../en.html`) y los PDF en `.../slides.es.pdf`, `.../slides.pdf` y `.../slides.en.pdf`. Sin Pages, también puedes descargar el PDF de cada ejecución en la pestaña Actions, en el artefacto **slides-pdf**.
 
 Esa dirección sirve para el código QR del cierre: el público abre tus diapositivas en el celular.
 
@@ -40,7 +40,7 @@ La plantilla es un punto de partida: cambia lo que quieras. Para mantener el est
 
 ## Con un agente de IA
 
-El contenido es tuyo: escribe el guion de tu charla en un archivo, en viñetas, como borrador o en texto corrido. Después, abre el repositorio en tu editor con el agente y pide la forma. Por ejemplo:
+El contenido es tuyo: escribe el guion de tu charla en un archivo, en viñetas, como borrador o en texto corrido. Después, abre el repositorio en tu editor con el agente y pídele que arme las diapositivas. Por ejemplo:
 
 ```
 Mi guion está en guion.md. Arma las diapositivas en slides.es.md, en lugar de
@@ -50,17 +50,17 @@ bloques con resaltado, y lo que voy a decir en las notas. No inventes
 contenido: si falta algo, pregúntame.
 ```
 
-El `AGENTS.md` le dice al agente qué diseños existen, cómo escribir cada uno y cuáles son las reglas de la marca y del contenido: hasta 8 líneas de código por diapositiva, texto alternativo en cada imagen, lima como color de texto solo en el fondo oscuro, lenguaje neutro en cuanto al género. El `CLAUDE.md` apunta al mismo archivo.
+El `AGENTS.md` le dice al agente qué diseños existen, cómo escribir cada uno y cuáles son las reglas de la marca y del contenido: hasta 8 líneas de código por diapositiva, texto alternativo en cada imagen, verde lima como color de texto solo sobre fondo oscuro, lenguaje neutro en cuanto al género. El `CLAUDE.md` apunta al mismo archivo.
 
 Después, pide ajustes como se los pedirías a una persona: "divide la diapositiva 7 en dos", "cambia la tabla por un flujo", "acorta las notas".
 
 ## En VS Code
 
 1. Abre la carpeta del repositorio. VS Code sugiere la extensión **Marp for VS Code**: instálala.
-2. Abre `slides.es.md` y haz clic en el botón de vista previa, en la esquina superior. El tema ya viene configurado.
+2. Abre `slides.es.md` y haz clic en el botón de vista previa, en la esquina superior derecha. El tema ya viene configurado.
 3. Para exportar, usa **Marp: Export Slide Deck** en la paleta de comandos y elige HTML, PDF o PPTX. El PDF y el PPTX necesitan Chrome, Edge o Firefox instalado.
 
-También puedes editar `slides.es.md` directamente en GitHub, desde el navegador: la Action publica igual.
+También puedes editar `slides.es.md` directamente en GitHub, desde el navegador: la Action publica igualmente.
 
 ## Presentar
 
@@ -81,16 +81,16 @@ Cada diapositiva elige su diseño con un comentario al inicio, como `<!-- _class
 | (ninguna) | Título y puntos, tabla, código o imagen |
 | `capa` | Título de la charla, nombre y el sello con la fecha |
 | `frase` | Una sola frase, grande |
-| `secao` | Separador con el número en el disco lima |
+| `secao` | Separador con el número en el disco verde lima |
 | `duas-colunas` | Antes y después, problema y solución, dos fragmentos de código |
 | `numeros` | Tres números grandes con etiqueta |
 | `cartoes` | Tres bloques numerados con título y descripción |
 | `fluxo` | Pasos en cajas unidas por flechas |
 | `tres-imagens` | Tres capturas de pantalla con leyenda |
 | `palestrante` | Foto, nombre, cargo y tres datos |
-| `destaque` | Panel lima con el mensaje que la sala no puede perderse |
+| `destaque` | Panel verde lima con el mensaje que la sala no puede perderse |
 | `imagem-cheia` | Foto de fondo con franja de leyenda |
-| `encerramento` | "¿Preguntas?" o "¡Gracias!", contactos y código QR |
+| `encerramento` | "¿Preguntas?" o "¡Gracias!", datos de contacto y código QR |
 | `figurinhas` | Logo, stickers, círculo pixelado y resaltador |
 | `light` | Versión clara de cualquier diseño: `<!-- _class: frase light -->` |
 
@@ -101,7 +101,7 @@ Para poner texto al lado de una imagen, usa la sintaxis de Marp: `![bg right:42%
 Marp no tiene gráficos nativos. Los scripts de `scripts/` generan las imágenes con los colores de la marca, con [uv](https://docs.astral.sh/uv/):
 
 ```sh
-uv run scripts/qr.py https://seu-usuario.github.io/sua-palestra/
+uv run scripts/qr.py https://tu-usuario.github.io/tu-charla/es.html
 uv run scripts/grafico.py
 ```
 
@@ -116,10 +116,10 @@ uv run scripts/grafico.py
 
 ## ¿Encontraste un problema?
 
-Abre un [issue en GitHub](https://github.com/rodbv/pybr2026-marp/issues) que cuente qué pasó y, si puedes, con una captura de pantalla.
+Abre un [issue en GitHub](https://github.com/rodbv/pybr2026-marp/issues), cuenta qué pasó y, si puedes, adjunta una captura de pantalla.
 
 ## Licencias
 
 - Plantilla, textos de ejemplo y código de este repositorio: [CC0 1.0](LICENSE) (dominio público). Úsalos, cámbialos y compártelos sin pedir permiso ni dar crédito.
-- Logo, stickers e identidad visual: Python Brasil 2026 y APyB, del brandboard oficial del evento, creado por [Ana Terhorst](https://anaterhorstdesign.com).
+- Logo, stickers e identidad visual: Python Brasil 2026 y APyB, del manual de marca oficial del evento, creado por [Ana Terhorst](https://anaterhorstdesign.com).
 - Fuentes Roboto y Cascadia Mono: SIL Open Font License 1.1, cargadas desde Google Fonts.
